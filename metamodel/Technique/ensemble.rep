@@ -1,0 +1,3 @@
+ensemble()
+'args = {''number_of_models'': 20}' newline
+'ensemble = api.create_ensemble(''dataset/5143a51a37203f2cf7000972'', args)' newline

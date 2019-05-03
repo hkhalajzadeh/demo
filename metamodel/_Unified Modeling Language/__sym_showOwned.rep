@@ -1,0 +1,7 @@
+__sym_showOwned()
+/* Show the dot for Classifier-owned ends only if Owned? is true and the Diagram's Show Owned? is true */
+if :Owned? = 'T' then
+	if :Show Owned?;1 = 'T' then
+		'T'
+	endif
+endif

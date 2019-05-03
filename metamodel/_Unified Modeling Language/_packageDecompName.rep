@@ -1,0 +1,33 @@
+_packageDecompName()
+do decompositions {
+	if type = 'Activity Diagram' then
+		'activity '
+	else
+		if type = 'Class Diagram [UML]' then
+			'class '
+		else
+			if type = 'Communication Diagram' then
+				'communication '
+			else
+				if type = 'Component Diagram' then
+					'component '
+				else
+					if type = 'Deployment Diagram' then
+						'deployment '
+					else
+						if type = 'Object Diagram' then
+							'object '
+						else
+							if type = 'Package' then
+								'package '
+							else
+								if type = 'State Machine Diagram' then
+									'state machine '
+								else
+									if type = 'Use Case Diagram' then
+										'use case '
+									else
+										type ' ' 
+									endif
+	endif endif endif endif endif endif endif endif
+}

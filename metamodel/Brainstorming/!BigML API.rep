@@ -1,0 +1,7 @@
+Report '!BigML API'
+/*https://bigml.readthedocs.io/en/latest/*/
+filename
+	$dir 'C:\Users\Hourieh\Documents\MetaEdit+ 5.5\GeneratedCode\BigMLAPI_' id '.py' write
+subreport 'Setup' run 
+close
+endreport

@@ -1,0 +1,25 @@
+Report '!Report'
+foreach .Task
+  {  'Task : '
+     :Task Name;
+     newline
+     'Connects to sub-tasks: '
+     newline
+     do ~Initial step>()~Steps.Sub-Task
+     {  ' 	'
+        :Subtask Name;
+        newline
+     }
+     newline
+  }
+
+
+do graphs
+{  foreach .Task; where decompositions 
+   {  'There is a subgraph for ' :Task Name;  newline }
+}
+do graphs
+{  foreach .Sub-Task; where decompositions 
+   {  'There is a subgraph for ' :Subtask Name;  newline }
+}
+endreport

@@ -1,0 +1,12 @@
+Report '_Object properties in HTML'
+
+/* generate the relationships' property tables before the objects' */
+@parentGraphId = __(subreport '_id and oid' run)
+foreach >() { 
+	variable 'mainObjects' append oid ' ' close
+	_tabContent(@parentGraphId)
+}
+
+subreport '_Object properties in HTML' runSuper
+
+endreport

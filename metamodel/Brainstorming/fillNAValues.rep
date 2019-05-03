@@ -1,0 +1,6 @@
+fillNAValues()
+'def fillNAValues(na_list):' newline
+'  for elem in na_list:' newline
+'    total[elem] = total[elem].fillna(''NA'')' newline
+'    train[elem] = train[elem].fillna(''NA'')' newline
+'    test[elem] = test[elem].fillna(''NA'')' newline

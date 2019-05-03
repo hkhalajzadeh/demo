@@ -1,0 +1,53 @@
+Graph_Technique_user_3722148262
+GenerativeProblem
+25_6086
+Technique
+Graph: GenerativeProblem <Technique> 25_6086
+	Problem: GenerativeProblem
+Object: GeneratingImages <Sub-Task> 25_6105
+	Subtask Name: GeneratingImages
+Object: GeneratingText <Sub-Task> 25_6119
+	Subtask Name: GeneratingText
+Object: GeneratingAudio <Sub-Task> 25_6133
+	Subtask Name: GeneratingAudio
+Object: GeneratingData <Task> 25_6100
+	Task Name: GeneratingData
+Object: VariationalAutoencoder <Technique> 25_6147
+	Technique name: VariationalAutoencoder
+Object: GenerativeAdversarialNetwork <Technique> 25_6161
+	Technique name: GenerativeAdversarialNetwork
+Object: ReinforcementLearning <Technique> 25_6175
+	Technique name: ReinforcementLearning
+Object: GenerativeAdversarialNetwork <Technique> 25_6189
+	Technique name: GenerativeAdversarialNetwork
+Object: PixelRecurrentNeuralNetwork <Technique> 25_6203
+	Technique name: PixelRecurrentNeuralNetwork
+Object: PixelConvolutionalNeuralNetwork <Technique> 25_6217
+	Technique name: PixelConvolutionalNeuralNetwork
+Relationship: Layer Connector <Layer Connector> 25_6110
+  Role: Initial step <Initial step>  Object: <Task> 25_6100
+  Role: Steps <Steps>  Object: <Sub-Task> 25_6105
+Relationship: Layer Connector <Layer Connector> 25_6124
+  Role: Initial step <Initial step>  Object: <Task> 25_6100
+  Role: Steps <Steps>  Object: <Sub-Task> 25_6119
+Relationship: Layer Connector <Layer Connector> 25_6138
+  Role: Initial step <Initial step>  Object: <Task> 25_6100
+  Role: Steps <Steps>  Object: <Sub-Task> 25_6133
+Relationship: Layer Connector <Layer Connector> 25_6152
+  Role: Initial step <Initial step>  Object: <Sub-Task> 25_6105
+  Role: Steps <Steps>  Object: <Technique> 25_6147
+Relationship: Layer Connector <Layer Connector> 25_6166
+  Role: Initial step <Initial step>  Object: <Sub-Task> 25_6105
+  Role: Steps <Steps>  Object: <Technique> 25_6161
+Relationship: Layer Connector <Layer Connector> 25_6180
+  Role: Initial step <Initial step>  Object: <Sub-Task> 25_6119
+  Role: Steps <Steps>  Object: <Technique> 25_6175
+Relationship: Layer Connector <Layer Connector> 25_6194
+  Role: Initial step <Initial step>  Object: <Sub-Task> 25_6119
+  Role: Steps <Steps>  Object: <Technique> 25_6189
+Relationship: Layer Connector <Layer Connector> 25_6208
+  Role: Initial step <Initial step>  Object: <Sub-Task> 25_6133
+  Role: Steps <Steps>  Object: <Technique> 25_6203
+Relationship: Layer Connector <Layer Connector> 25_6222
+  Role: Initial step <Initial step>  Object: <Sub-Task> 25_6133
+  Role: Steps <Steps>  Object: <Technique> 25_6217

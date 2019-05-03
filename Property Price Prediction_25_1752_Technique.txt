@@ -1,0 +1,46 @@
+Graph_Technique_user_3722148262
+Property Price Prediction
+25_1752
+Technique
+Graph: Property Price Prediction <Technique> 25_1752
+	Problem: Property Price Prediction
+Object: Train model <Sub-Task> 25_1765
+	Subtask Name: Train model
+Object: Tune parameters <Sub-Task> 25_1777
+	Subtask Name: Tune parameters
+Object: Test/evaluate <Sub-Task> 25_1782
+	Subtask Name: Test/evaluate
+Object: Price prediction model engineering <Task> 25_1760
+	Task Name: Price prediction model engineering
+Object: XGBoost <Technique> 25_1770
+	Technique name: XGBoost
+Object: Lasso regression <Technique> 25_1823
+	Technique name: Lasso regression
+Object: Cross validation <Technique> 25_1828
+	Technique name: Cross validation
+Object: Average predictions <Technique> 25_1833
+	Technique name: Average predictions
+Relationship: Layer Connector <Layer Connector> 25_3008
+  Role: Initial step <Initial step>  Object: <Task> 25_1760
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1765
+Relationship: Layer Connector <Layer Connector> 25_3017
+  Role: Initial step <Initial step>  Object: <Task> 25_1760
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1777
+Relationship: Layer Connector <Layer Connector> 25_3026
+  Role: Initial step <Initial step>  Object: <Task> 25_1760
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1782
+Relationship: Layer Connector <Layer Connector> 25_3035
+  Role: Initial step <Initial step>  Object: <Sub-Task> 25_1765
+  Role: Steps <Steps>  Object: <Technique> 25_1770
+Relationship: Layer Connector <Layer Connector> 25_3044
+  Role: Initial step <Initial step>  Object: <Sub-Task> 25_1765
+  Role: Steps <Steps>  Object: <Technique> 25_1823
+Relationship: Layer Connector <Layer Connector> 25_3053
+  Role: Initial step <Initial step>  Object: <Technique> 25_1770
+  Role: Steps <Steps>  Object: <Technique> 25_1833
+Relationship: Layer Connector <Layer Connector> 25_3062
+  Role: Initial step <Initial step>  Object: <Technique> 25_1823
+  Role: Steps <Steps>  Object: <Technique> 25_1833
+Relationship: Layer Connector <Layer Connector> 25_3071
+  Role: Initial step <Initial step>  Object: <Sub-Task> 25_1782
+  Role: Steps <Steps>  Object: <Technique> 25_1828

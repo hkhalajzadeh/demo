@@ -1,0 +1,214 @@
+Graph_Syntax_sysadmin_3401992897
+SQL select
+24_393
+Syntax
+Graph: SQL select <Syntax> 24_393
+	Name: SQL select
+Object: COLUMN NAME <Name> 24_400
+	Name: column name
+Object: CORRELATION NAME <Name> 24_406
+	Name: correlation name
+Object: TABLE NAME <Name> 24_412
+	Name: table name
+Object: column reference <Non-Terminal> 24_418
+	Name: column reference
+Object: cursor specification <Non-Terminal> 24_424
+	Name: cursor specification
+Object: derived column <Non-Terminal> 24_430
+	Name: derived column
+Object: derived table clause <Non-Terminal> 24_436
+	Name: derived table clause
+Object: dynamic select statement <Non-Terminal> 24_442
+	Name: dynamic select statement
+Object: explicit table <Non-Terminal> 24_448
+	Name: explicit table
+Object: from clause <Non-Terminal> 24_454
+	Name: from clause
+Object: joined table <Non-Terminal> 24_460
+	Name: joined table
+	Decomposed to: joined table <Syntax>
+Object: search condition <Non-Terminal> 24_507
+	Name: search condition
+	Decomposed to: search condition <Syntax>
+Object: subquery <Non-Terminal> 24_608
+	Name: subquery
+Object: value expression <Non-Terminal> 24_620
+	Name: value expression
+Object: table reference <Non-Terminal> 24_1144
+	Name: table reference
+Object: non-join query expression / term / primary <Non-Terminal> 24_1354
+	Name: non-join query expression / term / primary
+Object: order by clause <Non-Terminal> 24_1360
+	Name: order by clause
+Object: ordering specification <Non-Terminal> 24_1366
+	Name: ordering specification
+Object: query expression <Non-Terminal> 24_1372
+	Name: query expression
+Object: query specification <Non-Terminal> 24_1378
+	Name: query specification
+Object: select list <Non-Terminal> 24_1384
+	Name: select list
+Object: simple table <Non-Terminal> 24_1390
+	Name: simple table
+Object: simple table clause <Non-Terminal> 24_1396
+	Name: simple table clause
+Object: sort specification <Non-Terminal> 24_1402
+	Name: sort specification
+Object: table expression <Non-Terminal> 24_1408
+	Name: table expression
+Object: where clause <Non-Terminal> 24_1414
+	Name: where clause
+Object: "*" <Terminal> 24_1420
+	String: *
+Object: "AS" <Terminal> 24_1426
+	String: AS
+Object: "ASC" <Terminal> 24_1432
+	String: ASC
+Object: "DESC" <Terminal> 24_1438
+	String: DESC
+Object: "DISTINCT" <Terminal> 24_1444
+	String: DISTINCT
+Object: "FROM" <Terminal> 24_1450
+	String: FROM
+Object: "ORDER BY" <Terminal> 24_1456
+	String: ORDER BY
+Object: "SELECT" <Terminal> 24_1462
+	String: SELECT
+Object: "TABLE" <Terminal> 24_1468
+	String: TABLE
+Object: "WHERE" <Terminal> 24_1474
+	String: WHERE
+Relationship: Content <Content> 24_1480
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_418
+  Role:  <RHS>  Object: <Name> 24_400
+	Cardinality: 
+Relationship: Content <Content> 24_1490
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_424
+  Role:  <RHS>  Object: <Non-Terminal> 24_1372
+	Cardinality: 
+  Role: ? <RHS>  Object: <Non-Terminal> 24_1360
+	Cardinality: ?
+Relationship: Content <Content> 24_1506
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_430
+  Role:  <RHS>  Object: <Non-Terminal> 24_620
+	Cardinality: 
+  Role: ? <RHS>  Object: <Terminal> 24_1426
+	Cardinality: ?
+  Role: ? <RHS>  Object: <Name> 24_406
+	Cardinality: ?
+Relationship: Content <Content> 24_1528
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_436
+  Role:  <RHS>  Object: <Non-Terminal> 24_608
+	Cardinality: 
+  Role:  <RHS>  Object: <Name> 24_406
+	Cardinality: 
+  Role: (,)? <RHS>  Object: <Name> 24_400
+	Cardinality: (,)?
+  Role: ? <RHS>  Object: <Terminal> 24_1426
+	Cardinality: ?
+Relationship: Content <Content> 24_1556
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_442
+  Role:  <RHS>  Object: <Non-Terminal> 24_424
+	Cardinality: 
+Relationship: Content <Content> 24_1566
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_448
+  Role:  <RHS>  Object: <Terminal> 24_1468
+	Cardinality: 
+  Role:  <RHS>  Object: <Name> 24_412
+	Cardinality: 
+Relationship: Content <Content> 24_1582
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_454
+  Role:  <RHS>  Object: <Terminal> 24_1450
+	Cardinality: 
+  Role: , <RHS>  Object: <Non-Terminal> 24_1144
+	Cardinality: ,
+Relationship: Content <Content> 24_1598
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_1360
+  Role:  <RHS>  Object: <Terminal> 24_1456
+	Cardinality: 
+  Role: , <RHS>  Object: <Non-Terminal> 24_1402
+	Cardinality: ,
+Relationship: Content <Content> 24_1614
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_1378
+  Role:  <RHS>  Object: <Terminal> 24_1462
+	Cardinality: 
+  Role:  <RHS>  Object: <Non-Terminal> 24_1384
+	Cardinality: 
+  Role:  <RHS>  Object: <Non-Terminal> 24_1408
+	Cardinality: 
+  Role: ? <RHS>  Object: <Terminal> 24_1444
+	Cardinality: ?
+Relationship: Content <Content> 24_1642
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_1396
+  Role:  <RHS>  Object: <Name> 24_412
+	Cardinality: 
+  Role: (,)? <RHS>  Object: <Name> 24_400
+	Cardinality: (,)?
+  Role: ? <RHS>  Object: <Terminal> 24_1426
+	Cardinality: ?
+  Role: ? <RHS>  Object: <Name> 24_406
+	Cardinality: ?
+Relationship: Content <Content> 24_1670
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_1402
+  Role:  <RHS>  Object: <Name> 24_400
+	Cardinality: 
+  Role: ? <RHS>  Object: <Non-Terminal> 24_1366
+	Cardinality: ?
+Relationship: Content <Content> 24_1686
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_608
+  Role: () <RHS>  Object: <Non-Terminal> 24_1372
+	Cardinality: ()
+Relationship: Content <Content> 24_1696
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_1408
+  Role:  <RHS>  Object: <Non-Terminal> 24_454
+	Cardinality: 
+  Role:  <RHS>  Object: <Non-Terminal> 24_1414
+	Cardinality: 
+Relationship: Content <Content> 24_1712
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_1414
+  Role:  <RHS>  Object: <Terminal> 24_1474
+	Cardinality: 
+  Role:  <RHS>  Object: <Non-Terminal> 24_507
+	Cardinality: 
+Relationship: Or <Or> 24_1728
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_1354
+  Role:  <RHS>  Object: <Non-Terminal> 24_1390
+	Cardinality: 
+  Role: () <RHS>  Object: <Non-Terminal> 24_1354
+	Cardinality: ()
+Relationship: Or <Or> 24_1744
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_1366
+  Role:  <RHS>  Object: <Terminal> 24_1432
+	Cardinality: 
+  Role:  <RHS>  Object: <Terminal> 24_1438
+	Cardinality: 
+Relationship: Or <Or> 24_1760
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_1372
+  Role:  <RHS>  Object: <Non-Terminal> 24_1354
+	Cardinality: 
+  Role:  <RHS>  Object: <Non-Terminal> 24_460
+	Cardinality: 
+Relationship: Or <Or> 24_1776
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_1384
+  Role:  <RHS>  Object: <Terminal> 24_1420
+	Cardinality: 
+  Role: , <RHS>  Object: <Non-Terminal> 24_430
+	Cardinality: ,
+Relationship: Or <Or> 24_1792
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_1390
+  Role:  <RHS>  Object: <Non-Terminal> 24_1378
+	Cardinality: 
+  Role:  <RHS>  Object: <Non-Terminal> 24_448
+	Cardinality: 
+Relationship: Or <Or> 24_1808
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_1144
+  Role:  <RHS>  Object: <Non-Terminal> 24_460
+	Cardinality: 
+  Role:  <RHS>  Object: <Non-Terminal> 24_436
+	Cardinality: 
+  Role:  <RHS>  Object: <Non-Terminal> 24_1396
+	Cardinality: 
+Relationship: Or <Or> 24_1830
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_620
+  Role:  <RHS>  Object: <Non-Terminal> 24_418
+	Cardinality: 

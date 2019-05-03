@@ -1,0 +1,9 @@
+_visibility()
+if :Visibility = 'public' then 
+	'+' 
+	else if :Visibility = 'private' then 
+		'-' 
+		else if :Visibility = 'protected' then 
+			'#' else if :Visibility = 'package' then 
+				'~' 
+endif endif endif endif

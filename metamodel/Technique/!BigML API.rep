@@ -1,0 +1,6 @@
+Report '!BigML API'
+filename
+	$dir 'C:\Users\Hourieh\Documents\MetaEdit+ 5.5\GeneratedCode\Technique_BigMLAPI_' id '.py' write
+subreport 'Technique BigML API' run
+close
+endreport

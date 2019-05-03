@@ -1,0 +1,33 @@
+_inits()
+/* variables */
+local 'DLC_variables' write
+	foreach .Variable {
+		do :Variables { 
+			'	' id newline
+		}
+	}
+close
+
+if @DLC_variables then
+	'DLC' newline 
+	@DLC_variables 
+	newline
+endif
+
+/* timer init */
+@sep = ''
+local 'timers' write
+	foreach .(Set | Reset); {
+		@sep
+		@sep = '
+'
+		'TIMER ' :Timer name; ';' 
+	}
+close
+
+do @timers; where id unique id {
+	id newline
+}
+
+if @timers then newline endif
+

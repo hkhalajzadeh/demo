@@ -1,0 +1,19 @@
+Report '_javaScript for HTML'
+
+subreport '_javaScript for HTML' runSuper
+
+/* Add the relationships to the list of divs too */
+
+'<script type="text/javascript">
+
+var divIds = divIds.concat(['
+
+foreach >()
+{	',"' oid '"'
+}
+
+']);
+
+</script>' newline
+
+endreport

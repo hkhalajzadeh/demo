@@ -1,0 +1,69 @@
+==========================
+Graph Type
+==========================
+Technique
+	Problem: String
+
+==========================
+Object Types
+==========================
+Task
+	Task Name: String
+Sub-Task
+	Subtask Name: String
+Technique
+	Technique name: String
+
+==========================
+Relationship Types
+==========================
+Layer Connector
+
+==========================
+Role Types
+==========================
+Steps
+Initial step
+
+==========================
+Extra Types
+==========================
+Brainstorming
+	Problem: String
+Diagrams
+	Problem: String
+
+==========================
+Bindings
+==========================
+Layer Connector
+	Initial step: Sub-Task, Technique
+	Steps: Sub-Task, Technique
+Layer Connector
+	Initial step: Task
+	Steps: Sub-Task, Task, Technique
+
+==========================
+Constraints
+==========================
+
+==========================
+Subgraphs
+==========================
+
+==========================
+Generators
+==========================
+!BigML API
+!Python Code
+ensemble
+Linear Regression
+logistic regression
+Python Script
+Technique BigML API
+XGBoost
+
+==========================
+Sub-Generators
+==========================
+

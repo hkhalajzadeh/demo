@@ -1,0 +1,78 @@
+Graph_Syntax_sysadmin_3401992897
+FSM
+24_148
+Syntax
+Graph: FSM <Syntax> 24_148
+	Name: FSM
+Object: INPUT <Name> 24_155
+	Name: input
+Object: INPUTALPHABET <Name> 24_161
+	Name: inputAlphabet
+Object: NAME <Name> 24_167
+	Name: name
+Object: OUTPUT <Name> 24_173
+	Name: output
+Object: OUTPUTALPHABET <Name> 24_179
+	Name: outputAlphabet
+Object: FSM <Non-Terminal> 24_185
+	Name: FSM
+Object: Output <Non-Terminal> 24_191
+	Name: Output
+Object: State <Non-Terminal> 24_197
+	Name: State
+Object: Transition <Non-Terminal> 24_203
+	Name: Transition
+Object: "->" <Terminal> 24_209
+	String: ->
+Object: "/" <Terminal> 24_215
+	String: /
+Object: "input" <Terminal> 24_221
+	String: input
+Object: "output" <Terminal> 24_227
+	String: output
+Object: "start" <Terminal> 24_233
+	String: start
+Object: "state" <Terminal> 24_239
+	String: state
+Object: "transition" <Terminal> 24_245
+	String: transition
+Relationship: Content <Content> 24_251
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_185
+  Role:  <RHS>  Object: <Terminal> 24_221
+	Cardinality: 
+  Role:  <RHS>  Object: <Name> 24_161
+	Cardinality: 
+  Role:  <RHS>  Object: <Name> 24_179
+	Cardinality: 
+  Role:  <RHS>  Object: <Terminal> 24_227
+	Cardinality: 
+  Role: * <RHS>  Object: <Non-Terminal> 24_197
+	Cardinality: *
+Relationship: Content <Content> 24_285
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_191
+  Role:  <RHS>  Object: <Terminal> 24_215
+	Cardinality: 
+  Role:  <RHS>  Object: <Name> 24_173
+	Cardinality: 
+Relationship: Content <Content> 24_301
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_197
+  Role:  <RHS>  Object: <Terminal> 24_239
+	Cardinality: 
+  Role:  <RHS>  Object: <Name> 24_167
+	Cardinality: 
+  Role: * <RHS>  Object: <Non-Terminal> 24_203
+	Cardinality: *
+  Role: ? <RHS>  Object: <Terminal> 24_233
+	Cardinality: ?
+Relationship: Content <Content> 24_329
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_203
+  Role:  <RHS>  Object: <Terminal> 24_245
+	Cardinality: 
+  Role:  <RHS>  Object: <Name> 24_155
+	Cardinality: 
+  Role:  <RHS>  Object: <Terminal> 24_209
+	Cardinality: 
+  Role:  <RHS>  Object: <Name> 24_167
+	Cardinality: 
+  Role: ? <RHS>  Object: <Non-Terminal> 24_191
+	Cardinality: ?

@@ -1,0 +1,17 @@
+_import\ modules()
+'import pandas as pd' newline
+'import matplotlib.pyplot as plt' newline
+'import numpy as np' newline
+'import seaborn as sns' newline
+'from matplotlib import pyplot' newline
+'%matplotlib inline' newline
+'from sklearn.linear_model import LinearRegression' newline
+'from sklearn.model_selection import GridSearchCV' newline
+'from sklearn.model_selection import cross_val_score' newline
+'from xgboost import XGBRegressor' newline newline newline
+'train = pd.read_csv("../train.csv")' newline
+'test = pd.read_csv("../test.csv")' newline
+'train.shape' newline
+'test.shape' newline
+'train.describe()' newline
+'test.describe()' newline newline newline

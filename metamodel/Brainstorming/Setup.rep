@@ -1,0 +1,17 @@
+Setup()
+'#Installation' newline
+'$ pip install bigml' newline
+'$ pip install -e git://github.com/bigmlcom/python.git#egg=bigml_python' newline
+'#Importing the module' newline
+'import bigml.api' newline
+'from bigml.api import BigML' newline
+'#Authentication' newline
+'export BIGML_USERNAME=myusername' newline
+'export BIGML_API_KEY=ae579e7e53fb9abd646a6ff8aa99d4afe83ac291' newline
+'from bigml.api import BigML' newline
+'api = BigML()' newline
+subreport 'modeling' run
+
+
+
+

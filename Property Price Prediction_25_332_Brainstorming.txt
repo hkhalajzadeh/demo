@@ -1,0 +1,248 @@
+Graph_Brainstorming_user_3721639935
+Property Price Prediction
+25_332
+Brainstorming
+Graph: Property Price Prediction <Brainstorming> 25_332
+	Problem: Property Price Prediction
+Object: Improve agent's focus and outcomes <Information> 25_391
+	Information Name: Improve agent's focus and outcomes
+Object: Home buyers <Information> 25_517
+	Information Name: Home buyers
+Object: AWS Lambda <Information> 25_1327
+	Information Name: AWS Lambda
+Object: Banks/home owners/buyers/real estates in Ames, Iowa <Information> 25_1355
+	Information Name: Banks/home owners/buyers/real estates in Ames, Iowa
+Object: Market trends/customers /etc <Information> 25_1397
+	Information Name: Market trends/customers /etc
+Object: Property prices/overal quality/living area/etc <Information> 25_1402
+	Information Name: Property prices/overal quality/living area/etc
+Object: Ames housing dataset <Information> 25_1495
+	Information Name: Ames housing dataset
+Object: Azure Ml <Information> 25_1542
+	Information Name: Azure Ml
+Object: Tableau <Information> 25_1583
+	Information Name: Tableau
+Object: Python script <Information> 25_1602
+	Information Name: Python script
+Object: DevOps <Operation Seperator> 25_497
+	Operation: DevOps
+Object: AIOps <Operation Seperator> 25_502
+	Operation: AIOps
+Object: DataOps <Operation Seperator> 25_507
+	Operation: DataOps
+Object: BusinessOps <Operation Seperator> 25_512
+	Operation: BusinessOps
+Object: Property Price Prediction <Problem Definition> 25_340
+	Problem: Property Price Prediction
+Object: Define Users <Sub-Task> 25_370
+	Subtask Name: Define Users
+Object: Store <Sub-Task> 25_1271
+	Subtask Name: Store
+Object: Integrate <Sub-Task> 25_1276
+	Subtask Name: Integrate
+Object: Maintain <Sub-Task> 25_1281
+	Subtask Name: Maintain
+Object: Re-train model <Sub-Task> 25_1286
+	Subtask Name: Re-train model
+Object: Define solution target <Sub-Task> 25_1341
+	Subtask Name: Define solution target
+Object: Acquire Business knowledge <Sub-Task> 25_1369
+	Subtask Name: Acquire Business knowledge
+Object: Collect real estate knowledge <Sub-Task> 25_1374
+	Subtask Name: Collect real estate knowledge
+Object: Acquire data <Sub-Task> 25_1425
+	Subtask Name: Acquire data
+	Decomposed to: Property Price Prediction <Data>
+Object: Integrate data <Sub-Task> 25_1430
+	Subtask Name: Integrate data
+	Decomposed to: Property Price Prediction <Data>
+Object: Filter data <Sub-Task> 25_1435
+	Subtask Name: Filter data
+Object: Wrangle data <Sub-Task> 25_1440
+	Subtask Name: Wrangle data
+Object: Clean data <Sub-Task> 25_1445
+	Subtask Name: Clean data
+Object: Test/evaluate <Sub-Task> 25_1527
+	Subtask Name: Test/evaluate
+Object: Train models <Sub-Task> 25_1532
+	Subtask Name: Train models
+Object: Tune parameters <Sub-Task> 25_1537
+	Subtask Name: Tune parameters
+Object: Impute missing value <Sub-Task> 25_1634
+	Subtask Name: Impute missing value
+Object: Add new features <Sub-Task> 25_1639
+	Subtask Name: Add new features
+Object: Encode/convert variables <Sub-Task> 25_1644
+	Subtask Name: Encode/convert variables
+Object: Handle imbalanced data <Sub-Task> 25_1649
+	Subtask Name: Handle imbalanced data
+Object: Choose features <Sub-Task> 25_1654
+	Subtask Name: Choose features
+Object: Explore features <Sub-Task> 25_1659
+	Subtask Name: Explore features
+Object: Remove outliers <Sub-Task> 25_1664
+	Subtask Name: Remove outliers
+Object: Select algorithms <Sub-Task> 25_6466
+	Subtask Name: Select algorithms
+Object: Visualize <Sub-Task> 25_6498
+	Subtask Name: Visualize
+Object: Price prediction website deployment <Task> 25_345
+	Task Name: Price prediction website deployment
+Object: Population definition <Task> 25_350
+	Task Name: Population definition
+Object: Price prediction objectives definition <Task> 25_355
+	Task Name: Price prediction objectives definition
+Object: Real estate/market details collection <Task> 25_360
+	Task Name: Real estate/market details collection
+Object: Price prediction data engineering <Task> 25_365
+	Task Name: Price prediction data engineering
+Object: Price prediction model engineering <Task> 25_455
+	Task Name: Price prediction model engineering
+	Decomposed to: Property Price Prediction <Technique>
+Object: Visualization of salesPrice/features <Task> 25_469
+	Task Name: Visualization of salesPrice/features
+	Decomposed to: Property Price Prediction <Technique>
+Object: Price prediction feature engineering <Task> 25_474
+	Task Name: Price prediction feature engineering
+	Decomposed to: Property Price Prediction <Data>
+Relationship: Information Connector <Information Connector> 25_2404
+  Role: Information <Information>  Object: <Information> 25_1355
+  Role: Initial info <Initial info>  Object: <Sub-Task> 25_1341
+Relationship: Information Connector <Information Connector> 25_2415
+  Role: Information <Information>  Object: <Information> 25_517
+  Role: Initial info <Initial info>  Object: <Sub-Task> 25_370
+Relationship: Information Connector <Information Connector> 25_2442
+  Role: Information <Information>  Object: <Information> 25_391
+  Role: Initial info <Initial info>  Object: <Task> 25_355
+Relationship: Information Connector <Information Connector> 25_2451
+  Role: Information <Information>  Object: <Information> 25_1397
+  Role: Initial info <Initial info>  Object: <Sub-Task> 25_1369
+Relationship: Information Connector <Information Connector> 25_2460
+  Role: Information <Information>  Object: <Information> 25_1402
+  Role: Initial info <Initial info>  Object: <Sub-Task> 25_1374
+Relationship: Information Connector <Information Connector> 25_2469
+  Role: Information <Information>  Object: <Information> 25_1495
+  Role: Initial info <Initial info>  Object: <Sub-Task> 25_1425
+Relationship: Information Connector <Information Connector> 25_2478
+  Role: Information <Information>  Object: <Information> 25_1602
+  Role: Initial info <Initial info>  Object: <Task> 25_474
+Relationship: Information Connector <Information Connector> 25_2487
+  Role: Information <Information>  Object: <Information> 25_1583
+  Role: Initial info <Initial info>  Object: <Task> 25_469
+Relationship: Information Connector <Information Connector> 25_2496
+  Role: Information <Information>  Object: <Information> 25_1327
+  Role: Initial info <Initial info>  Object: <Task> 25_345
+Relationship: Information Connector <Information Connector> 25_2505
+  Role: Information <Information>  Object: <Information> 25_1542
+  Role: Initial info <Initial info>  Object: <Task> 25_455
+Relationship: Information Connector <Information Connector> 25_2640
+  Role: Information <Information>  Object: <Information> 25_1602
+  Role: Initial info <Initial info>  Object: <Task> 25_365
+Relationship: Layer Connector <Layer Connector> 25_2424
+  Role: Initial step <Initial step>  Object: <Task> 25_350
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1341
+Relationship: Layer Connector <Layer Connector> 25_2433
+  Role: Initial step <Initial step>  Object: <Task> 25_350
+  Role: Steps <Steps>  Object: <Sub-Task> 25_370
+Relationship: Layer Connector <Layer Connector> 25_2514
+  Role: Initial step <Initial step>  Object: <Task> 25_345
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1271
+Relationship: Layer Connector <Layer Connector> 25_2523
+  Role: Initial step <Initial step>  Object: <Task> 25_345
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1276
+Relationship: Layer Connector <Layer Connector> 25_2532
+  Role: Initial step <Initial step>  Object: <Task> 25_345
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1281
+Relationship: Layer Connector <Layer Connector> 25_2541
+  Role: Initial step <Initial step>  Object: <Task> 25_345
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1286
+Relationship: Layer Connector <Layer Connector> 25_2550
+  Role: Initial step <Initial step>  Object: <Problem Definition> 25_340
+  Role: Steps <Steps>  Object: <Task> 25_350
+Relationship: Layer Connector <Layer Connector> 25_2559
+  Role: Initial step <Initial step>  Object: <Problem Definition> 25_340
+  Role: Steps <Steps>  Object: <Task> 25_355
+Relationship: Layer Connector <Layer Connector> 25_2568
+  Role: Initial step <Initial step>  Object: <Problem Definition> 25_340
+  Role: Steps <Steps>  Object: <Task> 25_360
+Relationship: Layer Connector <Layer Connector> 25_2577
+  Role: Initial step <Initial step>  Object: <Problem Definition> 25_340
+  Role: Steps <Steps>  Object: <Task> 25_365
+Relationship: Layer Connector <Layer Connector> 25_2586
+  Role: Initial step <Initial step>  Object: <Problem Definition> 25_340
+  Role: Steps <Steps>  Object: <Task> 25_345
+Relationship: Layer Connector <Layer Connector> 25_2595
+  Role: Initial step <Initial step>  Object: <Problem Definition> 25_340
+  Role: Steps <Steps>  Object: <Task> 25_455
+Relationship: Layer Connector <Layer Connector> 25_2604
+  Role: Initial step <Initial step>  Object: <Problem Definition> 25_340
+  Role: Steps <Steps>  Object: <Task> 25_469
+Relationship: Layer Connector <Layer Connector> 25_2613
+  Role: Initial step <Initial step>  Object: <Problem Definition> 25_340
+  Role: Steps <Steps>  Object: <Task> 25_474
+Relationship: Layer Connector <Layer Connector> 25_2622
+  Role: Initial step <Initial step>  Object: <Task> 25_360
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1369
+Relationship: Layer Connector <Layer Connector> 25_2631
+  Role: Initial step <Initial step>  Object: <Task> 25_360
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1374
+Relationship: Layer Connector <Layer Connector> 25_2649
+  Role: Initial step <Initial step>  Object: <Task> 25_365
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1425
+Relationship: Layer Connector <Layer Connector> 25_2658
+  Role: Initial step <Initial step>  Object: <Task> 25_365
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1430
+Relationship: Layer Connector <Layer Connector> 25_2667
+  Role: Initial step <Initial step>  Object: <Task> 25_365
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1435
+Relationship: Layer Connector <Layer Connector> 25_2676
+  Role: Initial step <Initial step>  Object: <Task> 25_365
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1440
+Relationship: Layer Connector <Layer Connector> 25_2694
+  Role: Initial step <Initial step>  Object: <Task> 25_365
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1445
+Relationship: Layer Connector <Layer Connector> 25_2703
+  Role: Initial step <Initial step>  Object: <Task> 25_474
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1445
+Relationship: Layer Connector <Layer Connector> 25_2712
+  Role: Initial step <Initial step>  Object: <Task> 25_474
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1634
+Relationship: Layer Connector <Layer Connector> 25_2721
+  Role: Initial step <Initial step>  Object: <Task> 25_474
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1639
+Relationship: Layer Connector <Layer Connector> 25_2730
+  Role: Initial step <Initial step>  Object: <Task> 25_474
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1644
+Relationship: Layer Connector <Layer Connector> 25_2739
+  Role: Initial step <Initial step>  Object: <Task> 25_474
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1649
+Relationship: Layer Connector <Layer Connector> 25_2748
+  Role: Initial step <Initial step>  Object: <Task> 25_474
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1654
+Relationship: Layer Connector <Layer Connector> 25_2757
+  Role: Initial step <Initial step>  Object: <Task> 25_474
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1664
+Relationship: Layer Connector <Layer Connector> 25_2766
+  Role: Initial step <Initial step>  Object: <Task> 25_474
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1659
+Relationship: Layer Connector <Layer Connector> 25_2775
+  Role: Initial step <Initial step>  Object: <Task> 25_455
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1532
+Relationship: Layer Connector <Layer Connector> 25_2784
+  Role: Initial step <Initial step>  Object: <Task> 25_455
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1527
+Relationship: Layer Connector <Layer Connector> 25_2793
+  Role: Initial step <Initial step>  Object: <Task> 25_455
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1537
+Relationship: Layer Connector <Layer Connector> 25_2802
+  Role: Initial step <Initial step>  Object: <Task> 25_455
+  Role: Steps <Steps>  Object: <Task> 25_469
+Relationship: Layer Connector <Layer Connector> 25_2811
+  Role: Initial step <Initial step>  Object: <Task> 25_474
+  Role: Steps <Steps>  Object: <Task> 25_469
+Relationship: Layer Connector <Layer Connector> 25_6471
+  Role: Initial step <Initial step>  Object: <Task> 25_455
+  Role: Steps <Steps>  Object: <Sub-Task> 25_6466
+Relationship: Layer Connector <Layer Connector> 25_6503
+  Role: Initial step <Initial step>  Object: <Task> 25_469
+  Role: Steps <Steps>  Object: <Sub-Task> 25_6498

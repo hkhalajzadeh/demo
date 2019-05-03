@@ -1,0 +1,5 @@
+replace_with_mode()
+'def replace_with_mode(dfs, cols):' newline
+'  for df in dfs:' newline
+'    for col in cols:' newline
+'      df[col] = df[col].fillna(df[col].mode()[0])' newline

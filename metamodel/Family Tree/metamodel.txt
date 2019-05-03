@@ -1,0 +1,68 @@
+==========================
+Graph Type
+==========================
+Family Tree
+	Family name: String
+
+==========================
+Object Types
+==========================
+Female
+	First Name: String
+	Family name: String
+	Date of death: String
+	Date of birth: String
+	Maiden name: String
+Male
+	First Name: String
+	Family name: String
+	Date of death: String
+	Date of birth: String
+
+==========================
+Relationship Types
+==========================
+Family
+
+==========================
+Role Types
+==========================
+Parent
+Child
+
+==========================
+Extra Types
+==========================
+Person
+	First Name: String
+	Family name: String
+	Date of death: String
+	Date of birth: String
+Family Port
+	Port type: String
+
+==========================
+Bindings
+==========================
+Family
+	Parent #(Parent): Female
+	Parent #(Parent): Male
+0..N	Child #(Child): Person
+
+==========================
+Constraints
+==========================
+
+==========================
+Subgraphs
+==========================
+
+==========================
+Generators
+==========================
+My HTML generator
+
+==========================
+Sub-Generators
+==========================
+

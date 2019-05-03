@@ -1,0 +1,10 @@
+__example_of_FSM_language()
+/* This is just an example showing an instance of the FSM language */ 
+'input abc output w
+start state Idle
+	transition a -> Running
+state Running
+	transition b -> Idle
+	transition c / w -> Warning
+state Warning
+	transition b -> Idle'

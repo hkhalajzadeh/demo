@@ -1,0 +1,49 @@
+==========================
+Graph Type
+==========================
+_Unified Modeling Language
+	The UML metamodel is based on version 2.5.
+	---------------------------------------------
+
+==========================
+Object Types
+==========================
+
+==========================
+Relationship Types
+==========================
+
+==========================
+Role Types
+==========================
+
+==========================
+Extra Types
+==========================
+
+==========================
+Bindings
+==========================
+
+==========================
+Constraints
+==========================
+
+==========================
+Subgraphs
+==========================
+
+==========================
+Generators
+==========================
+
+==========================
+Sub-Generators
+==========================
+_AttributesAndOperationsForSymbol
+_Class properties in HTML
+_Package properties in HTML
+_packageDecompName
+_visibility
+__sym_showOwned
+

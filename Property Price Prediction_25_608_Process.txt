@@ -1,0 +1,213 @@
+Graph_Process_user_3721982467
+Property Price Prediction
+25_608
+Process
+Graph: Property Price Prediction <Process> 25_608
+	Problem: Property Price Prediction
+Object: Other participants need to find the problem and go back to the step <Alert> 25_824
+	Alert: Other participants need to find the problem and go back to the step
+Object: Application <Application> 25_1208
+Object: Business Layer <Business Layer> 25_1229
+Object: Enough insights? <Condition> 25_723
+	Condition name: Enough insights?
+Object: Features good enough? <Condition> 25_758
+	Condition name: Features good enough?
+Object: Models good enough? <Condition> 25_763
+	Condition name: Models good enough?
+Object: Models good enough? <Condition> 25_788
+	Condition name: Models good enough?
+Object: Satisfied? <Condition> 25_808
+	Condition name: Satisfied?
+Object: Dataset <Dataset> 25_1214
+Object: Dataset <Dataset> 25_1220
+Object: Domain Knowledge <Domain Knowledge> 25_904
+Object: Domain Knowledge <Domain Knowledge> 25_1217
+Object: Domain Knowledge <Domain Knowledge> 25_1223
+Object: Follow up with business manager <End> 25_819
+	End: Follow up with business manager
+Object: Need more domain knowledge  <Event> 25_753
+	Event: Need more domain knowledge 
+Object: Models need to be retrained <Event> 25_778
+	Event: Models need to be retrained
+Object: Models need to be maintained <Event> 25_783
+	Event: Models need to be maintained
+Object: Insights <Insights> 25_1226
+Object: Business Analyst/ Owner <Lane> 25_623
+	Participant name: Business Analyst/ Owner
+Object: Data Analyst <Lane> 25_628
+	Participant name: Data Analyst
+Object: Data Scientist <Lane> 25_633
+	Participant name: Data Scientist
+Object: Software Engineer <Lane> 25_638
+	Participant name: Software Engineer
+Object: Real Estate Manager <Lane> 25_648
+	Participant name: Real Estate Manager
+Object: Property Buyers <Lane> 25_653
+	Participant name: Property Buyers
+Object: Models <Models> 25_1211
+Object: Share properties/market knowledge <Operation> 25_668
+	Operation name: Share properties/market knowledge
+Object: Gain proprties/market knowledge <Operation> 25_673
+	Operation name: Gain proprties/market knowledge
+Object: Define price prediction objectives <Operation> 25_678
+	Operation name: Define price prediction objectives
+Object: Define customers <Operation> 25_683
+	Operation name: Define customers
+Object: Define price prediction requirements <Operation> 25_688
+	Operation name: Define price prediction requirements
+Object: Define resources <Operation> 25_693
+	Operation name: Define resources
+Object: Acquire dataset <Operation> 25_701
+	Operation name: Acquire dataset
+Object: Wrangle data <Operation> 25_708
+	Operation name: Wrangle data
+Object: Visualize and analyze salesPrice/features <Operation> 25_713
+	Operation name: Visualize and analyze salesPrice/features
+Object: Extract insights <Operation> 25_718
+	Operation name: Extract insights
+Object: Price prediction feature engineering <Operation> 25_728
+	Operation name: Price prediction feature engineering
+Object: Price prediction model engineering <Operation> 25_733
+	Operation name: Price prediction model engineering
+Object: Finalize models <Operation> 25_738
+	Operation name: Finalize models
+Object: Maintain <Operation> 25_743
+	Operation name: Maintain
+Object: Re-train <Operation> 25_748
+	Operation name: Re-train
+Object: Integrate models with application <Operation> 25_768
+	Operation name: Integrate models with application
+Object: Deploy models <Operation> 25_773
+	Operation name: Deploy models
+Object: Request property price prediction <Operation> 25_793
+	Operation name: Request property price prediction
+Object: Get predicted price <Operation> 25_798
+	Operation name: Get predicted price
+Object: Send feedback to website <Operation> 25_803
+	Operation name: Send feedback to website
+Object: BusinessOps <Operation Separator> 25_1238
+	Operation type: BusinessOps
+Object: DataOps <Operation Separator> 25_1243
+	Operation type: DataOps
+Object: AIOps <Operation Separator> 25_1248
+	Operation type: AIOps
+Object: DevOps <Operation Separator> 25_1253
+	Operation type: DevOps
+Object: Operational Layer <Operational Layer> 25_1235
+Object: Data Analytics Solution Provider <Pool> 25_618
+	Lane: 
+	Organisation name: Data Analytics Solution Provider
+Object: Real Estate <Pool> 25_643
+	Lane: 
+	Organisation name: Real Estate
+Object: Users <Pool> 25_658
+	Lane: 
+	Organisation name: Users
+Object: Need to analyse data <Start> 25_663
+	Start: Need to analyse data
+Object: Technical Layer <Technical Layer> 25_1232
+Relationship: Condition correct <Condition correct> 25_961
+  Role: Condition <Condition>  Object: <Condition> 25_723
+  Role: Operation <Operation>  Object: <Operation> 25_728
+Relationship: Condition correct <Condition correct> 25_979
+  Role: Condition <Condition>  Object: <Condition> 25_758
+  Role: Operation <Operation>  Object: <Operation> 25_733
+Relationship: Condition correct <Condition correct> 25_1006
+  Role: Condition <Condition>  Object: <Condition> 25_763
+  Role: Operation <Operation>  Object: <Operation> 25_738
+Relationship: Condition correct <Condition correct> 25_1087
+  Role: Condition <Condition>  Object: <Condition> 25_808
+  Role: End <End>  Object: <End> 25_819
+Relationship: Condition correct <Condition correct> 25_1132
+  Role: Condition <Condition>  Object: <Condition> 25_788
+  Role: Operation <Operation>  Object: <Operation> 25_768
+Relationship: Condition incorrect <Condition incorrect> 25_952
+  Role: Condition <Condition>  Object: <Condition> 25_723
+  Role: Operation <Operation>  Object: <Operation> 25_713
+Relationship: Condition incorrect <Condition incorrect> 25_988
+  Role: Condition <Condition>  Object: <Condition> 25_758
+  Role: Operation <Operation>  Object: <Operation> 25_728
+Relationship: Condition incorrect <Condition incorrect> 25_1015
+  Role: Condition <Condition>  Object: <Condition> 25_763
+  Role: Operation <Operation>  Object: <Operation> 25_733
+Relationship: Condition incorrect <Condition incorrect> 25_1096
+  Role: Alert <Alert>  Object: <Alert> 25_824
+  Role: Condition <Condition>  Object: <Condition> 25_808
+Relationship: Condition incorrect <Condition incorrect> 25_1141
+  Role: Condition <Condition>  Object: <Condition> 25_788
+  Role: Operation <Operation>  Object: <Operation> 25_728
+Relationship: In-Organization Connector <In-Organization Connector> 25_841
+  Role: Operation <Operation>  Object: <Operation> 25_668
+  Role: Start <Start>  Object: <Start> 25_663
+Relationship: In-Organization Connector <In-Organization Connector> 25_859
+  Role: Operation <Operation>  Object: <Operation> 25_673
+  Role: Operation <Operation>  Object: <Operation> 25_678
+Relationship: In-Organization Connector <In-Organization Connector> 25_868
+  Role: Operation <Operation>  Object: <Operation> 25_678
+  Role: Operation <Operation>  Object: <Operation> 25_683
+Relationship: In-Organization Connector <In-Organization Connector> 25_877
+  Role: Operation <Operation>  Object: <Operation> 25_683
+  Role: Operation <Operation>  Object: <Operation> 25_688
+Relationship: In-Organization Connector <In-Organization Connector> 25_886
+  Role: Operation <Operation>  Object: <Operation> 25_688
+  Role: Operation <Operation>  Object: <Operation> 25_693
+Relationship: In-Organization Connector <In-Organization Connector> 25_895
+  Role: Operation <Operation>  Object: <Operation> 25_693
+  Role: Operation <Operation>  Object: <Operation> 25_701
+Relationship: In-Organization Connector <In-Organization Connector> 25_907
+  Role: Operation <Operation>  Object: <Operation> 25_701
+  Role: Operation <Operation>  Object: <Operation> 25_708
+Relationship: In-Organization Connector <In-Organization Connector> 25_916
+  Role: Operation <Operation>  Object: <Operation> 25_708
+  Role: Operation <Operation>  Object: <Operation> 25_713
+Relationship: In-Organization Connector <In-Organization Connector> 25_925
+  Role: Operation <Operation>  Object: <Operation> 25_713
+  Role: Operation <Operation>  Object: <Operation> 25_718
+Relationship: In-Organization Connector <In-Organization Connector> 25_943
+  Role: Condition <Condition>  Object: <Condition> 25_723
+  Role: Operation <Operation>  Object: <Operation> 25_718
+Relationship: In-Organization Connector <In-Organization Connector> 25_970
+  Role: Condition <Condition>  Object: <Condition> 25_758
+  Role: Operation <Operation>  Object: <Operation> 25_728
+Relationship: In-Organization Connector <In-Organization Connector> 25_997
+  Role: Condition <Condition>  Object: <Condition> 25_763
+  Role: Operation <Operation>  Object: <Operation> 25_733
+Relationship: In-Organization Connector <In-Organization Connector> 25_1024
+  Role: Condition <Condition>  Object: <Condition> 25_788
+  Role: Operation <Operation>  Object: <Operation> 25_738
+Relationship: In-Organization Connector <In-Organization Connector> 25_1042
+  Role: Operation <Operation>  Object: <Operation> 25_768
+  Role: Operation <Operation>  Object: <Operation> 25_773
+Relationship: In-Organization Connector <In-Organization Connector> 25_1060
+  Role: Operation <Operation>  Object: <Operation> 25_793
+  Role: Operation <Operation>  Object: <Operation> 25_798
+Relationship: In-Organization Connector <In-Organization Connector> 25_1069
+  Role: Operation <Operation>  Object: <Operation> 25_798
+  Role: Operation <Operation>  Object: <Operation> 25_803
+Relationship: In-Organization Connector <In-Organization Connector> 25_1078
+  Role: Condition <Condition>  Object: <Condition> 25_808
+  Role: Operation <Operation>  Object: <Operation> 25_803
+Relationship: In-Organization Connector <In-Organization Connector> 25_1150
+  Role: Event <Event>  Object: <Event> 25_778
+  Role: Operation <Operation>  Object: <Operation> 25_773
+Relationship: In-Organization Connector <In-Organization Connector> 25_1159
+  Role: Event <Event>  Object: <Event> 25_783
+  Role: Operation <Operation>  Object: <Operation> 25_773
+Relationship: In-Organization Connector <In-Organization Connector> 25_1168
+  Role: Event <Event>  Object: <Event> 25_753
+  Role: Operation <Operation>  Object: <Operation> 25_728
+Relationship: In-Organization Connector <In-Organization Connector> 25_1177
+  Role: Event <Event>  Object: <Event> 25_778
+  Role: Operation <Operation>  Object: <Operation> 25_748
+Relationship: In-Organization Connector <In-Organization Connector> 25_1186
+  Role: Event <Event>  Object: <Event> 25_783
+  Role: Operation <Operation>  Object: <Operation> 25_743
+Relationship: Out-Organization Connector <Out-Organization Connector> 25_850
+  Role: Operation <Operation>  Object: <Operation> 25_668
+  Role: Operation <Operation>  Object: <Operation> 25_673
+Relationship: Out-Organization Connector <Out-Organization Connector> 25_1051
+  Role: Operation <Operation>  Object: <Operation> 25_773
+  Role: Operation <Operation>  Object: <Operation> 25_793
+Relationship: Out-Organization Connector <Out-Organization Connector> 25_1195
+  Role: Event <Event>  Object: <Event> 25_753
+  Role: Operation <Operation>  Object: <Operation> 25_668

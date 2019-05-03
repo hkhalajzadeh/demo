@@ -1,0 +1,64 @@
+Graph_Diagrams_user_3721635000
+Property Price Prediction
+25_201
+Diagrams
+Graph: Property Price Prediction <Diagrams> 25_201
+	Problem: Property Price Prediction
+Object: Brainstorming Diagram <Diagram> 25_207
+	Diagram Name: Brainstorming Diagram
+	Problem: Property Price Prediction
+	Decomposed to: Property Price Prediction <Brainstorming>
+Object: Process Diagram <Diagram> 25_214
+	Diagram Name: Process Diagram
+	Problem: Property Price Prediction
+	Decomposed to: Property Price Prediction <Process>
+Object: Technique Diagram <Diagram> 25_230
+	Diagram Name: Technique Diagram
+	Problem: Property Price Prediction
+	Decomposed to: Property Price Prediction <Technique>
+Object: Data Diagram <Diagram> 25_237
+	Diagram Name: Data Diagram
+	Problem: Property Price Prediction
+	Decomposed to: Property Price Prediction <Data>
+Object: Output Diagram <Diagram> 25_262
+	Diagram Name: Output Diagram
+	Problem: Property Price Prediction
+	Decomposed to: Property Price Prediction <Output>
+Object: Deployment Diagram <Diagram> 25_6663
+	Diagram Name: Deployment Diagram
+	Problem: Property Price Prediction
+Relationship: Connection <Connection> 25_3197
+  Role: 1 <High Level>  Object: <Diagram> 25_207
+	Multiplicity: 1
+  Role: 1 <Low Level>  Object: <Diagram> 25_214
+	Multiplicity: 1
+Relationship: Connection <Connection> 25_3210
+  Role: 0..* <High Level>  Object: <Diagram> 25_214
+	Multiplicity: 0..*
+  Role: 1..* <Low Level>  Object: <Diagram> 25_237
+	Multiplicity: 1..*
+Relationship: Connection <Connection> 25_3223
+  Role: 0..* <High Level>  Object: <Diagram> 25_214
+	Multiplicity: 0..*
+  Role: 1..* <Low Level>  Object: <Diagram> 25_230
+	Multiplicity: 1..*
+Relationship: Connection <Connection> 25_3236
+  Role: 0..* <High Level>  Object: <Diagram> 25_214
+	Multiplicity: 0..*
+  Role: 1..* <Low Level>  Object: <Diagram> 25_262
+	Multiplicity: 1..*
+Relationship: Connection <Connection> 25_3262
+  Role: 1..* <High Level>  Object: <Diagram> 25_237
+	Multiplicity: 1..*
+  Role: 1..* <Low Level>  Object: <Diagram> 25_262
+	Multiplicity: 1..*
+Relationship: Connection <Connection> 25_3281
+  Role: 1..* <High Level>  Object: <Diagram> 25_230
+	Multiplicity: 1..*
+  Role: 1..* <Low Level>  Object: <Diagram> 25_262
+	Multiplicity: 1..*
+Relationship: Connection <Connection> 25_6670
+  Role: 1..* <High Level>  Object: <Diagram> 25_262
+	Multiplicity: 1..*
+  Role: 1..* <Low Level>  Object: <Diagram> 25_6663
+	Multiplicity: 1..*

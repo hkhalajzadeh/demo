@@ -1,0 +1,18 @@
+_call\ functions()
+foreach .Sub-Task
+{	
+if :Subtask Name; =~'impute missing value' then 
+subreport 'show_missing_data' run
+subreport 'fillNAValues' run
+subreport 'replace_with_mode' run
+else
+if :Subtask Name; =~'visualize' then
+subreport 'visualize' run
+else
+if :Subtask Name; =~'convert' then
+subreport 'convert' run
+else
+endif
+endif
+endif 
+}

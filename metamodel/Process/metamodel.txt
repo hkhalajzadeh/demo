@@ -1,0 +1,114 @@
+==========================
+Graph Type
+==========================
+Process
+	Problem: String
+
+==========================
+Object Types
+==========================
+Business Layer
+Technical Layer
+Operational Layer
+Pool
+	Lane: Lane
+	Organisation name: String
+Lane
+	Participant name: String
+Operation
+	Operation name: String
+Condition
+	Condition name: String
+Start
+	Start: String
+Event
+	Event: String
+Alert
+	Alert: String
+End
+	End: String
+Dataset
+Domain Knowledge
+Models
+Insights
+Application
+Operation Separator
+	Operation type: String
+
+==========================
+Relationship Types
+==========================
+In-Organization Connector
+Out-Organization Connector
+Condition correct
+Condition incorrect
+
+==========================
+Role Types
+==========================
+Operation
+Event
+Condition
+End
+Alert
+Start
+
+==========================
+Extra Types
+==========================
+Diagrams
+	Problem: String
+
+==========================
+Bindings
+==========================
+Condition correct
+	Condition: Condition
+	End: End
+Condition correct
+	Condition: Condition
+	Operation: Operation
+Condition incorrect
+	Condition: Condition
+	Alert: Alert
+Condition incorrect
+	Condition: Condition
+	Operation: Operation
+In-Organization Connector
+	Event: Event
+	Operation: Operation
+In-Organization Connector
+	Operation: Operation
+	Condition: Condition
+In-Organization Connector
+	Operation: Operation
+	Operation: Operation
+In-Organization Connector
+	Start: Start
+	Operation: Operation
+Out-Organization Connector
+	Event: Event
+	Operation: Operation
+Out-Organization Connector
+	Operation: Operation
+	Operation: Operation
+
+==========================
+Constraints
+==========================
+
+==========================
+Subgraphs
+==========================
+
+==========================
+Generators
+==========================
+!Report
+
+==========================
+Sub-Generators
+==========================
+_contents
+_not part of graph type
+

@@ -1,0 +1,12 @@
+Python\ Script()
+foreach .Technique
+{	
+if :Technique name; =~'XGBoost' then 
+subreport 'XGBoost' run
+else
+if :Technique name; =~'Linear Regression' then 
+subreport 'Linear Regression' run
+else
+endif
+endif 
+}

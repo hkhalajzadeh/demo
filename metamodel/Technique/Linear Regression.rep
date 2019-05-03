@@ -1,0 +1,6 @@
+Linear\ Regression()
+'model_reg = LinearRegression()' newline
+'model_reg.fit(X,y)' newline
+
+'accuracies = cross_val_score(estimator=model_reg, X=X, y=y, cv=10)' newline
+'print(accuracies.mean())' newline

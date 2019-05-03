@@ -1,0 +1,101 @@
+Graph_Data_user_3722148282
+Property Price Prediction
+25_1890
+Data
+Graph: Property Price Prediction <Data> 25_1890
+	Problem: Property Price Prediction
+Object: Price prediction algorithm 1 - Lasso (.py) <Code file/Model> 25_1993
+	Code file/Model name: Price prediction algorithm 1 - Lasso (.py)
+Object: Price prediction algorithm 1 - XGBoost (.py) <Code file/Model> 25_1998
+	Code file/Model name: Price prediction algorithm 1 - XGBoost (.py)
+Object: Price prediction model (.pkl) <Code file/Model> 25_2003
+	Code file/Model name: Price prediction model (.pkl)
+Object: Ames housing dataset (.csv) <Data> 25_1903
+	Data name: Ames housing dataset (.csv)
+Object: Outliers <Data> 25_1983
+	Data name: Outliers
+Object: Cleaned dataset (.csv) <Data> 25_1988
+	Data name: Cleaned dataset (.csv)
+Object: Missing values <Data> 25_2028
+	Data name: Missing values
+Object: Algorithm 1 parameters <Information> 25_2008
+	Information Name: Algorithm 1 parameters
+Object: Algorithm 2 parameters <Information> 25_2013
+	Information Name: Algorithm 2 parameters
+Object: Price prediction evaluation metric:  
+ RMSE score  <Information> 25_2018
+	Information Name: Price prediction evaluation metric:  
+ RMSE score 
+Object: Features <Information> 25_2023
+	Information Name: Features
+Object: Government data (.xlsx) <Multiple data> 25_1908
+	Multiple data name: Government data (.xlsx)
+Object: Domain knowledge (.txt) <Multiple data> 25_1913
+	Multiple data name: Domain knowledge (.txt)
+Object: Dataset (.csv) <Multiple data> 25_1950
+	Multiple data name: Dataset (.csv)
+Object: Acquire data <Sub-Task> 25_1898
+	Subtask Name: Acquire data
+Object: Integrate data <Sub-Task> 25_1945
+	Subtask Name: Integrate data
+Object: Price prediction feature engineering <Task> 25_1955
+	Task Name: Price prediction feature engineering
+Object: Price prediction model engineering <Task> 25_1960
+	Task Name: Price prediction model engineering
+Relationship: Information Connector <Information Connector> 25_2837
+  Role: Information <Information>  Object: <Data> 25_1903
+  Role: Initial info <Initial info>  Object: <Sub-Task> 25_1898
+Relationship: Information Connector <Information Connector> 25_2846
+  Role: Information <Information>  Object: <Multiple data> 25_1908
+  Role: Initial info <Initial info>  Object: <Sub-Task> 25_1898
+Relationship: Information Connector <Information Connector> 25_2855
+  Role: Information <Information>  Object: <Multiple data> 25_1913
+  Role: Initial info <Initial info>  Object: <Sub-Task> 25_1898
+Relationship: Information Connector <Information Connector> 25_2891
+  Role: Information <Information>  Object: <Multiple data> 25_1950
+  Role: Initial info <Initial info>  Object: <Sub-Task> 25_1945
+Relationship: Information Connector <Information Connector> 25_2918
+  Role: Information <Information>  Object: <Data> 25_1983
+  Role: Initial info <Initial info>  Object: <Task> 25_1955
+Relationship: Information Connector <Information Connector> 25_2927
+  Role: Information <Information>  Object: <Data> 25_1988
+  Role: Initial info <Initial info>  Object: <Task> 25_1955
+Relationship: Information Connector <Information Connector> 25_2936
+  Role: Information <Information>  Object: <Data> 25_2028
+  Role: Initial info <Initial info>  Object: <Task> 25_1955
+Relationship: Information Connector <Information Connector> 25_2945
+  Role: Information <Information>  Object: <Information> 25_2023
+  Role: Initial info <Initial info>  Object: <Task> 25_1955
+Relationship: Information Connector <Information Connector> 25_2954
+  Role: Information <Information>  Object: <Code file/Model> 25_1993
+  Role: Initial info <Initial info>  Object: <Task> 25_1960
+Relationship: Information Connector <Information Connector> 25_2963
+  Role: Information <Information>  Object: <Code file/Model> 25_1998
+  Role: Initial info <Initial info>  Object: <Task> 25_1960
+Relationship: Information Connector <Information Connector> 25_2972
+  Role: Information <Information>  Object: <Code file/Model> 25_2003
+  Role: Initial info <Initial info>  Object: <Task> 25_1960
+Relationship: Information Connector <Information Connector> 25_2981
+  Role: Information <Information>  Object: <Information> 25_2008
+  Role: Initial info <Initial info>  Object: <Task> 25_1960
+Relationship: Information Connector <Information Connector> 25_2990
+  Role: Information <Information>  Object: <Information> 25_2013
+  Role: Initial info <Initial info>  Object: <Task> 25_1960
+Relationship: Information Connector <Information Connector> 25_2999
+  Role: Information <Information>  Object: <Information> 25_2018
+  Role: Initial info <Initial info>  Object: <Task> 25_1960
+Relationship: Layer Connector <Layer Connector> 25_2864
+  Role: Initial step <Initial step>  Object: <Data> 25_1903
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1945
+Relationship: Layer Connector <Layer Connector> 25_2873
+  Role: Initial step <Initial step>  Object: <Multiple data> 25_1908
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1945
+Relationship: Layer Connector <Layer Connector> 25_2882
+  Role: Initial step <Initial step>  Object: <Multiple data> 25_1913
+  Role: Steps <Steps>  Object: <Sub-Task> 25_1945
+Relationship: Layer Connector <Layer Connector> 25_2900
+  Role: Initial step <Initial step>  Object: <Multiple data> 25_1950
+  Role: Steps <Steps>  Object: <Task> 25_1955
+Relationship: Layer Connector <Layer Connector> 25_2909
+  Role: Initial step <Initial step>  Object: <Task> 25_1955
+  Role: Steps <Steps>  Object: <Task> 25_1960

@@ -1,0 +1,3 @@
+convert()
+'train.SalePrice = np.log(train.SalePrice)' newline
+'final_total = pd.get_dummies(total).reset_index(drop=True)' newline

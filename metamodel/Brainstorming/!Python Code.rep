@@ -1,0 +1,7 @@
+Report '!Python Code'
+/*https://www.kaggle.com/santibermejo/xgboost-for-house-price-prediction*/
+/*filename
+	$dir 'C:\Users\Hourieh\Documents\MetaEdit+ 5.5\GeneratedCode\PythonCode_' id '.py' write*/
+subreport 'Python script' run
+/*close*/
+endreport

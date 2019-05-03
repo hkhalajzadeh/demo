@@ -1,0 +1,66 @@
+==========================
+Graph Type
+==========================
+Output
+	Problem: String
+
+==========================
+Object Types
+==========================
+Multiple data
+	Multiple data name: String
+Diagram blackbox
+	Diagram name: String
+Logic
+	Logic name: String
+Output
+	Output name: String
+Port
+	Port name: String
+
+==========================
+Relationship Types
+==========================
+Layer Connector
+Information Connector
+
+==========================
+Role Types
+==========================
+Steps
+Initial info
+Initial step
+Information
+
+==========================
+Extra Types
+==========================
+Brainstorming
+	Problem: String
+Diagrams
+	Problem: String
+
+==========================
+Bindings
+==========================
+Information Connector
+	Initial info: Output
+1..N	Information: Port
+Layer Connector
+	Initial step: Diagram blackbox
+	Steps: Logic
+Layer Connector
+	Initial step: Logic
+	Steps: Output
+Layer Connector
+	Initial step: Multiple data
+	Steps: Diagram blackbox
+
+==========================
+Constraints
+==========================
+
+==========================
+Subgraphs
+==========================
+

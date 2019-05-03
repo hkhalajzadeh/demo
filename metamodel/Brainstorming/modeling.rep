@@ -1,0 +1,13 @@
+modeling()
+'source = api.create_source(''./data/train.csv'')' newline
+'test = api.create_source(''./data/test.csv'')' newline
+'train_dataset = api.create_dataset(source)' newline
+'test_dataset = api.create_dataset(test)' newline
+'model = api.create_model(train_dataset)' newline
+'prediction = api.create_prediction(model, test_dataset)' newline
+'api.pprint(prediction)' newline
+'evaluation = api.create_evaluation(model, test_dataset)' newline
+'api = BigML(storage=''./storage'')' newline
+'api.export(''model/5acea49a08b07e14b9001068'',
+           filename="my_dir/my_model.json")' newline
+

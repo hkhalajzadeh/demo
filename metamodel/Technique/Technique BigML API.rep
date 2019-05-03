@@ -1,0 +1,12 @@
+Technique\ BigML\ API()
+foreach .Technique
+{	
+if :Technique name; =~'ensemble' then 
+subreport 'ensemble' run
+else
+if :Technique name; =~'logistic regression' then 
+subreport 'logistic regression' run
+else
+endif 
+endif 
+}

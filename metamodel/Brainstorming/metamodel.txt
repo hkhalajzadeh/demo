@@ -1,0 +1,92 @@
+==========================
+Graph Type
+==========================
+Brainstorming
+	Problem: String
+
+==========================
+Object Types
+==========================
+Problem Definition
+	Problem: String
+Task
+	Task Name: String
+Sub-Task
+	Subtask Name: String
+Information
+	Information Name: String
+Operation Seperator
+	Operation: String
+
+==========================
+Relationship Types
+==========================
+Layer Connector
+Information Connector
+
+==========================
+Role Types
+==========================
+Information
+Steps
+Initial step
+Initial info
+
+==========================
+Extra Types
+==========================
+Data
+	Problem: String
+Diagrams
+	Problem: String
+Technique
+	Problem: String
+
+==========================
+Bindings
+==========================
+Information Connector
+	Initial info: Problem Definition, Sub-Task, Task
+	Information: Information
+Layer Connector
+	Initial step: Problem Definition
+1..N	Steps: Task
+Layer Connector
+	Initial step: Sub-Task, Task
+1..N	Steps: Sub-Task, Task
+
+==========================
+Constraints
+==========================
+
+==========================
+Subgraphs
+==========================
+Decompositions:
+	Sub-Task
+		Data
+	Task
+		Data
+		Technique
+
+==========================
+Generators
+==========================
+!BigML API
+!Python Code
+!Report
+convert
+fillNAValues
+modeling
+Python script
+replace_with_mode
+Setup
+show_missing_data
+visualize
+
+==========================
+Sub-Generators
+==========================
+_call functions
+_import modules
+

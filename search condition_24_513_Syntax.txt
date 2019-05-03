@@ -1,0 +1,194 @@
+Graph_Syntax_sysadmin_3401992897
+search condition
+24_513
+Syntax
+Graph: search condition <Syntax> 24_513
+	Name: search condition
+Object:  <Non-Terminal> 24_518
+	Name: 
+Object: between predicate <Non-Terminal> 24_524
+	Name: between predicate
+Object: boolean factor <Non-Terminal> 24_530
+	Name: boolean factor
+Object: boolean primary <Non-Terminal> 24_536
+	Name: boolean primary
+Object: boolean term <Non-Terminal> 24_542
+	Name: boolean term
+Object: boolean test <Non-Terminal> 24_548
+	Name: boolean test
+Object: character value expression <Non-Terminal> 24_554
+	Name: character value expression
+Object: comp op <Non-Terminal> 24_560
+	Name: comp op
+Object: comparison predicate <Non-Terminal> 24_566
+	Name: comparison predicate
+Object: in predicate <Non-Terminal> 24_572
+	Name: in predicate
+Object: in predicate value <Non-Terminal> 24_578
+	Name: in predicate value
+Object: like predicate <Non-Terminal> 24_584
+	Name: like predicate
+Object: predicate <Non-Terminal> 24_590
+	Name: predicate
+Object: row value constructor <Non-Terminal> 24_596
+	Name: row value constructor
+Object: row value constructor element <Non-Terminal> 24_602
+	Name: row value constructor element
+Object: subquery <Non-Terminal> 24_608
+	Name: subquery
+Object: truth value <Non-Terminal> 24_614
+	Name: truth value
+Object: value expression <Non-Terminal> 24_620
+	Name: value expression
+Object: "<" <Terminal> 24_626
+	String: <
+Object: "<=" <Terminal> 24_632
+	String: <=
+Object: "<>" <Terminal> 24_638
+	String: <>
+Object: "=" <Terminal> 24_644
+	String: =
+Object: ">" <Terminal> 24_650
+	String: >
+Object: ">=" <Terminal> 24_656
+	String: >=
+Object: "AND" <Terminal> 24_662
+	String: AND
+Object: "BETWEEN" <Terminal> 24_668
+	String: BETWEEN
+Object: "DEFAULT" <Terminal> 24_674
+	String: DEFAULT
+Object: "FALSE" <Terminal> 24_680
+	String: FALSE
+Object: "IN" <Terminal> 24_686
+	String: IN
+Object: "IS" <Terminal> 24_692
+	String: IS
+Object: "LIKE" <Terminal> 24_698
+	String: LIKE
+Object: "NOT" <Terminal> 24_704
+	String: NOT
+Object: "NULL" <Terminal> 24_710
+	String: NULL
+Object: "OR" <Terminal> 24_716
+	String: OR
+Object: "TRUE" <Terminal> 24_722
+	String: TRUE
+Object: "UNKNOWN" <Terminal> 24_728
+	String: UNKNOWN
+Relationship: Content <Content> 24_734
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_518
+  Role: + <RHS>  Object: <Non-Terminal> 24_542
+	Cardinality: +
+Relationship: Content <Content> 24_744
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_524
+  Role:  <RHS>  Object: <Terminal> 24_668
+	Cardinality: 
+  Role:  <RHS>  Object: <Terminal> 24_662
+	Cardinality: 
+  Role: 3 <RHS>  Object: <Non-Terminal> 24_596
+	Cardinality: 3
+  Role: ? <RHS>  Object: <Terminal> 24_704
+	Cardinality: ?
+Relationship: Content <Content> 24_772
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_530
+  Role:  <RHS>  Object: <Non-Terminal> 24_548
+	Cardinality: 
+  Role: ? <RHS>  Object: <Terminal> 24_704
+	Cardinality: ?
+Relationship: Content <Content> 24_788
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_542
+  Role: + <RHS>  Object: <Non-Terminal> 24_530
+	Cardinality: +
+Relationship: Content <Content> 24_798
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_548
+  Role:  <RHS>  Object: <Non-Terminal> 24_536
+	Cardinality: 
+  Role: ? <RHS>  Object: <Terminal> 24_692
+	Cardinality: ?
+  Role: ? <RHS>  Object: <Terminal> 24_704
+	Cardinality: ?
+  Role: ? <RHS>  Object: <Non-Terminal> 24_614
+	Cardinality: ?
+Relationship: Content <Content> 24_826
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_566
+  Role:  <RHS>  Object: <Non-Terminal> 24_560
+	Cardinality: 
+  Role: 2 <RHS>  Object: <Non-Terminal> 24_596
+	Cardinality: 2
+Relationship: Content <Content> 24_842
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_572
+  Role:  <RHS>  Object: <Non-Terminal> 24_596
+	Cardinality: 
+  Role:  <RHS>  Object: <Terminal> 24_686
+	Cardinality: 
+  Role:  <RHS>  Object: <Non-Terminal> 24_578
+	Cardinality: 
+  Role: ? <RHS>  Object: <Terminal> 24_704
+	Cardinality: ?
+Relationship: Content <Content> 24_870
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_584
+  Role:  <RHS>  Object: <Terminal> 24_698
+	Cardinality: 
+  Role: 2 <RHS>  Object: <Non-Terminal> 24_554
+	Cardinality: 2
+  Role: ? <RHS>  Object: <Terminal> 24_704
+	Cardinality: ?
+Relationship: Or <Or> 24_892
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_536
+  Role:  <RHS>  Object: <Non-Terminal> 24_590
+	Cardinality: 
+  Role:  <RHS>  Object: <Non-Terminal> 24_518
+	Cardinality: 
+Relationship: Or <Or> 24_908
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_560
+  Role:  <RHS>  Object: <Terminal> 24_644
+	Cardinality: 
+  Role:  <RHS>  Object: <Terminal> 24_626
+	Cardinality: 
+  Role:  <RHS>  Object: <Terminal> 24_650
+	Cardinality: 
+  Role:  <RHS>  Object: <Terminal> 24_638
+	Cardinality: 
+  Role:  <RHS>  Object: <Terminal> 24_632
+	Cardinality: 
+  Role:  <RHS>  Object: <Terminal> 24_656
+	Cardinality: 
+Relationship: Or <Or> 24_948
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_578
+  Role:  <RHS>  Object: <Non-Terminal> 24_608
+	Cardinality: 
+  Role: (,) <RHS>  Object: <Non-Terminal> 24_620
+	Cardinality: (,)
+Relationship: Or <Or> 24_964
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_590
+  Role:  <RHS>  Object: <Non-Terminal> 24_566
+	Cardinality: 
+  Role:  <RHS>  Object: <Non-Terminal> 24_524
+	Cardinality: 
+  Role:  <RHS>  Object: <Non-Terminal> 24_572
+	Cardinality: 
+  Role:  <RHS>  Object: <Non-Terminal> 24_584
+	Cardinality: 
+Relationship: Or <Or> 24_992
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_596
+  Role:  <RHS>  Object: <Non-Terminal> 24_608
+	Cardinality: 
+  Role: , <RHS>  Object: <Non-Terminal> 24_602
+	Cardinality: ,
+Relationship: Or <Or> 24_1008
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_602
+  Role:  <RHS>  Object: <Non-Terminal> 24_620
+	Cardinality: 
+  Role:  <RHS>  Object: <Terminal> 24_710
+	Cardinality: 
+  Role:  <RHS>  Object: <Terminal> 24_674
+	Cardinality: 
+Relationship: Or <Or> 24_1030
+  Role: LHS <LHS>  Object: <Non-Terminal> 24_614
+  Role:  <RHS>  Object: <Terminal> 24_722
+	Cardinality: 
+  Role:  <RHS>  Object: <Terminal> 24_680
+	Cardinality: 
+  Role:  <RHS>  Object: <Terminal> 24_728
+	Cardinality: 

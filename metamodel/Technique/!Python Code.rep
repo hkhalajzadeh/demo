@@ -1,0 +1,6 @@
+Report '!Python Code'
+filename
+	$dir 'C:\Users\Hourieh\Documents\MetaEdit+ 5.5\GeneratedCode\Technique_PythonCode_' id '.py' write
+subreport 'Python Script' run 
+close
+endreport

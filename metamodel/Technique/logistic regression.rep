@@ -1,0 +1,5 @@
+logistic\ regression()
+'logistic_regression = api.create_logistic_regression( \
+    ''dataset/5143a51a37203f2cf7000972'',
+    {"name": "my logistic regression",
+     "objective_field": "my_objective_field"})' newline

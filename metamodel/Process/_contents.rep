@@ -1,0 +1,19 @@
+Report '_contents' 
+  /* report all contents of the current object, flattening any nesting */ 
+  foreach .Lane
+{	'Participant ':Participant name; ' conducts the following operations: 'newline
+
+do contents 
+  { 
+
+if :Operation name; then 
+	:Operation name; newline
+endif 
+if :Condition name; then 
+	'if ' :Condition name; newline
+endif 
+
+  } 
+newline
+}
+endreport

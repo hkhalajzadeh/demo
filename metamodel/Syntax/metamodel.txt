@@ -1,0 +1,68 @@
+==========================
+Graph Type
+==========================
+Syntax
+	Name: String
+
+==========================
+Object Types
+==========================
+Name
+	Name: String
+Non-Terminal
+	Name: String
+Terminal
+	String: String
+
+==========================
+Relationship Types
+==========================
+Content
+Or
+
+==========================
+Role Types
+==========================
+LHS
+RHS
+	Cardinality: String
+		In addition tot he standard ? for optional, + for 1..N occurrences, and * for 0..N occurrences, the SQL examples add , for comma-separated occurrences and () for enclosing in parentheses.
+		---------------------------------------------
+
+==========================
+Extra Types
+==========================
+
+==========================
+Bindings
+==========================
+Content
+1	LHS: Non-Terminal
+1..N	RHS: Name, Non-Terminal, Terminal
+Or
+1	LHS: Non-Terminal
+1..N	RHS: Name, Non-Terminal, Terminal
+
+==========================
+Constraints
+==========================
+Non-Terminal may be in at most 1 LHS role
+
+==========================
+Subgraphs
+==========================
+Decompositions:
+	Non-Terminal
+		Syntax
+
+==========================
+Generators
+==========================
+BNF
+SDF
+
+==========================
+Sub-Generators
+==========================
+__example_of_FSM_language
+

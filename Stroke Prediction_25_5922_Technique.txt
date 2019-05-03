@@ -1,0 +1,61 @@
+Graph_Technique_user_3722148262
+Stroke Prediction
+25_5922
+Technique
+Graph: Stroke Prediction <Technique> 25_5922
+	Problem: Stroke Prediction
+Object: Data Acquisition <Sub-Task> 25_5935
+	Subtask Name: Data Acquisition
+Object: Data Cleaning <Sub-Task> 25_5940
+	Subtask Name: Data Cleaning
+Object: Data Integration <Sub-Task> 25_5945
+	Subtask Name: Data Integration
+Object: Data Reshaping <Sub-Task> 25_5950
+	Subtask Name: Data Reshaping
+Object: Data Loading and Extraction <Sub-Task> 25_5955
+	Subtask Name: Data Loading and Extraction
+Object: Data Wrangling <Task> 25_5930
+	Task Name: Data Wrangling
+Object: solve misspelling,Irregularity, integrity <Technique> 25_6005
+	Technique name: solve misspelling,Irregularity, integrity
+Object: detect outliers <Technique> 25_6010
+	Technique name: detect outliers
+Object: solve duplications <Technique> 25_6015
+	Technique name: solve duplications
+Object: Normalize data, sampling etc <Technique> 25_6056
+	Technique name: Normalize data, sampling etc
+Object: Parsing CSV, PDF, xml <Technique> 25_6070
+	Technique name: Parsing CSV, PDF, xml
+Relationship: Layer Connector <Layer Connector> 25_5960
+  Role: Initial step <Initial step>  Object: <Task> 25_5930
+  Role: Steps <Steps>  Object: <Sub-Task> 25_5935
+Relationship: Layer Connector <Layer Connector> 25_5969
+  Role: Initial step <Initial step>  Object: <Task> 25_5930
+  Role: Steps <Steps>  Object: <Sub-Task> 25_5940
+Relationship: Layer Connector <Layer Connector> 25_5978
+  Role: Initial step <Initial step>  Object: <Task> 25_5930
+  Role: Steps <Steps>  Object: <Sub-Task> 25_5945
+Relationship: Layer Connector <Layer Connector> 25_5987
+  Role: Initial step <Initial step>  Object: <Task> 25_5930
+  Role: Steps <Steps>  Object: <Sub-Task> 25_5950
+Relationship: Layer Connector <Layer Connector> 25_5996
+  Role: Initial step <Initial step>  Object: <Task> 25_5930
+  Role: Steps <Steps>  Object: <Sub-Task> 25_5955
+Relationship: Layer Connector <Layer Connector> 25_6020
+  Role: Initial step <Initial step>  Object: <Sub-Task> 25_5940
+  Role: Steps <Steps>  Object: <Technique> 25_6005
+Relationship: Layer Connector <Layer Connector> 25_6029
+  Role: Initial step <Initial step>  Object: <Sub-Task> 25_5940
+  Role: Steps <Steps>  Object: <Technique> 25_6010
+Relationship: Layer Connector <Layer Connector> 25_6038
+  Role: Initial step <Initial step>  Object: <Sub-Task> 25_5940
+  Role: Steps <Steps>  Object: <Technique> 25_6015
+Relationship: Layer Connector <Layer Connector> 25_6047
+  Role: Initial step <Initial step>  Object: <Sub-Task> 25_5945
+  Role: Steps <Steps>  Object: <Technique> 25_6015
+Relationship: Layer Connector <Layer Connector> 25_6061
+  Role: Initial step <Initial step>  Object: <Sub-Task> 25_5950
+  Role: Steps <Steps>  Object: <Technique> 25_6056
+Relationship: Layer Connector <Layer Connector> 25_6075
+  Role: Initial step <Initial step>  Object: <Sub-Task> 25_5955
+  Role: Steps <Steps>  Object: <Technique> 25_6070

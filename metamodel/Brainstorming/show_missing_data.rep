@@ -1,0 +1,7 @@
+show_missing_data()
+'def show_missing_data(df):' newline
+'  df_nan = df.isnull().sum()[df.isnull().sum()>0].sort_values(ascending = False)' newline
+'  df_nan_per = df_nan / df.shape[0] * 100' newline
+'  print(pd.concat([df_nan, df_nan_per], ' newline
+'                  axis=1, ' newline
+'                  keys=[''nan Amount'', ''Percentage'']))' newline

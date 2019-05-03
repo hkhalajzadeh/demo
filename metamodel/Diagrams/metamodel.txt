@@ -1,0 +1,65 @@
+==========================
+Graph Type
+==========================
+Diagrams
+	Problem: String
+
+==========================
+Object Types
+==========================
+Diagram
+	Diagram Name: String
+	Problem: String
+
+==========================
+Relationship Types
+==========================
+Connection
+
+==========================
+Role Types
+==========================
+High Level
+	Multiplicity: String
+Low Level
+	Multiplicity: String
+
+==========================
+Extra Types
+==========================
+Brainstorming
+	Problem: String
+Data
+	Problem: String
+Deployment
+	Problem: String
+Output
+	Problem: String
+Process
+	Problem: String
+Technique
+	Problem: String
+
+==========================
+Bindings
+==========================
+Connection
+	High Level: Diagram
+	Low Level: Diagram
+
+==========================
+Constraints
+==========================
+
+==========================
+Subgraphs
+==========================
+Decompositions:
+	Diagram
+		Brainstorming
+		Data
+		Deployment
+		Output
+		Process
+		Technique
+

@@ -1,0 +1,65 @@
+==========================
+Graph Type
+==========================
+Data
+	Problem: String
+
+==========================
+Object Types
+==========================
+Task
+	Task Name: String
+Sub-Task
+	Subtask Name: String
+Information
+	Information Name: String
+Data
+	Data name: String
+Multiple data
+	Multiple data name: String
+Code file/Model
+	Code file/Model name: String
+
+==========================
+Relationship Types
+==========================
+Layer Connector
+Information Connector
+
+==========================
+Role Types
+==========================
+Information
+Initial info
+Initial step
+Steps
+
+==========================
+Extra Types
+==========================
+Brainstorming
+	Problem: String
+Diagrams
+	Problem: String
+
+==========================
+Bindings
+==========================
+Information Connector
+	Initial info: Sub-Task, Task
+1..N	Information: Code file/Model, Data, Information, Multiple data
+Layer Connector
+1..N	Initial step: Code file/Model, Data, Information, Multiple data
+1..N	Steps: Sub-Task, Task
+Layer Connector
+	Initial step: Task
+1..N	Steps: Sub-Task, Task
+
+==========================
+Constraints
+==========================
+
+==========================
+Subgraphs
+==========================
+

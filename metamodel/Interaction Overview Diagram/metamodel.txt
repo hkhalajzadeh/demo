@@ -1,0 +1,111 @@
+==========================
+Graph Type
+==========================
+Interaction Overview Diagram
+	Interaction Overview Diagrams define Interactions by combining a number of Sequence Diagrams.
+	---------------------------------------------
+	Model name: String
+	Status: String
+	Authors: OrderedCollection (Person)
+	Documentation: Text
+
+==========================
+Object Types
+==========================
+Frame
+	Frame describes an interaction unit of behavior that focuses on the observable exchange of information between connected elements.
+	---------------------------------------------
+	Name: String
+	Interaction occurance?: Boolean
+Choice
+	Choice is used to extend a simple transition to describe multiple output transitions. A choice may include a condition or each output transition may have own conditions (similar to simple transitions). 
+	---------------------------------------------
+	Condition: Text
+Start
+	A start denotes to the starting point of the state transition diagram. It is represented by a black dot.
+	---------------------------------------------
+Stop
+	A Stop denotes to the end of the state transition diagram. It is represented by two circles smaller one be solid and filled.
+	---------------------------------------------
+Flow stop
+	Flow stop ends all flows in an activity.
+	---------------------------------------------
+Note text
+	Note is a special object for adding additional text anywhere in the graphs. It can be linked to another design objects with a note connection relationship.
+	---------------------------------------------
+	Note text: Text
+	Stereotype: String
+
+==========================
+Relationship Types
+==========================
+Control flow
+	Control flow describes the sequencing of behaviours that does not involve the flow of objects.
+	---------------------------------------------
+	Flow name: String
+	Guard: String
+	Weight: String
+Note connection
+	Note connection can be used to link a note text to related element in a model. A note connection is represented by a grey line.
+	---------------------------------------------
+
+==========================
+Role Types
+==========================
+Condition from
+	Condition value: Text
+From
+To
+Note part
+Object part
+
+==========================
+Extra Types
+==========================
+Sequence Diagram
+	A sequence diagram describes an interaction by focusing on the sequence of messages that are exchanged, along with their corresponding occurrences on the lifelines. 
+	---------------------------------------------
+	Model name: String
+	Status: String
+	Authors: OrderedCollection (Person)
+	Documentation: Text
+_Unified Modeling Language
+	The UML metamodel is based on version 2.5.
+	---------------------------------------------
+Person
+	Person is used to describe developers involved in a project (i.e. attached to the project model) and authors of developed models. Person can be characterized with a name, e-mail address, and with a contact address. 
+	---------------------------------------------
+	Name: String
+	E-mail: String
+	Contact address: Text
+
+==========================
+Bindings
+==========================
+Control flow
+	Condition from: Choice
+0..1	Note part: Note text
+1..N	To: Choice, Flow stop, Frame, Stop
+Control flow
+1..N	From: Frame, Start
+0..1	Note part: Note text
+1..N	To: Choice, Flow stop, Frame, Stop
+Note connection
+	Note part: Note text
+	Object part: Choice, Flow stop, Frame, Start, Stop
+Note connection
+	Object part: Choice, Flow stop, Frame, Start, Stop
+	Note part: Note text
+
+==========================
+Constraints
+==========================
+
+==========================
+Subgraphs
+==========================
+Decompositions:
+	Frame
+		Interaction Overview Diagram
+		Sequence Diagram
+

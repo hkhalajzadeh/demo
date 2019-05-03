@@ -1,0 +1,66 @@
+Graph_Output_user_3722148299
+Property Price Prediction
+25_2185
+Output
+Graph: Property Price Prediction <Output> 25_2185
+	Problem: Property Price Prediction
+Object: Technique diagram <Diagram blackbox> 25_2203
+	Diagram name: Technique diagram
+Object: Data diagram <Diagram blackbox> 25_2208
+	Diagram name: Data diagram
+Object: Cross validation <Logic> 25_2198
+	Logic name: Cross validation
+Object: Dataset <Multiple data> 25_2193
+	Multiple data name: Dataset
+Object: Outputs <Output> 25_2213
+	Output name: Outputs
+Object: Sold Price/predicted price report over the last year <Port> 25_2218
+	Port name: Sold Price/predicted price report over the last year
+Object: Price prediction error <Port> 25_2223
+	Port name: Price prediction error
+Object: Price Prediction RMSE score <Port> 25_2229
+	Port name: Price Prediction RMSE score
+Object: Price prediction accuracy <Port> 25_2234
+	Port name: Price prediction accuracy
+Object: Most/least expensive suburbs <Port> 25_2239
+	Port name: Most/least expensive suburbs
+Object: Effects of public transportation/schools/ shopping centers/etc on salePrice <Port> 25_2244
+	Port name: Effects of public transportation/schools/ shopping centers/etc on salePrice
+Object: Confidence level of the results <Port> 25_6539
+	Port name: Confidence level of the results
+Relationship: Information Connector <Information Connector> 25_3125
+  Role: Information <Information>  Object: <Port> 25_2218
+  Role: Initial info <Initial info>  Object: <Output> 25_2213
+Relationship: Information Connector <Information Connector> 25_3134
+  Role: Information <Information>  Object: <Port> 25_2223
+  Role: Initial info <Initial info>  Object: <Output> 25_2213
+Relationship: Information Connector <Information Connector> 25_3143
+  Role: Information <Information>  Object: <Port> 25_2229
+  Role: Initial info <Initial info>  Object: <Output> 25_2213
+Relationship: Information Connector <Information Connector> 25_3152
+  Role: Information <Information>  Object: <Port> 25_2234
+  Role: Initial info <Initial info>  Object: <Output> 25_2213
+Relationship: Information Connector <Information Connector> 25_3161
+  Role: Information <Information>  Object: <Port> 25_2239
+  Role: Initial info <Initial info>  Object: <Output> 25_2213
+Relationship: Information Connector <Information Connector> 25_3170
+  Role: Information <Information>  Object: <Port> 25_2244
+  Role: Initial info <Initial info>  Object: <Output> 25_2213
+Relationship: Information Connector <Information Connector> 25_6544
+  Role: Information <Information>  Object: <Port> 25_6539
+  Role: Initial info <Initial info>  Object: <Output> 25_2213
+Relationship: Layer Connector <Layer Connector> 25_3080
+  Role: Initial step <Initial step>  Object: <Multiple data> 25_2193
+  Role: Steps <Steps>  Object: <Diagram blackbox> 25_2203
+Relationship: Layer Connector <Layer Connector> 25_3089
+  Role: Initial step <Initial step>  Object: <Multiple data> 25_2193
+  Role: Steps <Steps>  Object: <Diagram blackbox> 25_2208
+Relationship: Layer Connector <Layer Connector> 25_3098
+  Role: Initial step <Initial step>  Object: <Diagram blackbox> 25_2203
+  Role: Steps <Steps>  Object: <Logic> 25_2198
+Relationship: Layer Connector <Layer Connector> 25_3107
+  Role: Initial step <Initial step>  Object: <Diagram blackbox> 25_2208
+  Role: Steps <Steps>  Object: <Logic> 25_2198
+Relationship: Layer Connector <Layer Connector> 25_3116
+  Role: Initial step <Initial step>  Object: <Logic> 25_2198
+  Role: Steps <Steps>  Object: <Output> 25_2213
