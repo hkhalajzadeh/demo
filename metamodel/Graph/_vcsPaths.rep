@@ -37,7 +37,7 @@ $svnBaseDir = 'X:\svn\svn_working'
 	As above, edit the $git/svnBaseURL, and the $git/svnProjectURL 
 		will be built automatically later based on that and $dbName
 */
-$gitBaseURL = 'https://github.com/hkhalajzadeh' /* E.g. 'https://github.com/USER_OR_ORGANIZATION_NAME' or 'https://USERNAME@bitbucket.org/USERNAME' */
+$gitBaseURL = 'https://github.com/hkhalajzadeh/demo.old.git' /* E.g. 'https://github.com/USER_OR_ORGANIZATION_NAME' or 'https://USERNAME@bitbucket.org/USERNAME' */
 $svnBaseURL = 'file:///X:/svn/svn_repos'
 
 /* Locations of executables, edit to match your setup */
