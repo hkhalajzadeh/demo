@@ -1,4 +1,0 @@
-Report '_X_reject'
-/* Reports the Reject object */
-'<reject status="' :Status; '" reason="' :Reason; '"/>' newline
-endreport

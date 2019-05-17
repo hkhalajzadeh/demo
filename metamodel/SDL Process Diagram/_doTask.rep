@@ -1,6 +1,0 @@
-_doTask()
-dowhile :Action code; {
-	'	TASK ' id ';' newline
-}
-';'
-_nextTransition()

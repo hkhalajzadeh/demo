@@ -1,2 +1,0 @@
-_indent()
-$indent = __($indent '	')

@@ -1,3 +1,0 @@
-_reportError_level0(@errorType)
-/* Reporting the undefined value */
-'Undefined ' @errorType' value for ' id ' <' type '> '

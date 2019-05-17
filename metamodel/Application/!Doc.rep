@@ -1,3 +1,0 @@
-Report '!Doc'
-subreport 'Export graph to Word' run
-endreport

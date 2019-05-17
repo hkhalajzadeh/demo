@@ -1,9 +1,0 @@
-_do_Geofence()
-'                  "thresholds": {
-                    "isInsideGeo": [' newline
-do :Geofence value; {
-	'                      'id newline
-}
-'                    ]
-                  }
-'

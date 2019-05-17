@@ -1,6 +1,0 @@
-Report '_next object'
-do ~To.()
-{
-	subreport '_check object type' run
-}
-endreport

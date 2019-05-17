@@ -1,5 +1,0 @@
-Report '_create make for Java: Mac OS X'
-
-subreport '_create make for Java: Linux' run
-
-endreport

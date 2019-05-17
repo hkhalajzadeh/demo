@@ -1,2 +1,0 @@
-_symShowInOutPinIcons()
-do #(*PinInOut) {'T'}

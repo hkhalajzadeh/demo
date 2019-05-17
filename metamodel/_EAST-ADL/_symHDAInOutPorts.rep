@@ -1,7 +1,0 @@
-_symHDAInOutPorts()
-do decompositions
-{  foreach .(*PinInOut)
-   orderby 
-		x NUM 
-   {  :Short name; newline  }
-}

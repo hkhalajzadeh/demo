@@ -1,6 +1,0 @@
-Report '_next object in otherwise'
-do ~To otherwise.()
-{
-	subreport '_check object type' run
-}
-endreport

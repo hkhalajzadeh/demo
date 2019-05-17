@@ -1,5 +1,0 @@
-_jointPopulation()
-
-math 
-	dowhile .() { :Population '+' }
-evaluate

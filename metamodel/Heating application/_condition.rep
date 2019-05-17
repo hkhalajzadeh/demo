@@ -1,4 +1,0 @@
-_condition()
-if :NOT?; then ' NOT ' endif 
-do .() { _oName(); } 
-'.' :Condition;

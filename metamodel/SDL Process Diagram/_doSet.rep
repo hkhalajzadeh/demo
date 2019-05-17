@@ -1,3 +1,0 @@
-_doSet()
-'	SET (' :Timer interval; ', ' :Timer name; ');' 
-_nextTransition()

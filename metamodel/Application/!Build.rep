@@ -1,3 +1,0 @@
-Report '!Build'
-subreport 'Autobuild' run 
-endreport

@@ -1,7 +1,0 @@
-Report '_isAtree'
-$tree='1'
-do ~(^Has features) {
-	variable 'tree' append '1' close
-}
-if $tree > '11' then 'F' endif; 
-endreport

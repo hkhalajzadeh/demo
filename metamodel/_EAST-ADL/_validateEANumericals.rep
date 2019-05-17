@@ -1,8 +1,0 @@
-_validateEANumericals()
-/* Validation checks for EANumerical */
-subreport '_name checks' run
-do :Unit 
-{	_validateUnit()
-	do :Quantity { _validateQuantity() }
-	do :UnitReference { _validateUnit() }
-}

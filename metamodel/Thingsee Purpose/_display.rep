@@ -1,7 +1,0 @@
-_display()
-do ~Action.Display {
-	',' newline
-	'                "display": {
-                  "showText": "' :Text shown; '"
-                }'
-}

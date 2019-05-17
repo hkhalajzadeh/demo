@@ -1,4 +1,0 @@
-_doCall()
-'	CALL ' :Procedure name;%var 
-_parameters() ';' 
-_nextTransition()

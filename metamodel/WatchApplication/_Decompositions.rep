@@ -1,9 +1,0 @@
-Report '_Decompositions'
-foreach .State [Watch];
-{	if decompositions; then
-		'            addDecomposition("' id '", '
-		do decompositions; { '"' id '", new ' id '(master));'}
-		newline
-	endif
-}
-endreport

@@ -1,3 +1,0 @@
-Report '_caption prefix'
-'qtn_apps_ta_' foreach .Application { :Resource Identifier%lower; } '_'
-endreport

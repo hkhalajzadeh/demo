@@ -1,3 +1,0 @@
-Report '_C_View_Dialog_Header'
-'void C' subreport '_app' run id;2; 'View::' to '%lower' translate id endto '()'
-endreport

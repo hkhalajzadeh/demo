@@ -1,3 +1,0 @@
-Report '_id or type2'
-if id;2 then id;2 else '<' type;2 '>' endif
-endreport

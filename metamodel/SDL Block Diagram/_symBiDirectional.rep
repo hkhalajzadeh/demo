@@ -1,4 +1,0 @@
-_symBiDirectional()
-do #() {
-	if :Direction = 'inout' then 'X' endif
-}

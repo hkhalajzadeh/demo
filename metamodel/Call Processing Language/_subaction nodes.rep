@@ -1,7 +1,0 @@
-Report '_subaction nodes'
-/* Reports the subaction model */
-do ~From~To.()
-{ 
-	subreport '_check object type' run
-}
-endreport

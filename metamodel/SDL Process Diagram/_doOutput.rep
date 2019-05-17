@@ -1,8 +1,0 @@
-_doOutput()
-'	OUTPUT ' :Name%var 
-_parameters() 
-if :To process; then 
-	' TO ' :To process%var;
-endif
-';' 
-_nextTransition()

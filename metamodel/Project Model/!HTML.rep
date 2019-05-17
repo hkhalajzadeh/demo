@@ -1,3 +1,0 @@
-Report '!HTML'
-subreport 'Export graph hierarchy to HTML' run 
-endreport

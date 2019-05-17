@@ -1,4 +1,0 @@
-Report '_X_redirect'
-/* Reports the Redirect object */
-'<redirect />' newline
-endreport

@@ -1,7 +1,0 @@
-_PatternNotes()
-do :Notes
-{	id newline
-}
-do ~From~To.()
-{	_PatternNotes()
-}

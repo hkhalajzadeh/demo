@@ -1,2 +1,0 @@
-_name()
-if :Name; then :Name; else :Short name; endif

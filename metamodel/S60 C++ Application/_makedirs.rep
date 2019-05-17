@@ -1,6 +1,0 @@
-Report '_makedirs'
-external
-	'cmd /c if not exist ' subreport '_C_default directory' run 
-	' for %D in (group src inc aif sis) do mkdir ' subreport '_C_default directory' run '%D'
-executeBlocking
-endreport

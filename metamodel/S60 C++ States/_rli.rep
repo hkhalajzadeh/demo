@@ -1,3 +1,0 @@
-Report '_rli'
-to '%lower' translate subreport '_r' run id endto
-endreport

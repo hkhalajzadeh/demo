@@ -1,5 +1,0 @@
-Report '_otherwise'
-'<otherwise>' newline	
-	subreport '_next object in otherwise' run newline
-'</otherwise>' newline
-endreport

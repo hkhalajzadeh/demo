@@ -1,5 +1,0 @@
-Report '_StateData'
-foreach .(State [Watch] | Start [Watch] | Stop [Watch])
-{	'            addStateOop("' id '", "' oid '");' newline
-}
-endreport

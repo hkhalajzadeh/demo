@@ -1,7 +1,0 @@
-Report '_Generate Python file'
-/* Generates Amaretto Python script into a file at the emulator path */
-filename
-	$dir 'epoc32\release\wins\udeb\z\system\APPS\python\' id '.py' write
-	subreport 'Python script' run
-close 
-endreport

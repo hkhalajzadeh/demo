@@ -1,8 +1,0 @@
-Report '_Language Framework'
-do :Language Frameworks;
-{	$requestedLang = :Generation target platform;1%language
-	if :Language = $requestedLang then
-		subreport '_Framework Components' run 
-	endif
-}
-endreport

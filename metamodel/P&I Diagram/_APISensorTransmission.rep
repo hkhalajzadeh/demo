@@ -1,5 +1,0 @@
-Report '_APISensorTransmission'
-'void ' 'transmit':Measured variable; ' (string SensorID);' newline
-'(transmits the ' :Measured variable;%lower ' from the named sensor)' 
-newline
-endreport

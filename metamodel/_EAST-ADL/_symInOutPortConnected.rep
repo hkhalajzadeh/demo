@@ -1,5 +1,0 @@
-_symInOutPortConnected()
-@oid = oid
-do ~();1#(InOutFlowPort) where oid = @oid unique '1' 
-{	'T'
-}

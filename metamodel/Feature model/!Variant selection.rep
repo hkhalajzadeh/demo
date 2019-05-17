@@ -1,3 +1,0 @@
-Report '!Variant selection'
-subreport 'Variant selection table' run 
-endreport

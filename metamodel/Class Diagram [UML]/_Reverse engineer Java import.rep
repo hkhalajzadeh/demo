@@ -1,6 +1,0 @@
-Report '_Reverse engineer Java import'
-/* Imports the generated file into MetaEdit+ */
-do $graphs where id <> ''
-{	internal 'fileInPatch: "' $dd id '.mxm"' execute
-}
-endreport

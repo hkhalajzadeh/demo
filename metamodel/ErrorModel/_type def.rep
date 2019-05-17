@@ -1,9 +1,0 @@
-Report '_type def'
-id
-if decompositions; then
-	': ' 
-	do decompositions {id}
-else
-	': type undefined'
-endif
-endreport

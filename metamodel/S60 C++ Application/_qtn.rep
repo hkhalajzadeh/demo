@@ -1,3 +1,0 @@
-Report '_qtn'
-'qtn_akn' to '%lower' translate foreach .Application { id } endto '_'
-endreport

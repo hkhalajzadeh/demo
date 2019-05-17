@@ -1,5 +1,0 @@
-Report '_Cs_Actions_Set'
-do ~Set.() {id} ' = '
-subreport '_Cs_calcValue' run
-';'
-endreport

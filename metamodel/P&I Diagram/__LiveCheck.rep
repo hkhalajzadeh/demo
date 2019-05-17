@@ -1,8 +1,0 @@
-Report '__LiveCheck'
-_PItranslators()
-$errors = '0'
-_checkRelationships()
-_checkEmptyNames()
-_checkInstrumentUsage()
-'Number of errors/warnings: ' $errors
-endreport

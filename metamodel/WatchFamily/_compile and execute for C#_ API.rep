@@ -1,9 +1,0 @@
-Report '_compile and execute for C#: API'
-
-if $IDE = 'visualstudio' then
-	external '"' $projPath 'vs.bat"' executeBlocking
-else
-	external '"' $projPath 'vs.bat"' execute
-endif
-
-endreport

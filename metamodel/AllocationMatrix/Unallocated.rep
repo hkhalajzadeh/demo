@@ -1,5 +1,0 @@
-Report 'Unallocated'
-subreport '_translators' run
-_HardwareComponentsWithoutAllocations()
-_Non-allocatedFunctions()
-endreport

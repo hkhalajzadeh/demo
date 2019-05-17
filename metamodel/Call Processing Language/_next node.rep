@@ -1,9 +1,0 @@
-Report '_next node'
-do ~From>default path
-	{ subreport '_next object' run }
-'</' type '>' newline
-
-do ~From otherwise>otherwise
-	{ subreport '_otherwise' run	}
-'</' type '-switch>' newline
-endreport
