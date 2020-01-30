@@ -13,9 +13,9 @@ You need to select a MetaEdit+ Workbench platform based on your operating system
 # Running BiDaML
 Below is the explanation on how to run the created models on your system
 ## BiDaML Model Transformation
-Backup the demo sub-folder of your MetaEdit+ working folder (Documents\MetaEdit+ 5.5, for example), and copy the demo folder in provided software package to your MetaEdit+ working folder.
+Backup the demo sub-folder of your MetaEdit+ working folder (Documents\MetaEdit+ 5.5, for example), and copy the BiDaML folder in provided software package to your MetaEdit+ working folder.
 Open the MetaEdit+ and login
-- Select demo repository;
+- Select BiDaML repository;
 - Select BiDaML project;
 - Select default BiDaML;
 - Click login button.
@@ -23,9 +23,15 @@ Open the MetaEdit+ and login
 ![login.jpg](login.jpg)
 
 ## Testing BiDaML Models
-Open diagrams of diagrams for property price prediction example to see all the created diagrams for this example
+Open diagrams of diagrams for property price prediction example to see all the created diagrams for this example, you can right click on any of the diagrams to open its sub-graph as below:
+
+![diagrams.jpg](diagrams.jpg)
+
+Or create a new diagram as follows:
+
 1.	Select BiDaML project;
-2.	Click on "Create graph" icon to create any of the six diagrams BiDaML is comprised of. 
+
+2.	Click on "Create graph" icon to create any of the five diagrams BiDaML is comprised of. 
 
 ![CreateGraph.jpg](CreateGraph.jpg)
 
@@ -37,7 +43,7 @@ Open diagrams of diagrams for property price prediction example to see all the c
 
 ![brainstorming1.jpg](brainstorming1.jpg)
 
-5.	You can then click on any of the tasks and sub-tasks and create data, technique, and output diagrams. You can also access the created technique, data, and output diagrams from the main menu as shown in step 3.
+5.	You can then click on any of the tasks and sub-tasks and create data, technique, and output diagrams. You can also access the created technique and data diagrams from the main menu as shown in step 3.
 6.	You can access created process and deployment diagrams from the main menu as shown in step 3.
 
 ## Generating Python Code and Report
@@ -45,6 +51,8 @@ Once all the diagrams are created (or any time during the diagram creation), you
 
 ![Generator.jpg](Generator.jpg)
 
+Alternatively, you can generate a report of all the diagrams as shown below, a sample generated report is saved in the ReadME folder.
+
+![reports.jpg](reports.jpg)
 # License
 This project is licensed under MetaEdit+ Workbench license 5902
-
