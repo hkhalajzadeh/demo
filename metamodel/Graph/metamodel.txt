@@ -118,6 +118,7 @@ _TOCLevel
 _toDec
 _translators
 _typesForMetrics
+_typesForMetricsTotal
 _vcsCheckIn
 _vcsCheckIn_git
 _vcsCheckIn_svn

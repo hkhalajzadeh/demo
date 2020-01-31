@@ -1,0 +1,70 @@
+Graph_Deployment_user_3730104497
+ICH in CT Brain
+3_14076
+Deployment
+Graph: ICH in CT Brain <Deployment> 3_14076
+	Problem: ICH in CT Brain
+Object: AI Platform Management UI <Application> 3_14244
+	Application Name: AI Platform Management UI
+Object: AI Platform Widget <Application> 3_14545
+	Application Name: AI Platform Widget
+Object: AI Models <Code file/Model> 3_14550
+	Code file/Model name: AI Models
+Object: Afred Hospital Infrustructure <Deployment Component> 3_14084
+	Component Name: Afred Hospital Infrustructure
+Object: Local Server <Deployment Component> 3_14089
+	Component Name: Local Server
+Object: AI platform Infrastructure <Deployment Component> 3_14239
+	Component Name: AI platform Infrastructure
+Object: Database Server <Deployment Component> 3_14254
+	Component Name: Database Server
+Object: Data Analysis Computers <Deployment Component> 3_14555
+	Component Name: Data Analysis Computers
+Object: Image Detection / Classification Service <Deployment Component> 3_14654
+	Component Name: Image Detection / Classification Service
+Object: PACS (Picture Archiving and Communication System) <Deployment Component> 3_14659
+	Component Name: PACS (Picture Archiving and Communication System)
+Object: PACS Client (Radiologist) <Deployment Component> 3_14686
+	Component Name: PACS Client (Radiologist)
+Object: Scans <Multiple data> 3_14249
+	Multiple data name: Scans
+Object: Analysis Dataset (Excel) <Multiple data> 3_14681
+	Multiple data name: Analysis Dataset (Excel)
+Object: Test results <Report> 3_14574
+	Report name: Test results
+Object: Graphs <Report> 3_14579
+	Report name: Graphs
+Object: Compare results <Task> 3_14560
+	Task Name: Compare results
+	Task definition: 
+Object: Wrangle/Clean data <Task> 3_14567
+	Task Name: Wrangle/Clean data
+	Task definition: 
+Relationship: De-identified Images <Association [UML]> 3_14664
+	Association name: De-identified Images
+	Derived?: F
+	Derivation rules: 
+	Documentation: 
+  Role: Initial step <Initial step>  Object: <Deployment Component> 3_14654
+  Role: Steps <Steps>  Object: <Deployment Component> 3_14659
+Relationship:  <Association [UML]> 3_14691
+	Association name: 
+	Derived?: F
+	Derivation rules: 
+	Documentation: 
+  Role: Initial step <Initial step>  Object: <Deployment Component> 3_14089
+  Role: Steps <Steps>  Object: <Deployment Component> 3_14686
+Relationship:  <Association [UML]> 3_14725
+	Association name: 
+	Derived?: F
+	Derivation rules: 
+	Documentation: 
+  Role: Initial step <Initial step>  Object: <Deployment Component> 3_14254
+  Role: Steps <Steps>  Object: <Deployment Component> 3_14555
+Relationship:  <Association [UML]> 3_14742
+	Association name: 
+	Derived?: F
+	Derivation rules: 
+	Documentation: 
+  Role: Initial step <Initial step>  Object: <Deployment Component> 3_14659
+  Role: Steps <Steps>  Object: <Deployment Component> 3_14254

@@ -1,0 +1,48 @@
+Graph_Deployment_user_3730104497
+Property Price Prediction
+3_326
+Deployment
+Graph: Property Price Prediction <Deployment> 3_326
+	Problem: Property Price Prediction
+Object: MySQL DB <Artifact> 3_2730
+	Artifact Name: MySQL DB
+Object: Website <Artifact> 3_2746
+	Artifact Name: Website
+Object: HTML 5 <Artifact> 3_2773
+	Artifact Name: HTML 5
+Object: sold properties/ suburbs report <Artifact> 3_2842
+	Artifact Name: sold properties/ suburbs report
+Object: DB Server <Node> 3_2719
+	Type name: DB Server
+	Instance name: 
+	Stereotype: device
+	Documentation: 
+Object:  <Node> 3_2735
+	Type name: 
+	Instance name: Web server
+	Stereotype: device
+	Documentation: 
+Object: User client <Node> 3_2751
+	Type name: User client
+	Instance name: 
+	Stereotype: device
+	Documentation: 
+Object: Browser <Node> 3_2762
+	Type name: Browser
+	Instance name: 
+	Stereotype: device
+	Documentation: 
+Relationship:  <Association [UML]> 3_2778
+	Association name: 
+	Derived?: F
+	Derivation rules: 
+	Documentation: 
+  Role: Initial step <Initial step>  Object: <Node> 3_2735
+  Role: Steps <Steps>  Object: <Node> 3_2719
+Relationship: https: 80 <Association [UML]> 3_2795
+	Association name: https: 80
+	Derived?: F
+	Derivation rules: 
+	Documentation: 
+  Role: Initial step <Initial step>  Object: <Node> 3_2735
+  Role: Steps <Steps>  Object: <Node> 3_2762

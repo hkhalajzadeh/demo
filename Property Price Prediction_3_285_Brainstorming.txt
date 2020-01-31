@@ -1,0 +1,285 @@
+Graph_Brainstorming_user_3721639935
+Property Price Prediction
+3_285
+Brainstorming
+Graph: Property Price Prediction <Brainstorming> 3_285
+	Problem: Property Price Prediction
+Object: Improve agent's focus and outcomes <Comment> 3_405
+	Comment: Improve agent's focus and outcomes
+Object: Home buyers <Comment> 3_445
+	Comment: Home buyers
+Object: AWS Lambda <Comment> 3_1031
+	Comment: AWS Lambda
+Object: Banks/home owners/buyers/real estates in Ames, Iowa <Comment> 3_1041
+	Comment: Banks/home owners/buyers/real estates in Ames, Iowa
+Object: Market trends/customers /etc <Comment> 3_1056
+	Comment: Market trends/customers /etc
+Object: Property prices/overal quality/living area/etc <Comment> 3_1061
+	Comment: Property prices/overal quality/living area/etc
+Object: Ames housing dataset <Comment> 3_1091
+	Comment: Ames housing dataset
+Object: Azure Ml <Comment> 3_1111
+	Comment: Azure Ml
+Object: Tableau <Comment> 3_1116
+	Comment: Tableau
+Object: Python script <Comment> 3_1121
+	Comment: Python script
+Object: input.csv <Input> 3_4300
+	Input file name: input.csv
+Object: DevOps <Operation Seperator> 3_425
+	Operation: DevOps
+Object: AIOps <Operation Seperator> 3_430
+	Operation: AIOps
+Object: DataOps <Operation Seperator> 3_435
+	Operation: DataOps
+Object: BusinessOps <Operation Seperator> 3_440
+	Operation: BusinessOps
+Object: Property Price Prediction <Problem Definition> 3_370
+	Problem: Property Price Prediction
+	Problem Definition: This problem involves predicting property prices using machine learning algorithms
+Object: Price prediction website deployment <Task> 3_375
+	Task Name: Price prediction website deployment
+	Task definition: In this task software engineers integrate ML models with the property price prediction website
+Object: Population definition <Task> 3_380
+	Task Name: Population definition
+	Task definition: 
+Object: Price prediction objectives definition <Task> 3_385
+	Task Name: Price prediction objectives definition
+	Task definition: 
+Object: Real estate/market details collection <Task> 3_390
+	Task Name: Real estate/market details collection
+	Task definition: 
+Object: Price prediction data engineering <Task> 3_395
+	Task Name: Price prediction data engineering
+	Task definition: 
+Object: Price prediction model engineering <Task> 3_410
+	Task Name: Price prediction model engineering
+	Task definition: 
+Object: Visualization of salesPrice/features <Task> 3_415
+	Task Name: Visualization of salesPrice/features
+	Task definition: 
+Object: Price prediction feature engineering <Task> 3_420
+	Task Name: Price prediction feature engineering
+	Task definition: 
+Object: Store <Task> 3_8568
+	Task Name: Store
+	Task definition: 
+Object: Integrate models with application <Task> 3_8584
+	Task Name: Integrate models with application
+	Task definition: 
+Object: Maintain <Task> 3_8600
+	Task Name: Maintain
+	Task definition: 
+Object: Re-train model <Task> 3_8616
+	Task Name: Re-train model
+	Task definition: 
+Object: Define solution target <Task> 3_8632
+	Task Name: Define solution target
+	Task definition: 
+Object: Define users <Task> 3_8657
+	Task Name: Define users
+	Task definition: 
+Object: Acquire Business knowledge <Task> 3_8682
+	Task Name: Acquire Business knowledge
+	Task definition: 
+Object: Collect real estate knowledge <Task> 3_8707
+	Task Name: Collect real estate knowledge
+	Task definition: 
+Object: Train models <Task> 3_8732
+	Task Name: Train models
+	Task definition: 
+Object: Select algorithms <Task> 3_8748
+	Task Name: Select algorithms
+	Task definition: 
+Object: Test/evaluate <Task> 3_8764
+	Task Name: Test/evaluate
+	Task definition: 
+Object: Tune parameters <Task> 3_8780
+	Task Name: Tune parameters
+	Task definition: 
+Object: Visualize <Task> 3_8796
+	Task Name: Visualize
+	Task definition: 
+Object: Explore features <Task> 3_8812
+	Task Name: Explore features
+	Task definition: 
+Object: Remove outliers <Task> 3_8828
+	Task Name: Remove outliers
+	Task definition: 
+Object: Choose features <Task> 3_8844
+	Task Name: Choose features
+	Task definition: 
+Object: Handle imbalanced data <Task> 3_8860
+	Task Name: Handle imbalanced data
+	Task definition: 
+Object: Encode/convert variables <Task> 3_8876
+	Task Name: Encode/convert variables
+	Task definition: 
+Object: Add new features <Task> 3_8892
+	Task Name: Add new features
+	Task definition: 
+Object: Impute missing value <Task> 3_8908
+	Task Name: Impute missing value
+	Task definition: 
+Object: Clean data <Task> 3_8924
+	Task Name: Clean data
+	Task definition: 
+Object: Wrangle data <Task> 3_8958
+	Task Name: Wrangle data
+	Task definition: 
+Object: Filter data <Task> 3_8974
+	Task Name: Filter data
+	Task definition: 
+Object: Integrate data <Task> 3_8990
+	Task Name: Integrate data
+	Task definition: 
+Object: Acquire data <Task> 3_9015
+	Task Name: Acquire data
+	Task definition: 
+Relationship: Information Connector <Information Connector> 3_1589
+  Role: Information <Information>  Object: <Comment> 3_1121
+  Role: Initial info <Initial info>  Object: <Task> 3_395
+Relationship: Layer Connector <Layer Connector> 3_1508
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_370
+  Role: Steps <Steps>  Object: <Task> 3_385
+Relationship: Layer Connector <Layer Connector> 3_1517
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_370
+  Role: Steps <Steps>  Object: <Task> 3_390
+Relationship: Layer Connector <Layer Connector> 3_1526
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_370
+  Role: Steps <Steps>  Object: <Task> 3_395
+Relationship: Layer Connector <Layer Connector> 3_1535
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_370
+  Role: Steps <Steps>  Object: <Task> 3_375
+Relationship: Layer Connector <Layer Connector> 3_1544
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_370
+  Role: Steps <Steps>  Object: <Task> 3_410
+Relationship: Layer Connector <Layer Connector> 3_1553
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_370
+  Role: Steps <Steps>  Object: <Task> 3_415
+Relationship: Layer Connector <Layer Connector> 3_1562
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_370
+  Role: Steps <Steps>  Object: <Task> 3_420
+Relationship: Layer Connector <Layer Connector> 3_1742
+  Role: Initial step <Initial step>  Object: <Task> 3_410
+  Role: Steps <Steps>  Object: <Task> 3_415
+Relationship: Layer Connector <Layer Connector> 3_1751
+  Role: Initial step <Initial step>  Object: <Task> 3_420
+  Role: Steps <Steps>  Object: <Task> 3_415
+Relationship: Layer Connector <Layer Connector> 3_4396
+  Role: Information <Information>  Object: <Comment> 3_1031
+  Role: Initial info <Initial info>  Object: <Task> 3_375
+Relationship: Layer Connector <Layer Connector> 3_4405
+  Role: Information <Information>  Object: <Comment> 3_1111
+  Role: Initial info <Initial info>  Object: <Task> 3_410
+Relationship: Layer Connector <Layer Connector> 3_4414
+  Role: Information <Information>  Object: <Comment> 3_1116
+  Role: Initial info <Initial info>  Object: <Task> 3_415
+Relationship: Layer Connector <Layer Connector> 3_4423
+  Role: Information <Information>  Object: <Comment> 3_1121
+  Role: Initial info <Initial info>  Object: <Task> 3_420
+Relationship: Layer Connector <Layer Connector> 3_4468
+  Role: Information <Information>  Object: <Comment> 3_405
+  Role: Initial info <Initial info>  Object: <Task> 3_385
+Relationship: Layer Connector <Layer Connector> 3_4546
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_370
+  Role: Steps <Steps>  Object: <Task> 3_380
+Relationship: Layer Connector <Layer Connector> 3_8575
+  Role: Initial step <Initial step>  Object: <Task> 3_375
+  Role: Steps <Steps>  Object: <Task> 3_8568
+Relationship: Layer Connector <Layer Connector> 3_8591
+  Role: Initial step <Initial step>  Object: <Task> 3_375
+  Role: Steps <Steps>  Object: <Task> 3_8584
+Relationship: Layer Connector <Layer Connector> 3_8607
+  Role: Initial step <Initial step>  Object: <Task> 3_375
+  Role: Steps <Steps>  Object: <Task> 3_8600
+Relationship: Layer Connector <Layer Connector> 3_8623
+  Role: Initial step <Initial step>  Object: <Task> 3_375
+  Role: Steps <Steps>  Object: <Task> 3_8616
+Relationship: Layer Connector <Layer Connector> 3_8639
+  Role: Initial step <Initial step>  Object: <Task> 3_380
+  Role: Steps <Steps>  Object: <Task> 3_8632
+Relationship: Layer Connector <Layer Connector> 3_8648
+  Role: Information <Information>  Object: <Comment> 3_1041
+  Role: Initial info <Initial info>  Object: <Task> 3_8632
+Relationship: Layer Connector <Layer Connector> 3_8664
+  Role: Initial step <Initial step>  Object: <Task> 3_380
+  Role: Steps <Steps>  Object: <Task> 3_8657
+Relationship: Layer Connector <Layer Connector> 3_8673
+  Role: Information <Information>  Object: <Comment> 3_445
+  Role: Initial info <Initial info>  Object: <Task> 3_8657
+Relationship: Layer Connector <Layer Connector> 3_8689
+  Role: Initial step <Initial step>  Object: <Task> 3_390
+  Role: Steps <Steps>  Object: <Task> 3_8682
+Relationship: Layer Connector <Layer Connector> 3_8698
+  Role: Information <Information>  Object: <Comment> 3_1056
+  Role: Initial info <Initial info>  Object: <Task> 3_8682
+Relationship: Layer Connector <Layer Connector> 3_8714
+  Role: Initial step <Initial step>  Object: <Task> 3_390
+  Role: Steps <Steps>  Object: <Task> 3_8707
+Relationship: Layer Connector <Layer Connector> 3_8723
+  Role: Information <Information>  Object: <Comment> 3_1061
+  Role: Initial info <Initial info>  Object: <Task> 3_8707
+Relationship: Layer Connector <Layer Connector> 3_8739
+  Role: Initial step <Initial step>  Object: <Task> 3_410
+  Role: Steps <Steps>  Object: <Task> 3_8732
+Relationship: Layer Connector <Layer Connector> 3_8755
+  Role: Initial step <Initial step>  Object: <Task> 3_410
+  Role: Steps <Steps>  Object: <Task> 3_8748
+Relationship: Layer Connector <Layer Connector> 3_8771
+  Role: Initial step <Initial step>  Object: <Task> 3_410
+  Role: Steps <Steps>  Object: <Task> 3_8764
+Relationship: Layer Connector <Layer Connector> 3_8787
+  Role: Initial step <Initial step>  Object: <Task> 3_410
+  Role: Steps <Steps>  Object: <Task> 3_8780
+Relationship: Layer Connector <Layer Connector> 3_8803
+  Role: Initial step <Initial step>  Object: <Task> 3_415
+  Role: Steps <Steps>  Object: <Task> 3_8796
+Relationship: Layer Connector <Layer Connector> 3_8819
+  Role: Initial step <Initial step>  Object: <Task> 3_415
+  Role: Steps <Steps>  Object: <Task> 3_8812
+Relationship: Layer Connector <Layer Connector> 3_8835
+  Role: Initial step <Initial step>  Object: <Task> 3_415
+  Role: Steps <Steps>  Object: <Task> 3_8828
+Relationship: Layer Connector <Layer Connector> 3_8851
+  Role: Initial step <Initial step>  Object: <Task> 3_420
+  Role: Steps <Steps>  Object: <Task> 3_8844
+Relationship: Layer Connector <Layer Connector> 3_8867
+  Role: Initial step <Initial step>  Object: <Task> 3_420
+  Role: Steps <Steps>  Object: <Task> 3_8860
+Relationship: Layer Connector <Layer Connector> 3_8883
+  Role: Initial step <Initial step>  Object: <Task> 3_420
+  Role: Steps <Steps>  Object: <Task> 3_8876
+Relationship: Layer Connector <Layer Connector> 3_8899
+  Role: Initial step <Initial step>  Object: <Task> 3_420
+  Role: Steps <Steps>  Object: <Task> 3_8892
+Relationship: Layer Connector <Layer Connector> 3_8915
+  Role: Initial step <Initial step>  Object: <Task> 3_420
+  Role: Steps <Steps>  Object: <Task> 3_8908
+Relationship: Layer Connector <Layer Connector> 3_8931
+  Role: Initial step <Initial step>  Object: <Task> 3_420
+  Role: Steps <Steps>  Object: <Task> 3_8924
+Relationship: Layer Connector <Layer Connector> 3_8940
+  Role: Initial step <Initial step>  Object: <Task> 3_395
+  Role: Steps <Steps>  Object: <Task> 3_8924
+Relationship: Layer Connector <Layer Connector> 3_8949
+  Role: Initial step <Initial step>  Object: <Task> 3_395
+  Role: Steps <Steps>  Object: <Task> 3_8924
+Relationship: Layer Connector <Layer Connector> 3_8965
+  Role: Initial step <Initial step>  Object: <Task> 3_395
+  Role: Steps <Steps>  Object: <Task> 3_8958
+Relationship: Layer Connector <Layer Connector> 3_8981
+  Role: Initial step <Initial step>  Object: <Task> 3_395
+  Role: Steps <Steps>  Object: <Task> 3_8974
+Relationship: Layer Connector <Layer Connector> 3_8997
+  Role: Initial step <Initial step>  Object: <Task> 3_395
+  Role: Steps <Steps>  Object: <Task> 3_8990
+Relationship: Layer Connector <Layer Connector> 3_9006
+  Role: Information <Information>  Object: <Input> 3_4300
+  Role: Initial info <Initial info>  Object: <Task> 3_8990
+Relationship: Layer Connector <Layer Connector> 3_9022
+  Role: Initial step <Initial step>  Object: <Task> 3_395
+  Role: Steps <Steps>  Object: <Task> 3_9015
+Relationship: Layer Connector <Layer Connector> 3_9031
+  Role: Information <Information>  Object: <Comment> 3_1091
+  Role: Initial info <Initial info>  Object: <Task> 3_9015

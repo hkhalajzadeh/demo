@@ -1,0 +1,8 @@
+aggregate()
+'#Choose the appropriate join' newline
+'df_outer = pd.merge(df1, df2, on=''id'', how=''outer'')' newline
+'df_suffix = pd.merge(df1, df2, left_on=''id'',right_on=''id'',how=''outer'',suffixes=(''_left'',''_right''))' newline
+'df_inner = pd.merge(df1, df2, on=''id'', how=''inner'')' newline
+'df_right = pd.merge(df1, df2, on=''id'', how=''right'')' newline
+'df_left = pd.merge(df1, df2, on=''id'', how=''left'')' newline
+'df_index = pd.merge(df1, df2, right_index=True, left_index=True)' newline newline

@@ -1,0 +1,33 @@
+Graph_Diagrams_user_3721635000
+Traffic Analysis
+3_17653
+Diagrams
+Graph: Traffic Analysis <Diagrams> 3_17653
+	Problem: Traffic Analysis
+Object: Traffic Analysis Brainstorming Diagram <Brainstorming Diagram> 3_17661
+	Brainstorming diagram name: Traffic Analysis Brainstorming Diagram
+	Diagram definition: This diagram will be used by project manager, team leader, data analysts, data scientists, and software engineers
+	Decomposed to: Traffic Analysis <Brainstorming>
+Object: Traffic Analysis Process Diagram <Process Diagram> 3_18795
+	Process diagram name: Traffic Analysis Process Diagram
+	Diagram definition: 
+	Decomposed to: Traffic Analysis <Process>
+Object: Traffic Data Engineering Technique Diagram <Technique Diagram> 3_19335
+	Technique diagram name: Traffic Data Engineering Technique Diagram
+	Diagram definition: 
+	Decomposed to: Traffic Analysis <Technique>
+Relationship: Connection <Connection> 3_18802
+  Role:  <High Level>  Object: <Brainstorming Diagram> 3_17661
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Process Diagram> 3_18795
+	Multiplicity: 
+Relationship: Connection <Connection> 3_19342
+  Role:  <High Level>  Object: <Process Diagram> 3_18795
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Technique Diagram> 3_19335
+	Multiplicity: 
+Relationship: Connection <Connection> 3_19355
+  Role:  <High Level>  Object: <Brainstorming Diagram> 3_17661
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Technique Diagram> 3_19335
+	Multiplicity: 

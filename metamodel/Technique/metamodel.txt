@@ -9,21 +9,26 @@ Object Types
 ==========================
 Task
 	Task Name: String
-Sub-Task
-	Subtask Name: String
+	Task definition: String
 Technique
 	Technique name: String
+Alert
+	Alert: String
+Success
+	Success: String
 
 ==========================
 Relationship Types
 ==========================
-Layer Connector
+Arrowed Connector
 
 ==========================
 Role Types
 ==========================
 Steps
 Initial step
+From
+To
 
 ==========================
 Extra Types
@@ -32,16 +37,14 @@ Brainstorming
 	Problem: String
 Diagrams
 	Problem: String
+From
 
 ==========================
 Bindings
 ==========================
-Layer Connector
-	Initial step: Sub-Task, Technique
-	Steps: Sub-Task, Technique
-Layer Connector
-	Initial step: Task
-	Steps: Sub-Task, Task, Technique
+Arrowed Connector
+	From: Alert, Success, Task, Technique
+	To: Alert, Success, Task, Technique
 
 ==========================
 Constraints

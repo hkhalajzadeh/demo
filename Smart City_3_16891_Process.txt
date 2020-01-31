@@ -1,0 +1,123 @@
+Graph_Process_user_3721982467
+Smart City
+3_16891
+Process
+Graph: Smart City <Process> 3_16891
+	Problem: Smart City
+Object: MCC <Organization> 3_16899
+	Organization name: MCC
+	Organization definition: Monash City Council
+Object: Monash University <Organization> 3_16906
+	Organization name: Monash University
+	Organization definition: 
+Object: TT <Organization> 3_17085
+	Organization name: TT
+	Organization definition: Traffic Technology
+Object: Team Leaders (KW, AK, OH) <Participant> 3_16913
+	Participant name: Team Leaders (KW, AK, OH)
+	Participant definition: 
+Object: Team Leaders (JG, HV) <Participant> 3_16934
+	Participant name: Team Leaders (JG, HV)
+	Participant definition: 
+Object: System Architect/ Project Manager (US) <Participant> 3_16948
+	Participant name: System Architect/ Project Manager (US)
+	Participant definition: 
+Object: Research Fellow 1 (HO) <Participant> 3_16955
+	Participant name: Research Fellow 1 (HO)
+	Participant definition: 
+Object: Research Fellow 2 (HK) <Participant> 3_16969
+	Participant name: Research Fellow 2 (HK)
+	Participant definition: 
+Object: Software Engineer (N/E) <Participant> 3_16976
+	Participant name: Software Engineer (N/E)
+	Participant definition: 
+Object: Engineering Team <Participant> 3_17092
+	Participant name: Engineering Team
+	Participant definition: 
+Object: Share domain knowledge/ existing solutions <Task> 3_16920
+	Task Name: Share domain knowledge/ existing solutions
+	Task definition: 
+Object: Share VMS data <Task> 3_16927
+	Task Name: Share VMS data
+	Task definition: 
+Object: Share agreements <Task> 3_16941
+	Task Name: Share agreements
+	Task definition: 
+Object: Liaise stakeholders <Task> 3_16983
+	Task Name: Liaise stakeholders
+	Task definition: 
+Object: Share technical knowledge <Task> 3_16990
+	Task Name: Share technical knowledge
+	Task definition: 
+Object: Analyze and evaluate solution options <Task> 3_16997
+	Task Name: Analyze and evaluate solution options
+	Task definition: 
+Object: System specification <Task> 3_17004
+	Task Name: System specification
+	Task definition: 
+Object: Platform appraisal/ evaluation <Task> 3_17011
+	Task Name: Platform appraisal/ evaluation
+	Task definition: 
+Object: Prototype/ deploy App <Task> 3_17018
+	Task Name: Prototype/ deploy App
+	Task definition: 
+Object: Novel "data-driven" solutions <Task> 3_17025
+	Task Name: Novel "data-driven" solutions
+	Task definition: 
+Object: Data integration/analysis <Task> 3_17032
+	Task Name: Data integration/analysis
+	Task definition: 
+Object: Visualization <Task> 3_17039
+	Task Name: Visualization
+	Task definition: 
+Object: Modelling/ algorithms development <Task> 3_17046
+	Task Name: Modelling/ algorithms development
+	Task definition: 
+Object: Requirements specification <Task> 3_17055
+	Task Name: Requirements specification
+	Task definition: 
+Object: Platform design <Task> 3_17062
+	Task Name: Platform design
+	Task definition: 
+Object: Platform integration <Task> 3_17069
+	Task Name: Platform integration
+	Task definition: 
+Object: Data aggregation <Task> 3_17077
+	Task Name: Data aggregation
+	Task definition: 
+Object: Sensing technologies <Task> 3_17099
+	Task Name: Sensing technologies
+	Task definition: 
+Relationship: Arrowed Connector <Arrowed Connector> 3_17106
+  Role: From <From>  Object: <Task> 3_16920
+  Role: To <To>  Object: <Task> 3_16927
+Relationship: Arrowed Connector <Arrowed Connector> 3_17115
+  Role: From <From>  Object: <Task> 3_16983
+  Role: To <To>  Object: <Task> 3_16990
+Relationship: Arrowed Connector <Arrowed Connector> 3_17124
+  Role: From <From>  Object: <Task> 3_16990
+  Role: To <To>  Object: <Task> 3_16997
+Relationship: Arrowed Connector <Arrowed Connector> 3_17178
+  Role: From <From>  Object: <Task> 3_17018
+  Role: To <To>  Object: <Task> 3_17011
+Relationship: Arrowed Connector <Arrowed Connector> 3_17196
+  Role: From <From>  Object: <Task> 3_17032
+  Role: To <To>  Object: <Task> 3_17039
+Relationship: Arrowed Connector <Arrowed Connector> 3_17205
+  Role: From <From>  Object: <Task> 3_17039
+  Role: To <To>  Object: <Task> 3_17046
+Relationship: Arrowed Connector <Arrowed Connector> 3_17214
+  Role: From <From>  Object: <Task> 3_17004
+  Role: To <To>  Object: <Task> 3_17018
+Relationship: Arrowed Connector <Arrowed Connector> 3_17232
+  Role: From <From>  Object: <Task> 3_17077
+  Role: To <To>  Object: <Task> 3_17039
+Relationship: Arrowed Connector <Arrowed Connector> 3_17241
+  Role: From <From>  Object: <Task> 3_17062
+  Role: To <To>  Object: <Task> 3_17069
+Relationship: Arrowed Connector <Arrowed Connector> 3_17440
+  Role: From <From>  Object: <Task> 3_17032
+  Role: To <To>  Object: <Task> 3_17039
+Relationship: Arrowed Connector <Arrowed Connector> 3_17449
+  Role: From <From>  Object: <Task> 3_17039
+  Role: To <To>  Object: <Task> 3_17046

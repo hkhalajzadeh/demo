@@ -15,7 +15,7 @@ $vcs = 'git'
 		- In multi-user MetaEdit+, this is almost always an absolute UNC path
 		  like \\MESERVER\meshare 
 */
-$dbName = 'demo.old' /* Default line: $dbName = __(internal 'dbName' read) */
+$dbName = 'BiDaML' /* Default line: $dbName = __(internal 'dbName' read) */
 $dbBaseDir = '.'
 
 /* The repository copy and snapshots will be made in 
@@ -37,11 +37,11 @@ $svnBaseDir = 'X:\svn\svn_working'
 	As above, edit the $git/svnBaseURL, and the $git/svnProjectURL 
 		will be built automatically later based on that and $dbName
 */
-$gitBaseURL = 'https://github.com/hkhalajzadeh/demo.old.git' /* E.g. 'https://github.com/USER_OR_ORGANIZATION_NAME' or 'https://USERNAME@bitbucket.org/USERNAME' */
+$gitBaseURL = 'https://github.com/hkhalajzadeh' /* E.g. 'https://github.com/USER_OR_ORGANIZATION_NAME' or 'https://USERNAME@bitbucket.org/USERNAME' */
 $svnBaseURL = 'file:///X:/svn/svn_repos'
 
 /* Locations of executables, edit to match your setup */
-$gitExeDir = 'C:\Program Files\Git\cmd'
+$gitExeDir = 'C:\Users\Hourieh\Documents\GitHub\BiDaML'
 $svnExeDir = '' /* SVN installation adds itself to the path */
 $7zipExe = 'C:\Program Files\7-Zip\7z.exe'
 $use7zip = '' /* Non-empty = zip, Empty = don't zip (generally results in smaller VCS) */

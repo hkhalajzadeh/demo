@@ -1,0 +1,148 @@
+Graph_Brainstorming_user_3721639935
+NBA Prediction
+3_2910
+Brainstorming
+Graph: NBA Prediction <Brainstorming> 3_2910
+	Problem: NBA Prediction
+Object: NBA Prediction <Problem Definition> 3_2919
+	Problem: NBA Prediction
+	Problem Definition: 
+Object: Get dataset API <Sub-Task> 3_2934
+	Subtask Name: Get dataset API
+	Subtask definition: 
+Object: Udpate dataset <Sub-Task> 3_2939
+	Subtask Name: Udpate dataset
+	Subtask definition: 
+Object: Finding important features <Sub-Task> 3_2985
+	Subtask Name: Finding important features
+	Subtask definition: 
+Object: Understand the structure of dataset <Sub-Task> 3_3008
+	Subtask Name: Understand the structure of dataset
+	Subtask definition: 
+Object: Tranfer format of original dataset <Sub-Task> 3_3027
+	Subtask Name: Tranfer format of original dataset
+	Subtask definition: 
+Object: One-hot coding <Sub-Task> 3_3032
+	Subtask Name: One-hot coding
+	Subtask definition: 
+Object: Date transformation <Sub-Task> 3_3037
+	Subtask Name: Date transformation
+	Subtask definition: 
+Object: Create new features <Sub-Task> 3_3042
+	Subtask Name: Create new features
+	Subtask definition: 
+Object: Try different algorithms <Sub-Task> 3_3097
+	Subtask Name: Try different algorithms
+	Subtask definition: 
+Object: Test models <Sub-Task> 3_3102
+	Subtask Name: Test models
+	Subtask definition: 
+Object: Find the best performance <Sub-Task> 3_3107
+	Subtask Name: Find the best performance
+	Subtask definition: 
+Object: Feature engineering for test data <Sub-Task> 3_3153
+	Subtask Name: Feature engineering for test data
+	Subtask definition: 
+Object: Get prediction <Sub-Task> 3_3176
+	Subtask Name: Get prediction
+	Subtask definition: 
+Object: Sports prediction <Sub-Task> 3_3259
+	Subtask Name: Sports prediction
+	Subtask definition: 
+Object: Players performance assessment <Sub-Task> 3_3264
+	Subtask Name: Players performance assessment
+	Subtask definition: 
+Object: Win lots prediction <Sub-Task> 3_3269
+	Subtask Name: Win lots prediction
+	Subtask definition: 
+Object: Collect data <Task> 3_2924
+	Task Name: Collect data
+	Task definition: 
+Object: Define Objectives <Task> 3_2929
+	Task Name: Define Objectives
+	Task definition: 
+Object: Feature analysis <Task> 3_2980
+	Task Name: Feature analysis
+	Task definition: 
+Object: Feature engineering <Task> 3_3022
+	Task Name: Feature engineering
+	Task definition: 
+Object: Train models <Task> 3_3092
+	Task Name: Train models
+	Task definition: 
+	Decomposed to: NBA Prediction <Technique>
+Object: Prediction <Task> 3_3148
+	Task Name: Prediction
+	Task definition: 
+Object: Deployment <Task> 3_3190
+	Task Name: Deployment
+	Task definition: 
+Relationship: Layer Connector <Layer Connector> 3_2944
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_2919
+  Role: Steps <Steps>  Object: <Task> 3_2924
+Relationship: Layer Connector <Layer Connector> 3_2953
+  Role: Initial step <Initial step>  Object: <Task> 3_2924
+  Role: Steps <Steps>  Object: <Sub-Task> 3_2934
+Relationship: Layer Connector <Layer Connector> 3_2962
+  Role: Initial step <Initial step>  Object: <Task> 3_2924
+  Role: Steps <Steps>  Object: <Sub-Task> 3_2939
+Relationship: Layer Connector <Layer Connector> 3_2971
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_2919
+  Role: Steps <Steps>  Object: <Task> 3_2929
+Relationship: Layer Connector <Layer Connector> 3_2990
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_2919
+  Role: Steps <Steps>  Object: <Task> 3_2980
+Relationship: Layer Connector <Layer Connector> 3_2999
+  Role: Initial step <Initial step>  Object: <Task> 3_2980
+  Role: Steps <Steps>  Object: <Sub-Task> 3_2985
+Relationship: Layer Connector <Layer Connector> 3_3013
+  Role: Initial step <Initial step>  Object: <Task> 3_2980
+  Role: Steps <Steps>  Object: <Sub-Task> 3_3008
+Relationship: Layer Connector <Layer Connector> 3_3047
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_2919
+  Role: Steps <Steps>  Object: <Task> 3_3022
+Relationship: Layer Connector <Layer Connector> 3_3056
+  Role: Initial step <Initial step>  Object: <Task> 3_3022
+  Role: Steps <Steps>  Object: <Sub-Task> 3_3042
+Relationship: Layer Connector <Layer Connector> 3_3065
+  Role: Initial step <Initial step>  Object: <Task> 3_3022
+  Role: Steps <Steps>  Object: <Sub-Task> 3_3037
+Relationship: Layer Connector <Layer Connector> 3_3074
+  Role: Initial step <Initial step>  Object: <Task> 3_3022
+  Role: Steps <Steps>  Object: <Sub-Task> 3_3032
+Relationship: Layer Connector <Layer Connector> 3_3083
+  Role: Initial step <Initial step>  Object: <Task> 3_3022
+  Role: Steps <Steps>  Object: <Sub-Task> 3_3027
+Relationship: Layer Connector <Layer Connector> 3_3112
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_2919
+  Role: Steps <Steps>  Object: <Task> 3_3092
+Relationship: Layer Connector <Layer Connector> 3_3121
+  Role: Initial step <Initial step>  Object: <Task> 3_3092
+  Role: Steps <Steps>  Object: <Sub-Task> 3_3097
+Relationship: Layer Connector <Layer Connector> 3_3130
+  Role: Initial step <Initial step>  Object: <Task> 3_3092
+  Role: Steps <Steps>  Object: <Sub-Task> 3_3102
+Relationship: Layer Connector <Layer Connector> 3_3139
+  Role: Initial step <Initial step>  Object: <Task> 3_3092
+  Role: Steps <Steps>  Object: <Sub-Task> 3_3107
+Relationship: Layer Connector <Layer Connector> 3_3158
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_2919
+  Role: Steps <Steps>  Object: <Task> 3_3148
+Relationship: Layer Connector <Layer Connector> 3_3167
+  Role: Initial step <Initial step>  Object: <Task> 3_3148
+  Role: Steps <Steps>  Object: <Sub-Task> 3_3153
+Relationship: Layer Connector <Layer Connector> 3_3181
+  Role: Initial step <Initial step>  Object: <Task> 3_3148
+  Role: Steps <Steps>  Object: <Sub-Task> 3_3176
+Relationship: Layer Connector <Layer Connector> 3_3195
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_2919
+  Role: Steps <Steps>  Object: <Task> 3_3190
+Relationship: Layer Connector <Layer Connector> 3_3274
+  Role: Initial step <Initial step>  Object: <Task> 3_2929
+  Role: Steps <Steps>  Object: <Sub-Task> 3_3259
+Relationship: Layer Connector <Layer Connector> 3_3283
+  Role: Initial step <Initial step>  Object: <Task> 3_2929
+  Role: Steps <Steps>  Object: <Sub-Task> 3_3269
+Relationship: Layer Connector <Layer Connector> 3_3292
+  Role: Initial step <Initial step>  Object: <Task> 3_2929
+  Role: Steps <Steps>  Object: <Sub-Task> 3_3264

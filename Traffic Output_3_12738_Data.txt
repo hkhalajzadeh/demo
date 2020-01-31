@@ -1,0 +1,34 @@
+Graph_Data_user_3722148282
+Traffic Output
+3_12738
+Data
+Graph: Traffic Output <Data> 3_12738
+	Problem: Traffic Output
+Object: Simulated vehicle trajectories <Report> 3_12754
+	Report name: Simulated vehicle trajectories
+Object: Flow Prediction <Report> 3_12759
+	Report name: Flow Prediction
+Object: What-If Analysis (Possible future outcomes conditioned on traffic policy) <Report> 3_12764
+	Report name: What-If Analysis (Possible future outcomes conditioned on traffic policy)
+Object: Control Policy (e.g. adjust signal timing / Dynamic Lanes) <Report> 3_12769
+	Report name: Control Policy (e.g. adjust signal timing / Dynamic Lanes)
+Object: Traffic Congestion Prediction <Report> 3_12774
+	Report name: Traffic Congestion Prediction
+Object: Periodically re-execute workflow <Task> 3_12747
+	Task Name: Periodically re-execute workflow
+	Task definition: 
+Relationship: Arrowed Connector <Arrowed Connector> 3_12779
+  Role: From <From>  Object: <Task> 3_12747
+  Role: To <To>  Object: <Report> 3_12754
+Relationship: Arrowed Connector <Arrowed Connector> 3_12788
+  Role: From <From>  Object: <Task> 3_12747
+  Role: To <To>  Object: <Report> 3_12759
+Relationship: Arrowed Connector <Arrowed Connector> 3_12797
+  Role: From <From>  Object: <Task> 3_12747
+  Role: To <To>  Object: <Report> 3_12764
+Relationship: Arrowed Connector <Arrowed Connector> 3_12806
+  Role: From <From>  Object: <Task> 3_12747
+  Role: To <To>  Object: <Report> 3_12769
+Relationship: Arrowed Connector <Arrowed Connector> 3_12815
+  Role: From <From>  Object: <Task> 3_12747
+  Role: To <To>  Object: <Report> 3_12774

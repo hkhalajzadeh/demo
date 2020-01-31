@@ -3,11 +3,11 @@ foreach .Task
   {  'Task : '
      :Task Name;
      newline
-     'Connects to sub-tasks: '
+     'Connects to Tasks: '
      newline
-     do ~Initial step>()~Steps.Sub-Task
+     do ~Initial step>Layer Connector~Steps.Task
      {  ' 	'
-        :Subtask Name;
+        :Task Name;
         newline
      }
      newline
@@ -17,9 +17,5 @@ foreach .Task
 do graphs
 {  foreach .Task; where decompositions 
    {  'There is a subgraph for ' :Task Name;  newline }
-}
-do graphs
-{  foreach .Sub-Task; where decompositions 
-   {  'There is a subgraph for ' :Subtask Name;  newline }
 }
 endreport

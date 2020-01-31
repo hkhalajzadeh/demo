@@ -7,39 +7,29 @@ Process
 ==========================
 Object Types
 ==========================
-Business Layer
-Technical Layer
-Operational Layer
-Pool
-	Lane: Lane
-	Organisation name: String
-Lane
+Organization
+	Organization name: String
+	Organization definition: String
+Participant
 	Participant name: String
-Operation
-	Operation name: String
+	Participant definition: String
 Condition
 	Condition name: String
+	Condition definition: String
 Start
 	Start: String
-Event
-	Event: String
 Alert
 	Alert: String
 End
 	End: String
-Dataset
-Domain Knowledge
-Models
-Insights
-Application
-Operation Separator
-	Operation type: String
+Task
+	Task Name: String
+	Task definition: String
 
 ==========================
 Relationship Types
 ==========================
-In-Organization Connector
-Out-Organization Connector
+Arrowed Connector
 Condition correct
 Condition incorrect
 
@@ -52,46 +42,34 @@ Condition
 End
 Alert
 Start
+To
+From
 
 ==========================
 Extra Types
 ==========================
 Diagrams
 	Problem: String
+From
 
 ==========================
 Bindings
 ==========================
+Arrowed Connector
+	From: Alert, Start, Task
+	To: Alert, Condition, End, Task
 Condition correct
 	Condition: Condition
 	End: End
 Condition correct
 	Condition: Condition
-	Operation: Operation
+	Operation: Task
 Condition incorrect
 	Condition: Condition
 	Alert: Alert
 Condition incorrect
 	Condition: Condition
-	Operation: Operation
-In-Organization Connector
-	Event: Event
-	Operation: Operation
-In-Organization Connector
-	Operation: Operation
-	Condition: Condition
-In-Organization Connector
-	Operation: Operation
-	Operation: Operation
-In-Organization Connector
-	Start: Start
-	Operation: Operation
-Out-Organization Connector
-	Event: Event
-	Operation: Operation
-Out-Organization Connector
-	Operation: Operation
-	Operation: Operation
+	Operation: Task
 
 ==========================
 Constraints

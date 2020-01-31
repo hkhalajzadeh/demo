@@ -1,0 +1,88 @@
+Graph_Diagrams_user_3721635000
+Property Price Prediction
+3_5008
+Diagrams
+Graph: Property Price Prediction <Diagrams> 3_5008
+	Problem: Property Price Prediction
+Object: Property Price Prediction Brainstorming Diagram <Brainstorming Diagram> 3_5021
+	Brainstorming diagram name: Property Price Prediction Brainstorming Diagram
+	Diagram definition: This diagram shows high level problem, tasks, comments, operations, etc.
+	Decomposed to: Property Price Prediction <Brainstorming>
+Object: Model Engineering Data Diagram <Data Diagram> 3_5046
+	Data diagram name: Model Engineering Data Diagram
+	Diagram definition: This diagram shows data items used or generated in model engineering.
+	Decomposed to: PPP Model Engineering <Data>
+Object: Feature Engineering Data Diagram <Data Diagram> 3_5051
+	Data diagram name: Feature Engineering Data Diagram
+	Diagram definition: This diagram shows data items used or generated in feature engineering.
+	Decomposed to: PPP Feature Engineering <Data>
+Object: Outputs Data Diagram <Data Diagram> 3_6812
+	Data diagram name: Outputs Data Diagram
+	Diagram definition: This diagram shows all the reports expected to be generated.
+	Decomposed to: PPP Report <Data>
+Object: Website Deployment Diagram <Deployment Diagram> 3_5026
+	Deployment diagram name: Website Deployment Diagram
+	Diagram definition: This diagram shows how to deploy the website.
+	Decomposed to: PPP Website Deployment <Deployment>
+Object: Property Price Prediction Process Diagram <Process Diagram> 3_5016
+	Process diagram name: Property Price Prediction Process Diagram
+	Diagram definition: This process diagrams shows different organizations, users, order of the tasks and how tasks are related.
+	Decomposed to: Property Price Prediction <Process>
+Object: Model Engineering Technique Diagram <Technique Diagram> 3_5041
+	Technique diagram name: Model Engineering Technique Diagram
+	Diagram definition: This diagram shows techniques used for model engineering.
+	Decomposed to: PPP Model Engineering <Technique>
+Object: Feature Engineering Technique Diagram <Technique Diagram> 3_6892
+	Technique diagram name: Feature Engineering Technique Diagram
+	Diagram definition: This diagram shows techniques used for feature engineering.
+	Decomposed to: PPP Feature Engineering <Technique>
+Relationship: Connection <Connection> 3_5056
+  Role:  <High Level>  Object: <Brainstorming Diagram> 3_5021
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Process Diagram> 3_5016
+	Multiplicity: 
+Relationship: Connection <Connection> 3_6817
+  Role:  <High Level>  Object: <Process Diagram> 3_5016
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Data Diagram> 3_6812
+	Multiplicity: 
+Relationship: Connection <Connection> 3_6879
+  Role:  <High Level>  Object: <Brainstorming Diagram> 3_5021
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Deployment Diagram> 3_5026
+	Multiplicity: 
+Relationship: Connection <Connection> 3_6949
+  Role:  <High Level>  Object: <Technique Diagram> 3_5041
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Data Diagram> 3_6812
+	Multiplicity: 
+Relationship: Connection <Connection> 3_6962
+  Role:  <High Level>  Object: <Data Diagram> 3_5046
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Data Diagram> 3_6812
+	Multiplicity: 
+Relationship: Connection <Connection> 3_7001
+  Role:  <High Level>  Object: <Technique Diagram> 3_6892
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Data Diagram> 3_5051
+	Multiplicity: 
+Relationship: Connection <Connection> 3_7014
+  Role:  <High Level>  Object: <Technique Diagram> 3_5041
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Data Diagram> 3_5046
+	Multiplicity: 
+Relationship: Connection <Connection> 3_7027
+  Role:  <High Level>  Object: <Data Diagram> 3_5051
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Data Diagram> 3_5046
+	Multiplicity: 
+Relationship: Connection <Connection> 3_7040
+  Role:  <High Level>  Object: <Process Diagram> 3_5016
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Technique Diagram> 3_6892
+	Multiplicity: 
+Relationship: Connection <Connection> 3_7053
+  Role:  <High Level>  Object: <Process Diagram> 3_5016
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Technique Diagram> 3_5041
+	Multiplicity: 

@@ -1,0 +1,46 @@
+Graph_Data_user_3722148282
+PPP Model Engineering
+3_7814
+Data
+Graph: PPP Model Engineering <Data> 3_7814
+	Problem: PPP Model Engineering
+Object: Price prediction algorithm 1 - Lasso (.py) <Code file/Model> 3_1257
+	Code file/Model name: Price prediction algorithm 1 - Lasso (.py)
+Object: Price prediction algorithm 1 - XGBoost (.py) <Code file/Model> 3_1262
+	Code file/Model name: Price prediction algorithm 1 - XGBoost (.py)
+Object: Price prediction model (.pkl) <Code file/Model> 3_1267
+	Code file/Model name: Price prediction model (.pkl)
+Object: Cleaned dataset (.csv) <Data> 3_1252
+	Data name: Cleaned dataset (.csv)
+Object: Price prediction evaluation metric: RMSE score  
+ <Information> 3_4731
+	Information Name: Price prediction evaluation metric: RMSE score  
+
+Object: Algorithm 1 parameters <Information> 3_4736
+	Information Name: Algorithm 1 parameters
+Object: Algorithm 2 parameters <Information> 3_4741
+	Information Name: Algorithm 2 parameters
+Object: Price prediction model engineering <Task> 3_1242
+	Task Name: Price prediction model engineering
+	Task definition: 
+Relationship: Arrowed Connector <Arrowed Connector> 3_7852
+  Role: From <From>  Object: <Data> 3_1252
+  Role: To <To>  Object: <Task> 3_1242
+Relationship: Arrowed Connector <Arrowed Connector> 3_7858
+  Role: From <From>  Object: <Task> 3_1242
+  Role: To <To>  Object: <Code file/Model> 3_1257
+Relationship: Arrowed Connector <Arrowed Connector> 3_7864
+  Role: From <From>  Object: <Task> 3_1242
+  Role: To <To>  Object: <Code file/Model> 3_1262
+Relationship: Arrowed Connector <Arrowed Connector> 3_7870
+  Role: From <From>  Object: <Task> 3_1242
+  Role: To <To>  Object: <Code file/Model> 3_1267
+Relationship: Arrowed Connector <Arrowed Connector> 3_7876
+  Role: From <From>  Object: <Task> 3_1242
+  Role: To <To>  Object: <Information> 3_4741
+Relationship: Arrowed Connector <Arrowed Connector> 3_7882
+  Role: From <From>  Object: <Task> 3_1242
+  Role: To <To>  Object: <Information> 3_4736
+Relationship: Arrowed Connector <Arrowed Connector> 3_7888
+  Role: From <From>  Object: <Task> 3_1242
+  Role: To <To>  Object: <Information> 3_4731

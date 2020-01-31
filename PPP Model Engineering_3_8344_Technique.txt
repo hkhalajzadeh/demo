@@ -1,0 +1,65 @@
+Graph_Technique_user_3722148262
+PPP Model Engineering
+3_8344
+Technique
+Graph: PPP Model Engineering <Technique> 3_8344
+	Problem: PPP Model Engineering
+Object: overfitting <Alert> 3_5371
+	Alert: overfitting
+Object: Time consuming <Alert> 3_6733
+	Alert: Time consuming
+Object: high accuracy <Success> 3_5366
+	Success: high accuracy
+Object: Price prediction model engineering <Task> 3_1164
+	Task Name: Price prediction model engineering
+	Task definition: 
+Object: Train model <Task> 3_8484
+	Task Name: Train model
+	Task definition: 
+Object: Test/evaluate <Task> 3_8518
+	Task Name: Test/evaluate
+	Task definition: 
+Object: Tune parameters <Task> 3_8543
+	Task Name: Tune parameters
+	Task definition: 
+Object: XGBoost <Technique> 3_1174
+	Technique name: XGBoost
+Object: Lasso regression <Technique> 3_1189
+	Technique name: Lasso regression
+Object: Cross validation <Technique> 3_1194
+	Technique name: Cross validation
+Object: Average predictions <Technique> 3_1199
+	Technique name: Average predictions
+Relationship: Arrowed Connector <Arrowed Connector> 3_8426
+  Role: From <From>  Object: <Technique> 3_1174
+  Role: To <To>  Object: <Success> 3_5366
+Relationship: Arrowed Connector <Arrowed Connector> 3_8432
+  Role: From <From>  Object: <Technique> 3_1174
+  Role: To <To>  Object: <Technique> 3_1199
+Relationship: Arrowed Connector <Arrowed Connector> 3_8438
+  Role: From <From>  Object: <Technique> 3_1189
+  Role: To <To>  Object: <Technique> 3_1199
+Relationship: Arrowed Connector <Arrowed Connector> 3_8456
+  Role: From <From>  Object: <Technique> 3_1189
+  Role: To <To>  Object: <Alert> 3_5371
+Relationship: Arrowed Connector <Arrowed Connector> 3_8491
+  Role: From <From>  Object: <Task> 3_1164
+  Role: To <To>  Object: <Task> 3_8484
+Relationship: Arrowed Connector <Arrowed Connector> 3_8500
+  Role: From <From>  Object: <Task> 3_8484
+  Role: To <To>  Object: <Technique> 3_1174
+Relationship: Arrowed Connector <Arrowed Connector> 3_8509
+  Role: From <From>  Object: <Task> 3_8484
+  Role: To <To>  Object: <Technique> 3_1189
+Relationship: Arrowed Connector <Arrowed Connector> 3_8525
+  Role: From <From>  Object: <Task> 3_1164
+  Role: To <To>  Object: <Task> 3_8518
+Relationship: Arrowed Connector <Arrowed Connector> 3_8534
+  Role: From <From>  Object: <Task> 3_8518
+  Role: To <To>  Object: <Technique> 3_1194
+Relationship: Arrowed Connector <Arrowed Connector> 3_8550
+  Role: From <From>  Object: <Task> 3_1164
+  Role: To <To>  Object: <Task> 3_8543
+Relationship: Arrowed Connector <Arrowed Connector> 3_8559
+  Role: From <From>  Object: <Task> 3_8543
+  Role: To <To>  Object: <Alert> 3_6733

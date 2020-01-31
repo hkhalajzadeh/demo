@@ -1,0 +1,272 @@
+Graph_Brainstorming_user_3721639935
+Smart City
+3_16322
+Brainstorming
+Graph: Smart City <Brainstorming> 3_16322
+	Problem: Smart City
+Object: MCC meeting <Comment> 3_16450
+	Comment: MCC meeting
+Object: Sensors are already installed <Comment> 3_16581
+	Comment: Sensors are already installed
+Object: Cloud/ edge <Comment> 3_17389
+	Comment: Cloud/ edge
+Object: Car is parked/not + parking restrictions. No information on car plates. <Comment> 3_17424
+	Comment: Car is parked/not + parking restrictions. No information on car plates.
+Object: Sensors: Filled, temperature, gas, GPS, LoRa connectivity <Comment> 3_17434
+	Comment: Sensors: Filled, temperature, gas, GPS, LoRa connectivity
+Object: input.csv <Input> 3_17410
+	Input file name: input.csv
+Object:                  BusinessOps <Operation Seperator> 3_16748
+	Operation:                  BusinessOps
+Object:                             DataOps <Operation Seperator> 3_16753
+	Operation:                             DataOps
+Object: AIOps <Operation Seperator> 3_16758
+	Operation: AIOps
+Object: DevOps <Operation Seperator> 3_16779
+	Operation: DevOps
+Object: Smart City Project <Problem Definition> 3_16330
+	Problem: Smart City Project
+	Problem Definition: 
+Object: Problem definition <Task> 3_16338
+	Task Name: Problem definition
+	Task definition: 
+Object: Smart parking <Task> 3_16354
+	Task Name: Smart parking
+	Task definition: 76 sensors, Sensors transmit data only once the parking occupancy is triggered, and it only takes a few seconds.
+Object: Smart lights <Task> 3_16361
+	Task Name: Smart lights
+	Task definition: 6 smart poles with lights and other features, 24 smart street lights
+Object: Smart bins <Task> 3_16368
+	Task Name: Smart bins
+	Task definition: 12 bins
+Object: Define objectives <Task> 3_16402
+	Task Name: Define objectives
+	Task definition: 
+Object: Define targets <Task> 3_16409
+	Task Name: Define targets
+	Task definition: 
+Object: Literature review <Task> 3_16434
+	Task Name: Literature review
+	Task definition: 
+Object: Prototype/ deploy App <Task> 3_16455
+	Task Name: Prototype/ deploy App
+	Task definition: 
+Object: GUI Design <Task> 3_16462
+	Task Name: GUI Design
+	Task definition: 
+Object: Development <Task> 3_16469
+	Task Name: Development
+	Task definition: 
+Object: Test/ evaluate <Task> 3_16476
+	Task Name: Test/ evaluate
+	Task definition: 
+Object: Data collection <Task> 3_16519
+	Task Name: Data collection
+	Task definition: 
+Object: Data analysis <Task> 3_16535
+	Task Name: Data analysis
+	Task definition: 
+Object: Physical infrastructure <Task> 3_16551
+	Task Name: Physical infrastructure
+	Task definition: 
+Object: Install lighting poles <Task> 3_16567
+	Task Name: Install lighting poles
+	Task definition: 
+Object: Install parking screens <Task> 3_16574
+	Task Name: Install parking screens
+	Task definition: 
+Object: Data fusion <Task> 3_16604
+	Task Name: Data fusion
+	Task definition: 
+Object: Data cleaning <Task> 3_16620
+	Task Name: Data cleaning
+	Task definition: 
+Object: Imput missing values <Task> 3_16627
+	Task Name: Imput missing values
+	Task definition: 
+Object: Visualization <Task> 3_16634
+	Task Name: Visualization
+	Task definition: 
+Object: IoT Platform analysis <Task> 3_16668
+	Task Name: IoT Platform analysis
+	Task definition: IoT Platform comparative analysis matrix
+Object: Number/ location of sensors <Task> 3_16675
+	Task Name: Number/ location of sensors
+	Task definition: 
+Object: Modeling <Task> 3_16700
+	Task Name: Modeling
+	Task definition: 
+Object: Traffic prediction <Task> 3_16707
+	Task Name: Traffic prediction
+	Task definition: 
+Object: State estimation <Task> 3_16714
+	Task Name: State estimation
+	Task definition: 
+Object: Choose algorithms <Task> 3_16763
+	Task Name: Choose algorithms
+	Task definition: 
+Object: System specification <Task> 3_16784
+	Task Name: System specification
+	Task definition: 
+Object: Platform design <Task> 3_16791
+	Task Name: Platform design
+	Task definition: 
+Object: Platform integration <Task> 3_16798
+	Task Name: Platform integration
+	Task definition: 
+Object: Solution options <Task> 3_16832
+	Task Name: Solution options
+	Task definition: Analyse and evaluate solution options
+Object: App specification <Task> 3_16848
+	Task Name: App specification
+	Task definition: 
+Object: Test/ validate <Task> 3_16864
+	Task Name: Test/ validate
+	Task definition: 
+Object: Deploy platform <Task> 3_17250
+	Task Name: Deploy platform
+	Task definition: 
+Object: Add value <Task> 3_17293
+	Task Name: Add value
+	Task definition: 
+Object: Efficiency <Task> 3_17300
+	Task Name: Efficiency
+	Task definition: 
+Object: Change the way it works <Task> 3_17307
+	Task Name: Change the way it works
+	Task definition: 
+Object: VMS data <Task> 3_17341
+	Task Name: VMS data
+	Task definition: 
+Object: Social media <Task> 3_17348
+	Task Name: Social media
+	Task definition: 
+Object: Sensors <Task> 3_17355
+	Task Name: Sensors
+	Task definition: 
+Object: User engagement <Task> 3_17394
+	Task Name: User engagement
+	Task definition: 
+Relationship: Layer Connector <Layer Connector> 3_16345
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_16330
+  Role: Steps <Steps>  Object: <Task> 3_16338
+Relationship: Layer Connector <Layer Connector> 3_16375
+  Role: Initial step <Initial step>  Object: <Task> 3_16338
+  Role: Steps <Steps>  Object: <Task> 3_16354
+Relationship: Layer Connector <Layer Connector> 3_16384
+  Role: Initial step <Initial step>  Object: <Task> 3_16338
+  Role: Steps <Steps>  Object: <Task> 3_16361
+Relationship: Layer Connector <Layer Connector> 3_16393
+  Role: Initial step <Initial step>  Object: <Task> 3_16338
+  Role: Steps <Steps>  Object: <Task> 3_16368
+Relationship: Layer Connector <Layer Connector> 3_16416
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_16330
+  Role: Steps <Steps>  Object: <Task> 3_16409
+Relationship: Layer Connector <Layer Connector> 3_16425
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_16330
+  Role: Steps <Steps>  Object: <Task> 3_16402
+Relationship: Layer Connector <Layer Connector> 3_16441
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_16330
+  Role: Steps <Steps>  Object: <Task> 3_16434
+Relationship: Layer Connector <Layer Connector> 3_16483
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_16330
+  Role: Steps <Steps>  Object: <Task> 3_16455
+Relationship: Layer Connector <Layer Connector> 3_16492
+  Role: Initial step <Initial step>  Object: <Task> 3_16455
+  Role: Steps <Steps>  Object: <Task> 3_16476
+Relationship: Layer Connector <Layer Connector> 3_16501
+  Role: Initial step <Initial step>  Object: <Task> 3_16455
+  Role: Steps <Steps>  Object: <Task> 3_16469
+Relationship: Layer Connector <Layer Connector> 3_16510
+  Role: Initial step <Initial step>  Object: <Task> 3_16455
+  Role: Steps <Steps>  Object: <Task> 3_16462
+Relationship: Layer Connector <Layer Connector> 3_16526
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_16330
+  Role: Steps <Steps>  Object: <Task> 3_16519
+Relationship: Layer Connector <Layer Connector> 3_16542
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_16330
+  Role: Steps <Steps>  Object: <Task> 3_16535
+Relationship: Layer Connector <Layer Connector> 3_16558
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_16330
+  Role: Steps <Steps>  Object: <Task> 3_16551
+Relationship: Layer Connector <Layer Connector> 3_16586
+  Role: Initial step <Initial step>  Object: <Task> 3_16551
+  Role: Steps <Steps>  Object: <Task> 3_16567
+Relationship: Layer Connector <Layer Connector> 3_16595
+  Role: Initial step <Initial step>  Object: <Task> 3_16551
+  Role: Steps <Steps>  Object: <Task> 3_16574
+Relationship: Layer Connector <Layer Connector> 3_16611
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_16330
+  Role: Steps <Steps>  Object: <Task> 3_16604
+Relationship: Layer Connector <Layer Connector> 3_16641
+  Role: Initial step <Initial step>  Object: <Task> 3_16535
+  Role: Steps <Steps>  Object: <Task> 3_16634
+Relationship: Layer Connector <Layer Connector> 3_16650
+  Role: Initial step <Initial step>  Object: <Task> 3_16535
+  Role: Steps <Steps>  Object: <Task> 3_16620
+Relationship: Layer Connector <Layer Connector> 3_16659
+  Role: Initial step <Initial step>  Object: <Task> 3_16535
+  Role: Steps <Steps>  Object: <Task> 3_16627
+Relationship: Layer Connector <Layer Connector> 3_16682
+  Role: Initial step <Initial step>  Object: <Task> 3_16551
+  Role: Steps <Steps>  Object: <Task> 3_16675
+Relationship: Layer Connector <Layer Connector> 3_16691
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_16330
+  Role: Steps <Steps>  Object: <Task> 3_16668
+Relationship: Layer Connector <Layer Connector> 3_16721
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_16330
+  Role: Steps <Steps>  Object: <Task> 3_16700
+Relationship: Layer Connector <Layer Connector> 3_16730
+  Role: Initial step <Initial step>  Object: <Task> 3_16700
+  Role: Steps <Steps>  Object: <Task> 3_16707
+Relationship: Layer Connector <Layer Connector> 3_16739
+  Role: Initial step <Initial step>  Object: <Task> 3_16700
+  Role: Steps <Steps>  Object: <Task> 3_16714
+Relationship: Layer Connector <Layer Connector> 3_16770
+  Role: Initial step <Initial step>  Object: <Task> 3_16700
+  Role: Steps <Steps>  Object: <Task> 3_16763
+Relationship: Layer Connector <Layer Connector> 3_16839
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_16330
+  Role: Steps <Steps>  Object: <Task> 3_16832
+Relationship: Layer Connector <Layer Connector> 3_16855
+  Role: Initial step <Initial step>  Object: <Task> 3_16455
+  Role: Steps <Steps>  Object: <Task> 3_16848
+Relationship: Layer Connector <Layer Connector> 3_16871
+  Role: Initial step <Initial step>  Object: <Task> 3_16700
+  Role: Steps <Steps>  Object: <Task> 3_16864
+Relationship: Layer Connector <Layer Connector> 3_17257
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_16330
+  Role: Steps <Steps>  Object: <Task> 3_17250
+Relationship: Layer Connector <Layer Connector> 3_17266
+  Role: Initial step <Initial step>  Object: <Task> 3_17250
+  Role: Steps <Steps>  Object: <Task> 3_16791
+Relationship: Layer Connector <Layer Connector> 3_17275
+  Role: Initial step <Initial step>  Object: <Task> 3_17250
+  Role: Steps <Steps>  Object: <Task> 3_16798
+Relationship: Layer Connector <Layer Connector> 3_17284
+  Role: Initial step <Initial step>  Object: <Task> 3_17250
+  Role: Steps <Steps>  Object: <Task> 3_16784
+Relationship: Layer Connector <Layer Connector> 3_17314
+  Role: Initial step <Initial step>  Object: <Task> 3_16402
+  Role: Steps <Steps>  Object: <Task> 3_17293
+Relationship: Layer Connector <Layer Connector> 3_17323
+  Role: Initial step <Initial step>  Object: <Task> 3_16402
+  Role: Steps <Steps>  Object: <Task> 3_17300
+Relationship: Layer Connector <Layer Connector> 3_17332
+  Role: Initial step <Initial step>  Object: <Task> 3_16402
+  Role: Steps <Steps>  Object: <Task> 3_17307
+Relationship: Layer Connector <Layer Connector> 3_17362
+  Role: Initial step <Initial step>  Object: <Task> 3_16519
+  Role: Steps <Steps>  Object: <Task> 3_17348
+Relationship: Layer Connector <Layer Connector> 3_17371
+  Role: Initial step <Initial step>  Object: <Task> 3_16519
+  Role: Steps <Steps>  Object: <Task> 3_17341
+Relationship: Layer Connector <Layer Connector> 3_17380
+  Role: Initial step <Initial step>  Object: <Task> 3_16519
+  Role: Steps <Steps>  Object: <Task> 3_17355
+Relationship: Layer Connector <Layer Connector> 3_17401
+  Role: Initial step <Initial step>  Object: <Task> 3_16455
+  Role: Steps <Steps>  Object: <Task> 3_17394
+Relationship: Layer Connector <Layer Connector> 3_17415
+  Role: Information <Information>  Object: <Input> 3_17410
+  Role: Initial info <Initial info>  Object: <Task> 3_16354

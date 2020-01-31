@@ -1,0 +1,178 @@
+Graph_Brainstorming_user_3721639935
+Traffic Analysis
+3_17668
+Brainstorming
+Graph: Traffic Analysis <Brainstorming> 3_17668
+	Problem: Traffic Analysis
+Object: MyTardis <Comment> 3_11222
+	Comment: MyTardis
+Object: Scats Converter <Comment> 3_11236
+	Comment: Scats Converter
+Object: Aimsun <Comment> 3_11255
+	Comment: Aimsun
+Object: input.csv <Input> 3_17629
+	Input file name: input.csv
+Object:                                                BusinessOps <Operation Seperator> 3_11274
+	Operation:                                                BusinessOps
+Object:                                                DataOps <Operation Seperator> 3_11279
+	Operation:                                                DataOps
+Object:                                                AIOps <Operation Seperator> 3_11284
+	Operation:                                                AIOps
+Object: DevOps <Operation Seperator> 3_18790
+	Operation: DevOps
+Object: Traffic Flow Prediction / Responses <Problem Definition> 3_10806
+	Problem: Traffic Flow Prediction / Responses
+	Problem Definition: 
+Object: Region Selection <Task> 3_10814
+	Task Name: Region Selection
+	Task definition: 
+Object: Define traffic network performance indicator / metrics <Task> 3_10821
+	Task Name: Define traffic network performance indicator / metrics
+	Task definition: 
+Object: Sensor data collection <Task> 3_10828
+	Task Name: Sensor data collection
+	Task definition: 
+Object: Provide historical data <Task> 3_10862
+	Task Name: Provide historical data
+	Task definition: 
+Object: Provide realtime data <Task> 3_10869
+	Task Name: Provide realtime data
+	Task definition: 
+Object: Live prediction/response prototype deployment <Task> 3_10894
+	Task Name: Live prediction/response prototype deployment
+	Task definition: 
+Object: (Near) Realtime calibration <Task> 3_10901
+	Task Name: (Near) Realtime calibration
+	Task definition: 
+Object: Maintain <Task> 3_10917
+	Task Name: Maintain
+	Task definition: 
+Object: Result Visualization <Task> 3_10924
+	Task Name: Result Visualization
+	Task definition: 
+Object: Traffic Modelling <Task> 3_10958
+	Task Name: Traffic Modelling
+	Task definition: 
+Object: Origin-destination inference <Task> 3_10965
+	Task Name: Origin-destination inference
+	Task definition: 
+Object: Optimization / Simulation <Task> 3_10990
+	Task Name: Optimization / Simulation
+	Task definition: Iteratively run traffic sim to find best calibaration of traffic parameters
+Object: Demand modelling <Task> 3_10997
+	Task Name: Demand modelling
+	Task definition: 
+Object: Supply modelling <Task> 3_11004
+	Task Name: Supply modelling
+	Task definition: 
+Object: Driver behaviour modelling <Task> 3_11011
+	Task Name: Driver behaviour modelling
+	Task definition: 
+Object: Traffic Simulation <Task> 3_11018
+	Task Name: Traffic Simulation
+	Task definition: 
+Object: Clean / aggregate data <Task> 3_11070
+	Task Name: Clean / aggregate data
+	Task definition: Research Project to Impute
+Object: Traffic data engineering <Task> 3_11077
+	Task Name: Traffic data engineering
+	Task definition: 
+Object: Visualize datasets <Task> 3_11111
+	Task Name: Visualize datasets
+	Task definition: 
+Object: Wrangle data <Task> 3_11118
+	Task Name: Wrangle data
+	Task definition: 
+Object: Filter / split dataset <Task> 3_11125
+	Task Name: Filter / split dataset
+	Task definition: 
+Object: Convert binary data to open format <Task> 3_11132
+	Task Name: Convert binary data to open format
+	Task definition: 
+Object: Ingest data <Task> 3_11139
+	Task Name: Ingest data
+	Task definition: 
+Relationship: Layer Connector <Layer Connector> 3_18566
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_10806
+  Role: Steps <Steps>  Object: <Task> 3_10814
+Relationship: Layer Connector <Layer Connector> 3_18572
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_10806
+  Role: Steps <Steps>  Object: <Task> 3_10821
+Relationship: Layer Connector <Layer Connector> 3_18578
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_10806
+  Role: Steps <Steps>  Object: <Task> 3_10828
+Relationship: Layer Connector <Layer Connector> 3_18584
+  Role: Initial step <Initial step>  Object: <Task> 3_10828
+  Role: Steps <Steps>  Object: <Task> 3_10862
+Relationship: Layer Connector <Layer Connector> 3_18590
+  Role: Initial step <Initial step>  Object: <Task> 3_10828
+  Role: Steps <Steps>  Object: <Task> 3_10869
+Relationship: Layer Connector <Layer Connector> 3_18596
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_10806
+  Role: Steps <Steps>  Object: <Task> 3_10894
+Relationship: Layer Connector <Layer Connector> 3_18602
+  Role: Initial step <Initial step>  Object: <Task> 3_10894
+  Role: Steps <Steps>  Object: <Task> 3_10917
+Relationship: Layer Connector <Layer Connector> 3_18608
+  Role: Initial step <Initial step>  Object: <Task> 3_10894
+  Role: Steps <Steps>  Object: <Task> 3_10901
+Relationship: Layer Connector <Layer Connector> 3_18614
+  Role: Initial step <Initial step>  Object: <Task> 3_10894
+  Role: Steps <Steps>  Object: <Task> 3_10924
+Relationship: Layer Connector <Layer Connector> 3_18620
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_10806
+  Role: Steps <Steps>  Object: <Task> 3_10958
+Relationship: Layer Connector <Layer Connector> 3_18626
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_10806
+  Role: Steps <Steps>  Object: <Task> 3_10965
+Relationship: Layer Connector <Layer Connector> 3_18632
+  Role: Initial step <Initial step>  Object: <Task> 3_10958
+  Role: Steps <Steps>  Object: <Task> 3_11018
+Relationship: Layer Connector <Layer Connector> 3_18638
+  Role: Initial step <Initial step>  Object: <Task> 3_10958
+  Role: Steps <Steps>  Object: <Task> 3_11011
+Relationship: Layer Connector <Layer Connector> 3_18644
+  Role: Initial step <Initial step>  Object: <Task> 3_10958
+  Role: Steps <Steps>  Object: <Task> 3_11004
+Relationship: Layer Connector <Layer Connector> 3_18650
+  Role: Initial step <Initial step>  Object: <Task> 3_10958
+  Role: Steps <Steps>  Object: <Task> 3_10997
+Relationship: Layer Connector <Layer Connector> 3_18656
+  Role: Initial step <Initial step>  Object: <Task> 3_10965
+  Role: Steps <Steps>  Object: <Task> 3_10990
+Relationship: Layer Connector <Layer Connector> 3_18662
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_10806
+  Role: Steps <Steps>  Object: <Task> 3_11077
+Relationship: Layer Connector <Layer Connector> 3_18668
+  Role: Initial step <Initial step>  Object: <Task> 3_10965
+  Role: Steps <Steps>  Object: <Task> 3_11070
+Relationship: Layer Connector <Layer Connector> 3_18674
+  Role: Initial step <Initial step>  Object: <Task> 3_11077
+  Role: Steps <Steps>  Object: <Task> 3_11070
+Relationship: Layer Connector <Layer Connector> 3_18680
+  Role: Initial step <Initial step>  Object: <Task> 3_11070
+  Role: Steps <Steps>  Object: <Task> 3_11111
+Relationship: Layer Connector <Layer Connector> 3_18686
+  Role: Initial step <Initial step>  Object: <Task> 3_11077
+  Role: Steps <Steps>  Object: <Task> 3_11118
+Relationship: Layer Connector <Layer Connector> 3_18692
+  Role: Initial step <Initial step>  Object: <Task> 3_11077
+  Role: Steps <Steps>  Object: <Task> 3_11125
+Relationship: Layer Connector <Layer Connector> 3_18698
+  Role: Initial step <Initial step>  Object: <Task> 3_11077
+  Role: Steps <Steps>  Object: <Task> 3_11132
+Relationship: Layer Connector <Layer Connector> 3_18704
+  Role: Initial step <Initial step>  Object: <Task> 3_11077
+  Role: Steps <Steps>  Object: <Task> 3_11139
+Relationship: Layer Connector <Layer Connector> 3_18710
+  Role: Information <Information>  Object: <Comment> 3_11222
+  Role: Initial info <Initial info>  Object: <Task> 3_11139
+Relationship: Layer Connector <Layer Connector> 3_18716
+  Role: Information <Information>  Object: <Comment> 3_11236
+  Role: Initial info <Initial info>  Object: <Task> 3_11132
+Relationship: Layer Connector <Layer Connector> 3_18722
+  Role: Information <Information>  Object: <Comment> 3_11255
+  Role: Initial info <Initial info>  Object: <Task> 3_11018
+Relationship: Layer Connector <Layer Connector> 3_18728
+  Role: Information <Information>  Object: <Input> 3_17629
+  Role: Initial info <Initial info>  Object: <Task> 3_10862

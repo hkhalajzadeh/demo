@@ -1,0 +1,162 @@
+Graph_Deployment_user_3730104497
+Traffic Prediction
+3_12824
+Deployment
+Graph: Traffic Prediction <Deployment> 3_12824
+	Problem: Traffic Prediction
+Object: Jupyter notebook <Application> 3_13781
+	Application Name: Jupyter notebook
+Object: Aimsun Traffic Sim <Application> 3_13791
+	Application Name: Aimsun Traffic Sim
+Object: Live traffic prediction demo <Application> 3_13818
+	Application Name: Live traffic prediction demo
+Object: Traffic model <Code file/Model> 3_13786
+	Code file/Model name: Traffic model
+Object: VicRoads Infrastructure <Deployment Component> 3_13432
+	Component Name: VicRoads Infrastructure
+Object: SCATS Adaptive Traffic System <Deployment Component> 3_13437
+	Component Name: SCATS Adaptive Traffic System
+Object: Data Exchange Platform <Deployment Component> 3_13442
+	Component Name: Data Exchange Platform
+Object: Nectar Australian Research Cloud (OpenStack) <Deployment Component> 3_13478
+	Component Name: Nectar Australian Research Cloud (OpenStack)
+Object: Data Collector VM <Deployment Component> 3_13483
+	Component Name: Data Collector VM
+Object: MyTardis Data Store <Deployment Component> 3_13536
+	Component Name: MyTardis Data Store
+Object: Monash eResearch High Performance Computing (HPC)  <Deployment Component> 3_13587
+	Component Name: Monash eResearch High Performance Computing (HPC) 
+Object: Scientific Workflow System for Traffic Sim (Cluster) <Deployment Component> 3_13599
+	Component Name: Scientific Workflow System for Traffic Sim (Cluster)
+Object: Workflow Nodes <Deployment Component> 3_13683
+	Component Name: Workflow Nodes
+Object: Jupyter Notebook Server <Deployment Component> 3_13688
+	Component Name: Jupyter Notebook Server
+Object: Traffic Simulation VM <Deployment Component> 3_13693
+	Component Name: Traffic Simulation VM
+Object: Data Quality Monitoring <Deployment Component> 3_13806
+	Component Name: Data Quality Monitoring
+Object: Interactive Map Server <Deployment Component> 3_13838
+	Component Name: Interactive Map Server
+Object: Nectar Australian Research Cloud (OpenStack) <Deployment Component> 3_13843
+	Component Name: Nectar Australian Research Cloud (OpenStack)
+Object: Data Collector <Deployment Component> 3_13916
+	Component Name: Data Collector
+Object: SCATS Converter <Deployment Component> 3_13921
+	Component Name: SCATS Converter
+Object: Historical Traffic Data <Multiple data> 3_13575
+	Multiple data name: Historical Traffic Data
+Object: Flow prediction <Report> 3_13796
+	Report name: Flow prediction
+Object: Simulated vehicle trajectories <Report> 3_13801
+	Report name: Simulated vehicle trajectories
+Object: What-if analysis <Report> 3_13823
+	Report name: What-if analysis
+Object: Control policy <Report> 3_13828
+	Report name: Control policy
+Object: Traffic congestion prediction <Report> 3_13833
+	Report name: Traffic congestion prediction
+Object: Sensor data collection <Task> 3_13464
+	Task Name: Sensor data collection
+	Task definition: 
+Object: Provide realtime data <Task> 3_13471
+	Task Name: Provide realtime data
+	Task definition: Convert binary data to open format
+Object: Ingest data <Task> 3_13580
+	Task Name: Ingest data
+	Task definition: 
+Object: Maintain infrastructure <Task> 3_13592
+	Task Name: Maintain infrastructure
+	Task definition: 
+Object: Optimization / Simulation <Task> 3_13698
+	Task Name: Optimization / Simulation
+	Task definition: 
+Object: Demand / Supply / Driver behavior / Modelling <Task> 3_13705
+	Task Name: Demand / Supply / Driver behavior / Modelling
+	Task definition: 
+Object: Traffic Simulation <Task> 3_13712
+	Task Name: Traffic Simulation
+	Task definition: 
+Object: Result visualization <Task> 3_13719
+	Task Name: Result visualization
+	Task definition: 
+Object: Clean / agregate data <Task> 3_13760
+	Task Name: Clean / agregate data
+	Task definition: 
+Object: Origin-destination inference <Task> 3_13767
+	Task Name: Origin-destination inference
+	Task definition: 
+Object: Traffic modelling <Task> 3_13774
+	Task Name: Traffic modelling
+	Task definition: 
+Object: Maintain prototype <Task> 3_13811
+	Task Name: Maintain prototype
+	Task definition: 
+Object: (Near) realtime calibration <Task> 3_13865
+	Task Name: (Near) realtime calibration
+	Task definition: 
+Object: Live prediction / response prototype <Task> 3_13872
+	Task Name: Live prediction / response prototype
+	Task definition: 
+Object: Wrangle data <Task> 3_13926
+	Task Name: Wrangle data
+	Task definition: 
+Object: Convert data <Task> 3_13933
+	Task Name: Convert data
+	Task definition: Binary data to open format
+Relationship: ITS Port <Association [UML]> 3_13447
+	Association name: ITS Port
+	Derived?: F
+	Derivation rules: 
+	Documentation: 
+  Role: Initial step <Initial step>  Object: <Deployment Component> 3_13437
+  Role: Steps <Steps>  Object: <Deployment Component> 3_13442
+Relationship: Message Queue <Association [UML]> 3_13519
+	Association name: Message Queue
+	Derived?: F
+	Derivation rules: 
+	Documentation: 
+  Role: Initial step <Initial step>  Object: <Deployment Component> 3_13442
+  Role: Steps <Steps>  Object: <Deployment Component> 3_13483
+Relationship: RESTful API for MyTardis <Association [UML]> 3_13558
+	Association name: RESTful API for MyTardis
+	Derived?: F
+	Derivation rules: 
+	Documentation: 
+  Role: Initial step <Initial step>  Object: <Deployment Component> 3_13483
+  Role: Steps <Steps>  Object: <Deployment Component> 3_13536
+Relationship: RESTful API for MyTardis <Association [UML]> 3_13666
+	Association name: RESTful API for MyTardis
+	Derived?: F
+	Derivation rules: 
+	Documentation: 
+  Role: Initial step <Initial step>  Object: <Deployment Component> 3_13536
+  Role: Steps <Steps>  Object: <Deployment Component> 3_13599
+Relationship:  <Association [UML]> 3_13726
+	Association name: 
+	Derived?: F
+	Derivation rules: 
+	Documentation: 
+  Role: Initial step <Initial step>  Object: <Deployment Component> 3_13683
+  Role: Steps <Steps>  Object: <Deployment Component> 3_13688
+Relationship:  <Association [UML]> 3_13743
+	Association name: 
+	Derived?: F
+	Derivation rules: 
+	Documentation: 
+  Role: Initial step <Initial step>  Object: <Deployment Component> 3_13688
+  Role: Steps <Steps>  Object: <Deployment Component> 3_13693
+Relationship:  <Association [UML]> 3_13848
+	Association name: 
+	Derived?: F
+	Derivation rules: 
+	Documentation: 
+  Role: Initial step <Initial step>  Object: <Deployment Component> 3_13599
+  Role: Steps <Steps>  Object: <Deployment Component> 3_13838
+Relationship:  <Association [UML]> 3_13940
+	Association name: 
+	Derived?: F
+	Derivation rules: 
+	Documentation: 
+  Role: Initial step <Initial step>  Object: <Deployment Component> 3_13916
+  Role: Steps <Steps>  Object: <Deployment Component> 3_13921

@@ -1,0 +1,163 @@
+Graph_Brainstorming_user_3721639935
+ICH in CT Brain
+3_10254
+Brainstorming
+Graph: ICH in CT Brain <Brainstorming> 3_10254
+	Problem: ICH in CT Brain
+Object: input.csv <Input> 3_13045
+	Input file name: input.csv
+Object:                             DataOps <Operation Seperator> 3_13140
+	Operation:                             DataOps
+Object:                             AIOps <Operation Seperator> 3_13145
+	Operation:                             AIOps
+Object:                             BusinessOps <Operation Seperator> 3_13150
+	Operation:                             BusinessOps
+Object:                             DevOps <Operation Seperator> 3_13155
+	Operation:                             DevOps
+Object: ICH in CT Brain <Problem Definition> 3_10263
+	Problem: ICH in CT Brain
+	Problem Definition: Intracranial hemorrhage (ICH) prediction through CT Scans
+Object: Current TAT time <Task> 3_10270
+	Task Name: Current TAT time
+	Task definition: Look at the current turnaround time
+Object: Record TAT <Task> 3_10286
+	Task Name: Record TAT
+	Task definition: Record before and after TATs
+Object: Misdetection rates <Task> 3_10302
+	Task Name: Misdetection rates
+	Task definition: Look ta misdetection rates
+Object: Efficiency <Task> 3_10327
+	Task Name: Efficiency
+	Task definition: 
+Object: Post implementation TAT <Task> 3_10343
+	Task Name: Post implementation TAT
+	Task definition: Collecting TAT after using the AI platform
+Object: Record TAT <Task> 3_10359
+	Task Name: Record TAT
+	Task definition: 
+Object: Use AI platform <Task> 3_10375
+	Task Name: Use AI platform
+	Task definition: 
+Object: Using AI platform <Task> 3_10401
+	Task Name: Using AI platform
+	Task definition: 
+Object: Radiologist test <Task> 3_10417
+	Task Name: Radiologist test
+	Task definition: 
+Object: Review/report <Task> 3_10433
+	Task Name: Review/report
+	Task definition: looking at the reports
+Object: Accuracy <Task> 3_10449
+	Task Name: Accuracy
+	Task definition: 
+Object: Test the algorithm <Task> 3_10465
+	Task Name: Test the algorithm
+	Task definition: 
+Object: Deployment <Task> 3_10481
+	Task Name: Deployment
+	Task definition: 
+Object: true positive test <Task> 3_10497
+	Task Name: true positive test
+	Task definition: feeding true positives to the AI platform
+Object: True negative test <Task> 3_10513
+	Task Name: True negative test
+	Task definition: 
+Object: False negative test <Task> 3_10529
+	Task Name: False negative test
+	Task definition: 
+Object: False positive test <Task> 3_10536
+	Task Name: False positive test
+	Task definition: 
+Object: Deploy on reporting computers <Task> 3_10561
+	Task Name: Deploy on reporting computers
+	Task definition: Deploy on reporting room computers
+Object: Cost analysis <Task> 3_10577
+	Task Name: Cost analysis
+	Task definition: Cost of AI platform
+Object: Measuring TAT time <Task> 3_10602
+	Task Name: Measuring TAT time
+	Task definition: 
+Object: Decision making <Task> 3_10627
+	Task Name: Decision making
+	Task definition: Whether to use the AI platform or not
+Object: Compare results <Task> 3_13992
+	Task Name: Compare results
+	Task definition: Comparing before and after TATs
+Object: Wrangle/Clean data <Task> 3_14490
+	Task Name: Wrangle/Clean data
+	Task definition: Data might have some inconsistencies, missing values and anomalies that needs to be cleaned before further analysis
+Relationship: Layer Connector <Layer Connector> 3_10277
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_10263
+  Role: Steps <Steps>  Object: <Task> 3_10270
+Relationship: Layer Connector <Layer Connector> 3_10293
+  Role: Initial step <Initial step>  Object: <Task> 3_10270
+  Role: Steps <Steps>  Object: <Task> 3_10286
+Relationship: Layer Connector <Layer Connector> 3_10334
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_10263
+  Role: Steps <Steps>  Object: <Task> 3_10327
+Relationship: Layer Connector <Layer Connector> 3_10350
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_10263
+  Role: Steps <Steps>  Object: <Task> 3_10343
+Relationship: Layer Connector <Layer Connector> 3_10366
+  Role: Initial step <Initial step>  Object: <Task> 3_10343
+  Role: Steps <Steps>  Object: <Task> 3_10359
+Relationship: Layer Connector <Layer Connector> 3_10382
+  Role: Initial step <Initial step>  Object: <Task> 3_10270
+  Role: Steps <Steps>  Object: <Task> 3_10375
+Relationship: Layer Connector <Layer Connector> 3_10392
+  Role: Initial step <Initial step>  Object: <Task> 3_10343
+  Role: Steps <Steps>  Object: <Task> 3_10375
+Relationship: Layer Connector <Layer Connector> 3_10408
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_10263
+  Role: Steps <Steps>  Object: <Task> 3_10401
+Relationship: Layer Connector <Layer Connector> 3_10424
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_10263
+  Role: Steps <Steps>  Object: <Task> 3_10417
+Relationship: Layer Connector <Layer Connector> 3_10440
+  Role: Initial step <Initial step>  Object: <Task> 3_10417
+  Role: Steps <Steps>  Object: <Task> 3_10433
+Relationship: Layer Connector <Layer Connector> 3_10456
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_10263
+  Role: Steps <Steps>  Object: <Task> 3_10449
+Relationship: Layer Connector <Layer Connector> 3_10488
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_10263
+  Role: Steps <Steps>  Object: <Task> 3_10481
+Relationship: Layer Connector <Layer Connector> 3_10504
+  Role: Initial step <Initial step>  Object: <Task> 3_10465
+  Role: Steps <Steps>  Object: <Task> 3_10497
+Relationship: Layer Connector <Layer Connector> 3_10520
+  Role: Initial step <Initial step>  Object: <Task> 3_10465
+  Role: Steps <Steps>  Object: <Task> 3_10513
+Relationship: Layer Connector <Layer Connector> 3_10543
+  Role: Initial step <Initial step>  Object: <Task> 3_10465
+  Role: Steps <Steps>  Object: <Task> 3_10529
+Relationship: Layer Connector <Layer Connector> 3_10552
+  Role: Initial step <Initial step>  Object: <Task> 3_10465
+  Role: Steps <Steps>  Object: <Task> 3_10536
+Relationship: Layer Connector <Layer Connector> 3_10568
+  Role: Initial step <Initial step>  Object: <Task> 3_10481
+  Role: Steps <Steps>  Object: <Task> 3_10561
+Relationship: Layer Connector <Layer Connector> 3_10584
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_10263
+  Role: Steps <Steps>  Object: <Task> 3_10577
+Relationship: Layer Connector <Layer Connector> 3_10593
+  Role: Initial step <Initial step>  Object: <Task> 3_10449
+  Role: Steps <Steps>  Object: <Task> 3_10465
+Relationship: Layer Connector <Layer Connector> 3_10609
+  Role: Initial step <Initial step>  Object: <Task> 3_10327
+  Role: Steps <Steps>  Object: <Task> 3_10602
+Relationship: Layer Connector <Layer Connector> 3_10618
+  Role: Initial step <Initial step>  Object: <Task> 3_10417
+  Role: Steps <Steps>  Object: <Task> 3_10302
+Relationship: Layer Connector <Layer Connector> 3_10634
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_10263
+  Role: Steps <Steps>  Object: <Task> 3_10627
+Relationship: Layer Connector <Layer Connector> 3_13059
+  Role: Information <Information>  Object: <Input> 3_13045
+  Role: Initial info <Initial info>  Object: <Task> 3_10286
+Relationship: Layer Connector <Layer Connector> 3_14008
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_10263
+  Role: Steps <Steps>  Object: <Task> 3_13992
+Relationship: Layer Connector <Layer Connector> 3_14497
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_10263
+  Role: Steps <Steps>  Object: <Task> 3_14490

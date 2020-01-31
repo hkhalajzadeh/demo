@@ -1,0 +1,225 @@
+Graph_Process_user_3721982467
+Property Price Prediction
+3_288
+Process
+Graph: Property Price Prediction <Process> 3_288
+	Problem: Property Price Prediction
+Object: Need more domain knowledge <Alert> 3_5401
+	Alert: Need more domain knowledge
+Object: Models need to be retrained <Alert> 3_5406
+	Alert: Models need to be retrained
+Object: Models need to be maintained <Alert> 3_5411
+	Alert: Models need to be maintained
+Object: Other participants need to find the problem and go back to the step <Alert> 3_5416
+	Alert: Other participants need to find the problem and go back to the step
+Object: Enough insights? <Condition> 3_553
+	Condition name: Enough insights?
+	Condition definition: 
+Object: Features good enough? <Condition> 3_586
+	Condition name: Features good enough?
+	Condition definition: 
+Object: Models good enough? <Condition> 3_589
+	Condition name: Models good enough?
+	Condition definition: 
+Object: Models good enough? <Condition> 3_612
+	Condition name: Models good enough?
+	Condition definition: 
+Object: Satisfied? <Condition> 3_630
+	Condition name: Satisfied?
+	Condition definition: 
+Object: Follow up with business manager <End> 3_633
+	End: Follow up with business manager
+Object: Data Analytics Solution Provider <Organization> 3_453
+	Organization name: Data Analytics Solution Provider
+	Organization definition: 
+Object: Real Estate <Organization> 3_478
+	Organization name: Real Estate
+	Organization definition: 
+Object: Users <Organization> 3_493
+	Organization name: Users
+	Organization definition: 
+Object: Business Analyst/ Owner <Participant> 3_458
+	Participant name: Business Analyst/ Owner
+	Participant definition: 
+Object: Data Analyst <Participant> 3_463
+	Participant name: Data Analyst
+	Participant definition: 
+Object: Data Scientist <Participant> 3_468
+	Participant name: Data Scientist
+	Participant definition: 
+Object: Software Engineer <Participant> 3_473
+	Participant name: Software Engineer
+	Participant definition: 
+Object: Real Estate Manager <Participant> 3_483
+	Participant name: Real Estate Manager
+	Participant definition: 
+Object: Property Buyers <Participant> 3_488
+	Participant name: Property Buyers
+	Participant definition: 
+Object: Need to analyse data <Start> 3_498
+	Start: Need to analyse data
+Object: Share properties/market knowledge <Task> 3_9040
+	Task Name: Share properties/market knowledge
+	Task definition: Domain expert share domain knowledge with the business analyst/manager
+Object: Gain proprties/market knowledge <Task> 3_9075
+	Task Name: Gain proprties/market knowledge
+	Task definition: 
+Object: Define price prediction objectives <Task> 3_9091
+	Task Name: Define price prediction objectives
+	Task definition: 
+Object: Define Users <Task> 3_9107
+	Task Name: Define Users
+	Task definition: 
+Object: Define price prediction requirements <Task> 3_9123
+	Task Name: Define price prediction requirements
+	Task definition: 
+Object: Define resources <Task> 3_9139
+	Task Name: Define resources
+	Task definition: 
+Object: Acquire data <Task> 3_9155
+	Task Name: Acquire data
+	Task definition: 
+Object: Wrangle data <Task> 3_9171
+	Task Name: Wrangle data
+	Task definition: 
+Object: Visualize and analyze salesPrice/features <Task> 3_9187
+	Task Name: Visualize and analyze salesPrice/features
+	Task definition: 
+Object: Extract insights <Task> 3_9212
+	Task Name: Extract insights
+	Task definition: 
+Object: Send feedback to website <Task> 3_9237
+	Task Name: Send feedback to website
+	Task definition: 
+Object: Get predicted price <Task> 3_9253
+	Task Name: Get predicted price
+	Task definition: 
+Object: Access the website <Task> 3_9269
+	Task Name: Access the website
+	Task definition: 
+Object: Price prediction website deployment <Task> 3_9285
+	Task Name: Price prediction website deployment
+	Task definition: 
+Object: Maintain <Task> 3_9328
+	Task Name: Maintain
+	Task definition: 
+Object: Retrain <Task> 3_9344
+	Task Name: Retrain
+	Task definition: 
+Object: Integrate models with application <Task> 3_9360
+	Task Name: Integrate models with application
+	Task definition: 
+Object: Finalize models <Task> 3_9385
+	Task Name: Finalize models
+	Task definition: 
+Object: Price prediction feature engineering <Task> 3_9410
+	Task Name: Price prediction feature engineering
+	Task definition: 
+Object: Price prediction model engineering <Task> 3_9462
+	Task Name: Price prediction model engineering
+	Task definition: 
+Relationship: Arrowed Connector <Arrowed Connector> 3_9047
+  Role: From <From>  Object: <Start> 3_498
+  Role: To <To>  Object: <Task> 3_9040
+Relationship: Arrowed Connector <Arrowed Connector> 3_9065
+  Role: From <From>  Object: <Task> 3_9040
+  Role: To <To>  Object: <Alert> 3_5401
+Relationship: Arrowed Connector <Arrowed Connector> 3_9082
+  Role: From <From>  Object: <Task> 3_9040
+  Role: To <To>  Object: <Task> 3_9075
+Relationship: Arrowed Connector <Arrowed Connector> 3_9098
+  Role: From <From>  Object: <Task> 3_9075
+  Role: To <To>  Object: <Task> 3_9091
+Relationship: Arrowed Connector <Arrowed Connector> 3_9114
+  Role: From <From>  Object: <Task> 3_9091
+  Role: To <To>  Object: <Task> 3_9107
+Relationship: Arrowed Connector <Arrowed Connector> 3_9130
+  Role: From <From>  Object: <Task> 3_9107
+  Role: To <To>  Object: <Task> 3_9123
+Relationship: Arrowed Connector <Arrowed Connector> 3_9146
+  Role: From <From>  Object: <Task> 3_9123
+  Role: To <To>  Object: <Task> 3_9139
+Relationship: Arrowed Connector <Arrowed Connector> 3_9162
+  Role: From <From>  Object: <Task> 3_9139
+  Role: To <To>  Object: <Task> 3_9155
+Relationship: Arrowed Connector <Arrowed Connector> 3_9178
+  Role: From <From>  Object: <Task> 3_9155
+  Role: To <To>  Object: <Task> 3_9171
+Relationship: Arrowed Connector <Arrowed Connector> 3_9194
+  Role: From <From>  Object: <Task> 3_9171
+  Role: To <To>  Object: <Task> 3_9187
+Relationship: Arrowed Connector <Arrowed Connector> 3_9219
+  Role: From <From>  Object: <Task> 3_9187
+  Role: To <To>  Object: <Task> 3_9212
+Relationship: Arrowed Connector <Arrowed Connector> 3_9228
+  Role: From <From>  Object: <Task> 3_9212
+  Role: To <To>  Object: <Condition> 3_553
+Relationship: Arrowed Connector <Arrowed Connector> 3_9244
+  Role: From <From>  Object: <Task> 3_9237
+  Role: To <To>  Object: <Condition> 3_630
+Relationship: Arrowed Connector <Arrowed Connector> 3_9260
+  Role: From <From>  Object: <Task> 3_9253
+  Role: To <To>  Object: <Task> 3_9237
+Relationship: Arrowed Connector <Arrowed Connector> 3_9276
+  Role: From <From>  Object: <Task> 3_9269
+  Role: To <To>  Object: <Task> 3_9253
+Relationship: Arrowed Connector <Arrowed Connector> 3_9292
+  Role: From <From>  Object: <Task> 3_9285
+  Role: To <To>  Object: <Task> 3_9269
+Relationship: Arrowed Connector <Arrowed Connector> 3_9310
+  Role: From <From>  Object: <Task> 3_9285
+  Role: To <To>  Object: <Alert> 3_5406
+Relationship: Arrowed Connector <Arrowed Connector> 3_9319
+  Role: From <From>  Object: <Task> 3_9285
+  Role: To <To>  Object: <Alert> 3_5411
+Relationship: Arrowed Connector <Arrowed Connector> 3_9335
+  Role: From <From>  Object: <Alert> 3_5411
+  Role: To <To>  Object: <Task> 3_9328
+Relationship: Arrowed Connector <Arrowed Connector> 3_9351
+  Role: From <From>  Object: <Alert> 3_5406
+  Role: To <To>  Object: <Task> 3_9344
+Relationship: Arrowed Connector <Arrowed Connector> 3_9376
+  Role: From <From>  Object: <Task> 3_9360
+  Role: To <To>  Object: <Task> 3_9285
+Relationship: Arrowed Connector <Arrowed Connector> 3_9417
+  Role: From <From>  Object: <Alert> 3_5401
+  Role: To <To>  Object: <Task> 3_9410
+Relationship: Arrowed Connector <Arrowed Connector> 3_9444
+  Role: From <From>  Object: <Task> 3_9410
+  Role: To <To>  Object: <Condition> 3_586
+Relationship: Arrowed Connector <Arrowed Connector> 3_9496
+  Role: From <From>  Object: <Task> 3_9462
+  Role: To <To>  Object: <Condition> 3_589
+Relationship: Arrowed Connector <Arrowed Connector> 3_19650
+  Role: From <From>  Object: <Task> 3_9385
+  Role: To <To>  Object: <Condition> 3_612
+Relationship: Condition correct <Condition correct> 3_871
+  Role: Condition <Condition>  Object: <Condition> 3_630
+  Role: End <End>  Object: <End> 3_633
+Relationship: Condition correct <Condition correct> 3_9367
+  Role: Condition <Condition>  Object: <Condition> 3_612
+  Role: Operation <Operation>  Object: <Task> 3_9360
+Relationship: Condition correct <Condition correct> 3_9392
+  Role: Condition <Condition>  Object: <Condition> 3_589
+  Role: Operation <Operation>  Object: <Task> 3_9385
+Relationship: Condition correct <Condition correct> 3_9435
+  Role: Condition <Condition>  Object: <Condition> 3_553
+  Role: Operation <Operation>  Object: <Task> 3_9410
+Relationship: Condition correct <Condition correct> 3_9469
+  Role: Condition <Condition>  Object: <Condition> 3_586
+  Role: Operation <Operation>  Object: <Task> 3_9462
+Relationship: Condition incorrect <Condition incorrect> 3_5426
+  Role: Alert <Alert>  Object: <Alert> 3_5416
+  Role: Condition <Condition>  Object: <Condition> 3_630
+Relationship: Condition incorrect <Condition incorrect> 3_9203
+  Role: Condition <Condition>  Object: <Condition> 3_553
+  Role: Operation <Operation>  Object: <Task> 3_9187
+Relationship: Condition incorrect <Condition incorrect> 3_9426
+  Role: Condition <Condition>  Object: <Condition> 3_612
+  Role: Operation <Operation>  Object: <Task> 3_9410
+Relationship: Condition incorrect <Condition incorrect> 3_9453
+  Role: Condition <Condition>  Object: <Condition> 3_586
+  Role: Operation <Operation>  Object: <Task> 3_9410
+Relationship: Condition incorrect <Condition incorrect> 3_9478
+  Role: Condition <Condition>  Object: <Condition> 3_589
+  Role: Operation <Operation>  Object: <Task> 3_9462

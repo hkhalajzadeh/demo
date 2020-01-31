@@ -1,0 +1,124 @@
+Graph_Process_user_3721982467
+ICH in CT
+3_13068
+Process
+Graph: ICH in CT <Process> 3_13068
+	Problem: ICH in CT
+Object:  <End> 3_14329
+	End: 
+Object: Alfred Hospital <Organization> 3_13077
+	Organization name: Alfred Hospital
+	Organization definition: 
+Object: AI Platform Provider <Organization> 3_13084
+	Organization name: AI Platform Provider
+	Organization definition: 
+Object: Radiologist <Participant> 3_13098
+	Participant name: Radiologist
+	Participant definition: 
+Object: Sales manager <Participant> 3_13105
+	Participant name: Sales manager
+	Participant definition: 
+Object: Research Team <Participant> 3_14259
+	Participant name: Research Team
+	Participant definition: 
+Object: Executive Team <Participant> 3_14266
+	Participant name: Executive Team
+	Participant definition: 
+Object:  <Start> 3_14066
+	Start: 
+Object: Use AI platform <Task> 3_10375
+	Task Name: Use AI platform
+	Task definition: 
+Object: Review/report <Task> 3_10433
+	Task Name: Review/report
+	Task definition: looking at the reports
+Object: Provides access / information on tool <Task> 3_13133
+	Task Name: Provides access / information on tool
+	Task definition: 
+Object: Cost Analysis <Task> 3_14273
+	Task Name: Cost Analysis
+	Task definition: 
+Object: Decision Making <Task> 3_14280
+	Task Name: Decision Making
+	Task definition: 
+Object: Record TAT <Task> 3_14287
+	Task Name: Record TAT
+	Task definition: Record before and after TATs
+Object: Record procedure start/end <Task> 3_14294
+	Task Name: Record procedure start/end
+	Task definition: 
+Object: Misdetection rates <Task> 3_14301
+	Task Name: Misdetection rates
+	Task definition: Look at misdetection rates
+Object: Review/report <Task> 3_14308
+	Task Name: Review/report
+	Task definition: looking at the reports
+Object: Technical support <Task> 3_14315
+	Task Name: Technical support
+	Task definition: 
+Object: Backend maintenance <Task> 3_14322
+	Task Name: Backend maintenance
+	Task definition: 
+Object: Measuring TAT time <Task> 3_14334
+	Task Name: Measuring TAT time
+	Task definition: 
+Object: Test the algorithm <Task> 3_14341
+	Task Name: Test the algorithm
+	Task definition: 
+Object: Compare results <Task> 3_14348
+	Task Name: Compare results
+	Task definition: 
+Object: Wrangle/Clean data <Task> 3_14506
+	Task Name: Wrangle/Clean data
+	Task definition: 
+Relationship: Arrowed Connector <Arrowed Connector> 3_14355
+  Role: From <From>  Object: <Start> 3_14066
+  Role: To <To>  Object: <Task> 3_10375
+Relationship: Arrowed Connector <Arrowed Connector> 3_14364
+  Role: From <From>  Object: <Start> 3_14066
+  Role: To <To>  Object: <Task> 3_14287
+Relationship: Arrowed Connector <Arrowed Connector> 3_14373
+  Role: From <From>  Object: <Start> 3_14066
+  Role: To <To>  Object: <Task> 3_14294
+Relationship: Arrowed Connector <Arrowed Connector> 3_14382
+  Role: From <From>  Object: <Start> 3_14066
+  Role: To <To>  Object: <Task> 3_13133
+Relationship: Arrowed Connector <Arrowed Connector> 3_14391
+  Role: From <From>  Object: <Task> 3_10375
+  Role: To <To>  Object: <Task> 3_10433
+Relationship: Arrowed Connector <Arrowed Connector> 3_14400
+  Role: From <From>  Object: <Task> 3_14287
+  Role: To <To>  Object: <Task> 3_14334
+Relationship: Arrowed Connector <Arrowed Connector> 3_14409
+  Role: From <From>  Object: <Task> 3_14334
+  Role: To <To>  Object: <Task> 3_14301
+Relationship: Arrowed Connector <Arrowed Connector> 3_14418
+  Role: From <From>  Object: <Task> 3_14301
+  Role: To <To>  Object: <Task> 3_14308
+Relationship: Arrowed Connector <Arrowed Connector> 3_14427
+  Role: From <From>  Object: <Task> 3_14308
+  Role: To <To>  Object: <Task> 3_14341
+Relationship: Arrowed Connector <Arrowed Connector> 3_14445
+  Role: From <From>  Object: <Task> 3_14348
+  Role: To <To>  Object: <Task> 3_14273
+Relationship: Arrowed Connector <Arrowed Connector> 3_14454
+  Role: From <From>  Object: <Task> 3_13133
+  Role: To <To>  Object: <Task> 3_14315
+Relationship: Arrowed Connector <Arrowed Connector> 3_14463
+  Role: From <From>  Object: <Task> 3_14315
+  Role: To <To>  Object: <Task> 3_14322
+Relationship: Arrowed Connector <Arrowed Connector> 3_14472
+  Role: From <From>  Object: <Task> 3_14273
+  Role: To <To>  Object: <Task> 3_14280
+Relationship: Arrowed Connector <Arrowed Connector> 3_14481
+  Role: From <From>  Object: <Task> 3_14280
+  Role: To <To>  Object: <End> 3_14329
+Relationship: Arrowed Connector <Arrowed Connector> 3_14513
+  Role: From <From>  Object: <Task> 3_14341
+  Role: To <To>  Object: <Task> 3_14506
+Relationship: Arrowed Connector <Arrowed Connector> 3_14522
+  Role: From <From>  Object: <Task> 3_14506
+  Role: To <To>  Object: <Task> 3_14348
+Relationship: Arrowed Connector <Arrowed Connector> 3_14531
+  Role: From <From>  Object: <Task> 3_14294
+  Role: To <To>  Object: <Task> 3_14334

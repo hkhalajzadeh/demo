@@ -1,0 +1,69 @@
+Graph_Deployment_user_3730104497
+Property Price Prediction
+3_4712
+Deployment
+Graph: Property Price Prediction <Deployment> 3_4712
+	Problem: Property Price Prediction
+Object: Price prediction model (.pkl) <Code file/Model> 3_4896
+	Code file/Model name: Price prediction model (.pkl)
+Object: HTML 5 <Deployment Component> 3_4783
+	Component Name: HTML 5
+Object: Browser <Deployment Component> 3_4788
+	Component Name: Browser
+Object: Client System <Deployment Component> 3_4793
+	Component Name: Client System
+Object: AWS Lambda <Deployment Component> 3_4822
+	Component Name: AWS Lambda
+Object: AWS Cloud <Deployment Component> 3_4827
+	Component Name: AWS Cloud
+Object: Real Estate MySQL DB <Deployment Component> 3_4832
+	Component Name: Real Estate MySQL DB
+Object: Database Server <Deployment Component> 3_4847
+	Component Name: Database Server
+Object: AWS Spot Instances <Deployment Component> 3_4859
+	Component Name: AWS Spot Instances
+Object: Model Training <Deployment Component> 3_4864
+	Component Name: Model Training
+Object: Property price prediction website <Information> 3_4814
+	Information Name: Property price prediction website
+Object: Generated property price model parameters <Information> 3_4888
+	Information Name: Generated property price model parameters
+Object: Government suburb data <Multiple data> 3_4883
+	Multiple data name: Government suburb data
+Object: Sold properties/ suburbs report <Report> 3_6615
+	Report name: Sold properties/ suburbs report
+Object: Prediction price results <Report> 3_6620
+	Report name: Prediction price results
+Object: Store <Task> 3_4837
+	Task Name: Store
+	Task definition: 
+Object: Integrate <Task> 3_4852
+	Task Name: Integrate
+	Task definition: 
+Object: Train models <Task> 3_4869
+	Task Name: Train models
+	Task definition: 
+Object: re-train model <Task> 3_4876
+	Task Name: re-train model
+	Task definition: 
+Relationship: https:80 <Association [UML]> 3_4901
+	Association name: https:80
+	Derived?: F
+	Derivation rules: 
+	Documentation: 
+  Role: Initial step <Initial step>  Object: <Deployment Component> 3_4788
+  Role: Steps <Steps>  Object: <Deployment Component> 3_4822
+Relationship:  <Association [UML]> 3_4918
+	Association name: 
+	Derived?: F
+	Derivation rules: 
+	Documentation: 
+  Role: Initial step <Initial step>  Object: <Deployment Component> 3_4822
+  Role: Steps <Steps>  Object: <Deployment Component> 3_4832
+Relationship:  <Association [UML]> 3_4935
+	Association name: 
+	Derived?: F
+	Derivation rules: 
+	Documentation: 
+  Role: Initial step <Initial step>  Object: <Deployment Component> 3_4832
+  Role: Steps <Steps>  Object: <Deployment Component> 3_4864

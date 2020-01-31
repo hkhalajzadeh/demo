@@ -7,9 +7,21 @@ Diagrams
 ==========================
 Object Types
 ==========================
-Diagram
-	Diagram Name: String
-	Problem: String
+Process Diagram
+	Process diagram name: String
+	Diagram definition: String
+Brainstorming Diagram
+	Brainstorming diagram name: String
+	Diagram definition: String
+Technique Diagram
+	Technique diagram name: String
+	Diagram definition: String
+Data Diagram
+	Data diagram name: String
+	Diagram definition: String
+Deployment Diagram
+	Deployment diagram name: String
+	Diagram definition: String
 
 ==========================
 Relationship Types
@@ -39,13 +51,16 @@ Process
 	Problem: String
 Technique
 	Problem: String
+Diagram
+	Diagram Name: String
+	Problem: String
 
 ==========================
 Bindings
 ==========================
 Connection
-	High Level: Diagram
-	Low Level: Diagram
+	High Level: Brainstorming Diagram, Data Diagram, Deployment Diagram, Process Diagram, Technique Diagram
+	Low Level: Brainstorming Diagram, Data Diagram, Deployment Diagram, Process Diagram, Technique Diagram
 
 ==========================
 Constraints
@@ -55,11 +70,21 @@ Constraints
 Subgraphs
 ==========================
 Decompositions:
+	Brainstorming Diagram
+		Brainstorming
+	Data Diagram
+		Data
+	Deployment Diagram
+		Deployment
 	Diagram
 		Brainstorming
 		Data
 		Deployment
 		Output
 		Process
+		Technique
+	Process Diagram
+		Process
+	Technique Diagram
 		Technique
 

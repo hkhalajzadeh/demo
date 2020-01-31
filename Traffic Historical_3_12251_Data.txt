@@ -1,0 +1,29 @@
+Graph_Data_user_3722148282
+Traffic Historical
+3_12251
+Data
+Graph: Traffic Historical <Data> 3_12251
+	Problem: Traffic Historical
+Object: 15 Minute Traffic Volumes (.csv) <Data> 3_12277
+	Data name: 15 Minute Traffic Volumes (.csv)
+Object: Cycle-by-Cycle Stategic Monitor Data (.csv) <Data> 3_12282
+	Data name: Cycle-by-Cycle Stategic Monitor Data (.csv)
+Object: Myki Data (Unknown) <Multiple data> 3_12267
+	Multiple data name: Myki Data (Unknown)
+Object: Traffic Intersection Diagrams (Op Sheets) (image) <Multiple data> 3_12272
+	Multiple data name: Traffic Intersection Diagrams (Op Sheets) (image)
+Object: Provide historical data <Task> 3_12260
+	Task Name: Provide historical data
+	Task definition: 
+Relationship: Arrowed Connector <Arrowed Connector> 3_12287
+  Role: From <From>  Object: <Task> 3_12260
+  Role: To <To>  Object: <Multiple data> 3_12267
+Relationship: Arrowed Connector <Arrowed Connector> 3_12296
+  Role: From <From>  Object: <Task> 3_12260
+  Role: To <To>  Object: <Multiple data> 3_12272
+Relationship: Arrowed Connector <Arrowed Connector> 3_12305
+  Role: From <From>  Object: <Task> 3_12260
+  Role: To <To>  Object: <Data> 3_12277
+Relationship: Arrowed Connector <Arrowed Connector> 3_12314
+  Role: From <From>  Object: <Task> 3_12260
+  Role: To <To>  Object: <Data> 3_12282

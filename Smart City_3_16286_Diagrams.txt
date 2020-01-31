@@ -1,0 +1,46 @@
+Graph_Diagrams_user_3721635000
+Smart City
+3_16286
+Diagrams
+Graph: Smart City <Diagrams> 3_16286
+	Problem: Smart City
+Object: Smart City Brainstorming Diagram <Brainstorming Diagram> 3_16295
+	Brainstorming diagram name: Smart City Brainstorming Diagram
+	Diagram definition: 
+	Decomposed to: Smart City <Brainstorming>
+Object: Output Data Diagram <Data Diagram> 3_17459
+	Data diagram name: Output Data Diagram
+	Diagram definition: 
+	Decomposed to: Output App Diagram <Data>
+Object: Smart City Deployment Diagram <Deployment Diagram> 3_17508
+	Deployment diagram name: Smart City Deployment Diagram
+	Diagram definition: 
+	Decomposed to: Smart City Deployment Diagram <Deployment>
+Object: Smart City Process Diagram <Process Diagram> 3_16302
+	Process diagram name: Smart City Process Diagram
+	Diagram definition: 
+	Decomposed to: Smart City <Process>
+Object: Smart City Data Analysis <Technique Diagram> 3_17537
+	Technique diagram name: Smart City Data Analysis
+	Diagram definition: 
+	Decomposed to: Smart City Data Analysis <Technique>
+Relationship: Connection <Connection> 3_16309
+  Role:  <High Level>  Object: <Brainstorming Diagram> 3_16295
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Process Diagram> 3_16302
+	Multiplicity: 
+Relationship: Connection <Connection> 3_17495
+  Role:  <High Level>  Object: <Brainstorming Diagram> 3_16295
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Data Diagram> 3_17459
+	Multiplicity: 
+Relationship: Connection <Connection> 3_17515
+  Role:  <High Level>  Object: <Brainstorming Diagram> 3_16295
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Deployment Diagram> 3_17508
+	Multiplicity: 
+Relationship: Connection <Connection> 3_17544
+  Role:  <High Level>  Object: <Brainstorming Diagram> 3_16295
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Technique Diagram> 3_17537
+	Multiplicity: 

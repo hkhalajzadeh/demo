@@ -1,0 +1,38 @@
+Graph_Data_user_3722148282
+ICH in CT
+3_13160
+Data
+Graph: ICH in CT <Data> 3_13160
+	Problem: ICH in CT
+Object: Test Results <Data> 3_13228
+	Data name: Test Results
+Object: TAT time <Data> 3_13233
+	Data name: TAT time
+Object: Current dataset (excel) <Multiple data> 3_13168
+	Multiple data name: Current dataset (excel)
+Object: Post implementation dataset (excel) <Multiple data> 3_13173
+	Multiple data name: Post implementation dataset (excel)
+Object: Measuring TAT time <Task> 3_13178
+	Task Name: Measuring TAT time
+	Task definition: 
+Object: Test the algorithm <Task> 3_13185
+	Task Name: Test the algorithm
+	Task definition: 
+Relationship: Arrowed Connector <Arrowed Connector> 3_13192
+  Role: From <From>  Object: <Multiple data> 3_13168
+  Role: To <To>  Object: <Task> 3_13178
+Relationship: Arrowed Connector <Arrowed Connector> 3_13201
+  Role: From <From>  Object: <Multiple data> 3_13173
+  Role: To <To>  Object: <Task> 3_13178
+Relationship: Arrowed Connector <Arrowed Connector> 3_13210
+  Role: From <From>  Object: <Multiple data> 3_13168
+  Role: To <To>  Object: <Task> 3_13185
+Relationship: Arrowed Connector <Arrowed Connector> 3_13219
+  Role: From <From>  Object: <Multiple data> 3_13173
+  Role: To <To>  Object: <Task> 3_13185
+Relationship: Arrowed Connector <Arrowed Connector> 3_13238
+  Role: From <From>  Object: <Task> 3_13178
+  Role: To <To>  Object: <Data> 3_13233
+Relationship: Arrowed Connector <Arrowed Connector> 3_13247
+  Role: From <From>  Object: <Task> 3_13185
+  Role: To <To>  Object: <Data> 3_13228

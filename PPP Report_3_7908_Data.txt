@@ -1,0 +1,54 @@
+Graph_Data_user_3722148282
+PPP Report
+3_7908
+Data
+Graph: PPP Report <Data> 3_7908
+	Problem: PPP Report
+Object: Price prediction model (.pkl) <Code file/Model> 3_5631
+	Code file/Model name: Price prediction model (.pkl)
+Object: Cleaned dataset (.csv) <Data> 3_5626
+	Data name: Cleaned dataset (.csv)
+Object: Sold Price/predicted price report over the last year <Report> 3_5558
+	Report name: Sold Price/predicted price report over the last year
+Object: Price prediction error <Report> 3_5563
+	Report name: Price prediction error
+Object: Price Prediction RMSE score <Report> 3_5568
+	Report name: Price Prediction RMSE score
+Object: Price prediction accuracy <Report> 3_5573
+	Report name: Price prediction accuracy
+Object: Confidence level of the results <Report> 3_5578
+	Report name: Confidence level of the results
+Object: Most/least expensive suburbs <Report> 3_5583
+	Report name: Most/least expensive suburbs
+Object: Effects of public transportation/schools/ shopping centers/etc on salePrice <Report> 3_5588
+	Report name: Effects of public transportation/schools/ shopping centers/etc on salePrice
+Object: Integrate models with application <Task> 3_5619
+	Task Name: Integrate models with application
+	Task definition: 
+Relationship: Arrowed Connector <Arrowed Connector> 3_7954
+  Role: From <From>  Object: <Data> 3_5626
+  Role: To <To>  Object: <Task> 3_5619
+Relationship: Arrowed Connector <Arrowed Connector> 3_7960
+  Role: From <From>  Object: <Code file/Model> 3_5631
+  Role: To <To>  Object: <Task> 3_5619
+Relationship: Arrowed Connector <Arrowed Connector> 3_7966
+  Role: From <From>  Object: <Task> 3_5619
+  Role: To <To>  Object: <Report> 3_5558
+Relationship: Arrowed Connector <Arrowed Connector> 3_7972
+  Role: From <From>  Object: <Task> 3_5619
+  Role: To <To>  Object: <Report> 3_5563
+Relationship: Arrowed Connector <Arrowed Connector> 3_7978
+  Role: From <From>  Object: <Task> 3_5619
+  Role: To <To>  Object: <Report> 3_5568
+Relationship: Arrowed Connector <Arrowed Connector> 3_7984
+  Role: From <From>  Object: <Task> 3_5619
+  Role: To <To>  Object: <Report> 3_5588
+Relationship: Arrowed Connector <Arrowed Connector> 3_7990
+  Role: From <From>  Object: <Task> 3_5619
+  Role: To <To>  Object: <Report> 3_5573
+Relationship: Arrowed Connector <Arrowed Connector> 3_7996
+  Role: From <From>  Object: <Task> 3_5619
+  Role: To <To>  Object: <Report> 3_5583
+Relationship: Arrowed Connector <Arrowed Connector> 3_8002
+  Role: From <From>  Object: <Task> 3_5619
+  Role: To <To>  Object: <Report> 3_5578

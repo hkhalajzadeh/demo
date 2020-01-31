@@ -1,0 +1,54 @@
+Graph_Process_user_3721982467
+NBA Prediction
+3_3319
+Process
+Graph: NBA Prediction <Process> 3_3319
+	Problem: NBA Prediction
+Object: Send prediction request <Operation> 3_3379
+	Operation name: Send prediction request
+	Reused from brainstorming?: T
+	Operation definition: 
+Object: Feature analysis <Operation> 3_3384
+	Operation name: Feature analysis
+	Reused from brainstorming?: T
+	Operation definition: 
+Object: Feature engineering <Operation> 3_3389
+	Operation name: Feature engineering
+	Reused from brainstorming?: T
+	Operation definition: 
+Object: Train models <Operation> 3_3394
+	Operation name: Train models
+	Reused from brainstorming?: T
+	Operation definition: 
+Object: Prediction <Operation> 3_3399
+	Operation name: Prediction
+	Reused from brainstorming?: T
+	Operation definition: 
+Object: Collect data <Operation> 3_3404
+	Operation name: Collect data
+	Reused from brainstorming?: T
+	Operation definition: 
+Object: Punters <Organization> 3_3327
+	Organization name: Punters
+	Organization definition: 
+Object: Domain <Organization> 3_3355
+	Organization name: Domain
+	Organization definition: 
+Object: User <Organization> 3_3362
+	Organization name: User
+	Organization definition: 
+Object: Manager <Participant> 3_3334
+	Participant name: Manager
+	Participant definition: 
+Object: Data Scientist <Participant> 3_3345
+	Participant name: Data Scientist
+	Participant definition: 
+Object: Software Engineer <Participant> 3_3350
+	Participant name: Software Engineer
+	Participant definition: 
+Object: Domain Expert <Participant> 3_3369
+	Participant name: Domain Expert
+	Participant definition: 
+Object: User <Participant> 3_3374
+	Participant name: User
+	Participant definition: 
