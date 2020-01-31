@@ -1,0 +1,34 @@
+Graph_Technique_user_3722148262
+ICH in CT
+3_13256
+Technique
+Graph: ICH in CT <Technique> 3_13256
+	Problem: ICH in CT
+Object: Compare results <Task> 3_13264
+	Task Name: Compare results
+	Task definition: Comparing before and after TATs
+Object: pyCompare <Technique> 3_13964
+	Technique name: pyCompare
+Object: ScikitLearn <Technique> 3_13969
+	Technique name: ScikitLearn
+Object: ANOVA test <Technique> 3_14017
+	Technique name: ANOVA test
+Object: Visualisation <Technique> 3_14031
+	Technique name: Visualisation
+Object: Summary <Technique> 3_14036
+	Technique name: Summary
+Relationship: Arrowed Connector <Arrowed Connector> 3_13974
+  Role: From <From>  Object: <Task> 3_13264
+  Role: To <To>  Object: <Technique> 3_13964
+Relationship: Arrowed Connector <Arrowed Connector> 3_13983
+  Role: From <From>  Object: <Task> 3_13264
+  Role: To <To>  Object: <Technique> 3_13969
+Relationship: Arrowed Connector <Arrowed Connector> 3_14022
+  Role: From <From>  Object: <Task> 3_13264
+  Role: To <To>  Object: <Technique> 3_14017
+Relationship: Arrowed Connector <Arrowed Connector> 3_14041
+  Role: From <From>  Object: <Task> 3_13264
+  Role: To <To>  Object: <Technique> 3_14036
+Relationship: Arrowed Connector <Arrowed Connector> 3_14050
+  Role: From <From>  Object: <Task> 3_13264
+  Role: To <To>  Object: <Technique> 3_14031

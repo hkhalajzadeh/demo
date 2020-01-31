@@ -1,0 +1,58 @@
+Graph_Output_user_3722148299
+Property Price Prediction
+3_297
+Output
+Graph: Property Price Prediction <Output> 3_297
+	Problem: Property Price Prediction
+Object: Technique diagram <Diagram blackbox> 3_1310
+	Diagram name: Technique diagram
+Object: Data diagram <Diagram blackbox> 3_1315
+	Diagram name: Data diagram
+Object:  <Logic> 3_4314
+	Logic name: 
+Object: Outputs <Output> 3_1320
+	Output name: Outputs
+Object: Sold Price/predicted price report over the last year <Port> 3_1325
+	Port name: Sold Price/predicted price report over the last year
+Object: Price prediction error <Port> 3_1330
+	Port name: Price prediction error
+Object: Price Prediction RMSE score <Port> 3_1335
+	Port name: Price Prediction RMSE score
+Object: Price prediction accuracy <Port> 3_1340
+	Port name: Price prediction accuracy
+Object: Most/least expensive suburbs <Port> 3_1345
+	Port name: Most/least expensive suburbs
+Object: Effects of public transportation/schools/ shopping centers/etc on salePrice <Port> 3_1350
+	Port name: Effects of public transportation/schools/ shopping centers/etc on salePrice
+Object: Confidence level of the results <Port> 3_2702
+	Port name: Confidence level of the results
+Relationship: Information Connector <Information Connector> 3_2048
+  Role: Information <Information>  Object: <Port> 3_1325
+  Role: Initial info <Initial info>  Object: <Output> 3_1320
+Relationship: Information Connector <Information Connector> 3_2057
+  Role: Information <Information>  Object: <Port> 3_1330
+  Role: Initial info <Initial info>  Object: <Output> 3_1320
+Relationship: Information Connector <Information Connector> 3_2066
+  Role: Information <Information>  Object: <Port> 3_1335
+  Role: Initial info <Initial info>  Object: <Output> 3_1320
+Relationship: Information Connector <Information Connector> 3_2075
+  Role: Information <Information>  Object: <Port> 3_1340
+  Role: Initial info <Initial info>  Object: <Output> 3_1320
+Relationship: Information Connector <Information Connector> 3_2084
+  Role: Information <Information>  Object: <Port> 3_1345
+  Role: Initial info <Initial info>  Object: <Output> 3_1320
+Relationship: Information Connector <Information Connector> 3_2093
+  Role: Information <Information>  Object: <Port> 3_1350
+  Role: Initial info <Initial info>  Object: <Output> 3_1320
+Relationship: Information Connector <Information Connector> 3_2707
+  Role: Information <Information>  Object: <Port> 3_2702
+  Role: Initial info <Initial info>  Object: <Output> 3_1320
+Relationship: Layer Connector <Layer Connector> 3_4319
+  Role: Initial step <Initial step>  Object: <Diagram blackbox> 3_1310
+  Role: Steps <Steps>  Object: <Logic> 3_4314
+Relationship: Layer Connector <Layer Connector> 3_4328
+  Role: Initial step <Initial step>  Object: <Diagram blackbox> 3_1315
+  Role: Steps <Steps>  Object: <Logic> 3_4314
+Relationship: Layer Connector <Layer Connector> 3_4337
+  Role: Initial step <Initial step>  Object: <Logic> 3_4314
+  Role: Steps <Steps>  Object: <Output> 3_1320

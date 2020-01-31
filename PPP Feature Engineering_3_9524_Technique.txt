@@ -1,0 +1,78 @@
+Graph_Technique_user_3722148262
+PPP Feature Engineering
+3_9524
+Technique
+Graph: PPP Feature Engineering <Technique> 3_9524
+	Problem: PPP Feature Engineering
+Object: Need to be purchased <Alert> 3_9766
+	Alert: Need to be purchased
+Object: Need data sience/programming knowledge, but very easy to use <Success> 3_9798
+	Success: Need data sience/programming knowledge, but very easy to use
+Object: Wrangle data <Task> 3_2197
+	Task Name: Wrangle data
+	Task definition: 
+Object: Data acquisition <Task> 3_9664
+	Task Name: Data acquisition
+	Task definition: 
+Object: Data Cleaning <Task> 3_9671
+	Task Name: Data Cleaning
+	Task definition: 
+Object: Data Integration <Task> 3_9685
+	Task Name: Data Integration
+	Task definition: 
+Object: Data Reshaping <Task> 3_9692
+	Task Name: Data Reshaping
+	Task definition: 
+Object: Parsing Input File <Task> 3_9699
+	Task Name: Parsing Input File
+	Task definition: 
+Object: Pyhton Pandas CSV Library <Technique> 3_9706
+	Technique name: Pyhton Pandas CSV Library
+Object: Acquire Sold Properties Dataset <Technique> 3_9720
+	Technique name: Acquire Sold Properties Dataset
+Object: Acquire Government Data <Technique> 3_9725
+	Technique name: Acquire Government Data
+Object: Python Libraries <Technique> 3_9867
+	Technique name: Python Libraries
+Relationship: Arrowed Connector <Arrowed Connector> 3_9711
+  Role: From <From>  Object: <Task> 3_9699
+  Role: To <To>  Object: <Technique> 3_9706
+Relationship: Arrowed Connector <Arrowed Connector> 3_9730
+  Role: From <From>  Object: <Task> 3_2197
+  Role: To <To>  Object: <Task> 3_9664
+Relationship: Arrowed Connector <Arrowed Connector> 3_9739
+  Role: From <From>  Object: <Task> 3_9664
+  Role: To <To>  Object: <Technique> 3_9720
+Relationship: Arrowed Connector <Arrowed Connector> 3_9748
+  Role: From <From>  Object: <Task> 3_9664
+  Role: To <To>  Object: <Technique> 3_9725
+Relationship: Arrowed Connector <Arrowed Connector> 3_9757
+  Role: From <From>  Object: <Task> 3_2197
+  Role: To <To>  Object: <Task> 3_9699
+Relationship: Arrowed Connector <Arrowed Connector> 3_9771
+  Role: From <From>  Object: <Technique> 3_9720
+  Role: To <To>  Object: <Alert> 3_9766
+Relationship: Arrowed Connector <Arrowed Connector> 3_9780
+  Role: From <From>  Object: <Task> 3_2197
+  Role: To <To>  Object: <Task> 3_9692
+Relationship: Arrowed Connector <Arrowed Connector> 3_9789
+  Role: From <From>  Object: <Task> 3_9692
+  Role: To <To>  Object: <Technique> 3_9706
+Relationship: Arrowed Connector <Arrowed Connector> 3_9803
+  Role: From <From>  Object: <Technique> 3_9706
+  Role: To <To>  Object: <Success> 3_9798
+Relationship: Arrowed Connector <Arrowed Connector> 3_9812
+  Role: From <From>  Object: <Task> 3_2197
+  Role: To <To>  Object: <Task> 3_9685
+Relationship: Arrowed Connector <Arrowed Connector> 3_9821
+  Role: From <From>  Object: <Task> 3_9685
+  Role: To <To>  Object: <Technique> 3_9706
+Relationship: Arrowed Connector <Arrowed Connector> 3_9830
+  Role: From <From>  Object: <Task> 3_2197
+  Role: To <To>  Object: <Task> 3_9671
+Relationship: Arrowed Connector <Arrowed Connector> 3_9872
+  Role: From <From>  Object: <Task> 3_9671
+  Role: To <To>  Object: <Technique> 3_9867
+Relationship: Arrowed Connector <Arrowed Connector> 3_9881
+  Role: From <From>  Object: <Technique> 3_9867
+  Role: To <To>  Object: <Success> 3_9798

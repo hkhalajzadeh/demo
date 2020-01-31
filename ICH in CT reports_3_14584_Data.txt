@@ -1,0 +1,44 @@
+Graph_Data_user_3722148282
+ICH in CT reports
+3_14584
+Data
+Graph: ICH in CT reports <Data> 3_14584
+	Problem: ICH in CT reports
+Object: TAT time <Data> 3_14759
+	Data name: TAT time
+Object: Test Results <Data> 3_14764
+	Data name: Test Results
+Object: Summary of the two methods <Report> 3_14115
+	Report name: Summary of the two methods
+Object: Graphs <Report> 3_14120
+	Report name: Graphs
+Object: Test results <Report> 3_14125
+	Report name: Test results
+Object: Cost <Report> 3_14211
+	Report name: Cost
+Object: Clinical significance <Report> 3_14216
+	Report name: Clinical significance
+Object: Compare results <Task> 3_14108
+	Task Name: Compare results
+	Task definition: 
+Relationship: Arrowed Connector <Arrowed Connector> 3_14614
+  Role: From <From>  Object: <Task> 3_14108
+  Role: To <To>  Object: <Report> 3_14115
+Relationship: Arrowed Connector <Arrowed Connector> 3_14620
+  Role: From <From>  Object: <Task> 3_14108
+  Role: To <To>  Object: <Report> 3_14120
+Relationship: Arrowed Connector <Arrowed Connector> 3_14626
+  Role: From <From>  Object: <Task> 3_14108
+  Role: To <To>  Object: <Report> 3_14125
+Relationship: Arrowed Connector <Arrowed Connector> 3_14632
+  Role: From <From>  Object: <Task> 3_14108
+  Role: To <To>  Object: <Report> 3_14211
+Relationship: Arrowed Connector <Arrowed Connector> 3_14638
+  Role: From <From>  Object: <Task> 3_14108
+  Role: To <To>  Object: <Report> 3_14216
+Relationship: Arrowed Connector <Arrowed Connector> 3_14769
+  Role: From <From>  Object: <Data> 3_14759
+  Role: To <To>  Object: <Task> 3_14108
+Relationship: Arrowed Connector <Arrowed Connector> 3_14778
+  Role: From <From>  Object: <Data> 3_14764
+  Role: To <To>  Object: <Task> 3_14108

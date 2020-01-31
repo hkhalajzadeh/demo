@@ -1,6 +1,0 @@
-_checkAllGraphs()
-foreach .Graph [GOPRR] {
-	do decompositions {
-		_check()
-	}
-}

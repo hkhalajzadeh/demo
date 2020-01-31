@@ -1,0 +1,25 @@
+Graph_Technique_user_3722148262
+NBA Prediction
+3_3204
+Technique
+Graph: NBA Prediction <Technique> 3_3204
+	Problem: NBA Prediction
+Object: Try different algorithms <Sub-Task> 3_3217
+	Subtask Name: Try different algorithms
+	Subtask definition: 
+Object: Train model <Task> 3_3212
+	Task Name: Train model
+	Task definition: 
+Object: XGBoost <Technique> 3_3222
+	Technique name: XGBoost
+Object: Neural Networks <Technique> 3_3227
+	Technique name: Neural Networks
+Relationship: Layer Connector <Layer Connector> 3_3232
+  Role: Initial step <Initial step>  Object: <Task> 3_3212
+  Role: Steps <Steps>  Object: <Sub-Task> 3_3217
+Relationship: Layer Connector <Layer Connector> 3_3241
+  Role: Initial step <Initial step>  Object: <Sub-Task> 3_3217
+  Role: Steps <Steps>  Object: <Technique> 3_3222
+Relationship: Layer Connector <Layer Connector> 3_3250
+  Role: Initial step <Initial step>  Object: <Sub-Task> 3_3217
+  Role: Steps <Steps>  Object: <Technique> 3_3227

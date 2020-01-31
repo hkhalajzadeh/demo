@@ -1,0 +1,47 @@
+Graph_Data_user_3722148282
+Traffic Modelling
+3_12586
+Data
+Graph: Traffic Modelling <Data> 3_12586
+	Problem: Traffic Modelling
+Object: Invoke Aimsun <Code file/Model> 3_12680
+	Code file/Model name: Invoke Aimsun
+Object: Origin-Destination Matrix <Data> 3_12595
+	Data name: Origin-Destination Matrix
+Object: Simulated Traffic Flows <Data> 3_12685
+	Data name: Simulated Traffic Flows
+Object: Aimsun Visualisation (interactive visualisation) <Data> 3_12724
+	Data name: Aimsun Visualisation (interactive visualisation)
+Object: Traffic Modelling <Task> 3_12600
+	Task Name: Traffic Modelling
+	Task definition: 
+Object: Demand modelling <Task> 3_12607
+	Task Name: Demand modelling
+	Task definition: 
+Object: Traffic simulation <Task> 3_12646
+	Task Name: Traffic simulation
+	Task definition: 
+Object: Result Visualization <Task> 3_12708
+	Task Name: Result Visualization
+	Task definition: 
+Relationship: Arrowed Connector <Arrowed Connector> 3_12614
+  Role: From <From>  Object: <Data> 3_12595
+  Role: To <To>  Object: <Task> 3_12607
+Relationship: Arrowed Connector <Arrowed Connector> 3_12623
+  Role: From <From>  Object: <Task> 3_12600
+  Role: To <To>  Object: <Task> 3_12607
+Relationship: Arrowed Connector <Arrowed Connector> 3_12671
+  Role: From <From>  Object: <Task> 3_12600
+  Role: To <To>  Object: <Task> 3_12646
+Relationship: Arrowed Connector <Arrowed Connector> 3_12690
+  Role: From <From>  Object: <Task> 3_12646
+  Role: To <To>  Object: <Code file/Model> 3_12680
+Relationship: Arrowed Connector <Arrowed Connector> 3_12699
+  Role: From <From>  Object: <Task> 3_12646
+  Role: To <To>  Object: <Data> 3_12685
+Relationship: Arrowed Connector <Arrowed Connector> 3_12715
+  Role: From <From>  Object: <Data> 3_12685
+  Role: To <To>  Object: <Task> 3_12708
+Relationship: Arrowed Connector <Arrowed Connector> 3_12729
+  Role: From <From>  Object: <Task> 3_12708
+  Role: To <To>  Object: <Data> 3_12724

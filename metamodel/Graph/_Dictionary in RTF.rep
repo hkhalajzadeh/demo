@@ -1,22 +1,23 @@
 Report '_Dictionary in RTF'
-variable 'mainObjects' write
+/*variable 'mainObjects' write
 	' '
 	foreach .() { oid ' ' }
-close
-variable 'extraObjects' write ' ' close
+close*/
+/*variable 'extraObjects' write ' ' close*/
 '\s2 {\*\bkmkstart g' oid '}{' id%rtf ': ' type%rtf '\par}{\*\bkmkend g' oid '}\pard\plain' newline
-'{\keep\keepn Graph properties:\par}' newline
+/*'{\keep\keepn Graph properties:\par}' newline
 '\trowd \trgaph105'
 subreport '_RTF table cell definitions' run	'\cellx2500'
-subreport '_RTF table cell definitions' run	'\cellx9700\pard\plain'
-_propsDeeplyInRTF()
+subreport '_RTF table cell definitions' run	'\cellx9700\pard\plain'*/
+/*_propsDeeplyInRTF()*/ /*Generates subtitle for the diagram*/
 '\pard {\par}' newline
 	
-'\keep\keepn {\b Diagram picture: \b0' id%rtf '\par}' newline
+/*Prints diagram images*/
+/*'\keep\keepn {\b Diagram picture: \b0' id%rtf '\par}' newline*/
 filename subreport '_default directory' run oid '.png' print
 '{\field{\*\fldinst { INCLUDEPICTURE "' oid '.png" \\* MERGEFORMAT }}{\fldrslt }}{\par \par}\pard\plain'
 /* Dictionary table begins */
-'{\b Graph dictionary \b0' '{\par}}'
+/*'{\b Graph dictionary \b0' '{\par}}'
 @documentation_needed = ''
 foreach .() unique type
 {	do :() 
@@ -57,6 +58,6 @@ foreach .()
 		'\cell'
 	endif
 	'}\pard \intbl {\row}'
-	}
+	}*/
 '\pard {\par}'
 endreport

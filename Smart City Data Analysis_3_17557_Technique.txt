@@ -1,0 +1,24 @@
+Graph_Technique_user_3722148262
+Smart City Data Analysis
+3_17557
+Technique
+Graph: Smart City Data Analysis <Technique> 3_17557
+	Problem: Smart City Data Analysis
+Object: Data analysis <Task> 3_17566
+	Task Name: Data analysis
+	Task definition: 
+Object: Exploratory data analysis <Technique> 3_17573
+	Technique name: Exploratory data analysis
+Object: Number of cars per hour/day (Python) <Technique> 3_17587
+	Technique name: Number of cars per hour/day (Python)
+Object: Duration of stays (R) <Technique> 3_17601
+	Technique name: Duration of stays (R)
+Relationship: Arrowed Connector <Arrowed Connector> 3_17578
+  Role: From <From>  Object: <Task> 3_17566
+  Role: To <To>  Object: <Technique> 3_17573
+Relationship: Arrowed Connector <Arrowed Connector> 3_17592
+  Role: From <From>  Object: <Technique> 3_17573
+  Role: To <To>  Object: <Technique> 3_17587
+Relationship: Arrowed Connector <Arrowed Connector> 3_17606
+  Role: From <From>  Object: <Technique> 3_17573
+  Role: To <To>  Object: <Technique> 3_17601

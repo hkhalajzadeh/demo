@@ -1,0 +1,57 @@
+Graph_Data_user_3722148282
+Traffic realtime
+3_12330
+Data
+Graph: Traffic realtime <Data> 3_12330
+	Problem: Traffic realtime
+Object: DEP Collector <Code file/Model> 3_12358
+	Code file/Model name: DEP Collector
+Object: Scats Converter <Code file/Model> 3_12411
+	Code file/Model name: Scats Converter
+Object: Cycle-by-Cycle Strategic Monitor Data (binary) (Message Queue) <Data> 3_12346
+	Data name: Cycle-by-Cycle Strategic Monitor Data (binary) (Message Queue)
+Object: Recent Cycle-By-Cyecle Strategic Monitor Data (.csv) <Data> 3_12434
+	Data name: Recent Cycle-By-Cyecle Strategic Monitor Data (.csv)
+Object: Recent 15 Minute Volume Average (.csv) <Data> 3_12464
+	Data name: Recent 15 Minute Volume Average (.csv)
+Object: Logged Data (15 minutes per file) <Multiple data> 3_12390
+	Multiple data name: Logged Data (15 minutes per file)
+Object: Provide realtime data <Task> 3_12339
+	Task Name: Provide realtime data
+	Task definition: 
+Object: Ingest data <Task> 3_12351
+	Task Name: Ingest data
+	Task definition: 
+Object: Convert binary data to open format <Task> 3_12404
+	Task Name: Convert binary data to open format
+	Task definition: 
+Object: Clean / aggregate data <Task> 3_12448
+	Task Name: Clean / aggregate data
+	Task definition: Research Project to Impute
+Relationship: Arrowed Connector <Arrowed Connector> 3_12363
+  Role: From <From>  Object: <Task> 3_12339
+  Role: To <To>  Object: <Data> 3_12346
+Relationship: Arrowed Connector <Arrowed Connector> 3_12372
+  Role: From <From>  Object: <Data> 3_12346
+  Role: To <To>  Object: <Task> 3_12351
+Relationship: Arrowed Connector <Arrowed Connector> 3_12381
+  Role: From <From>  Object: <Task> 3_12351
+  Role: To <To>  Object: <Code file/Model> 3_12358
+Relationship: Arrowed Connector <Arrowed Connector> 3_12395
+  Role: From <From>  Object: <Task> 3_12351
+  Role: To <To>  Object: <Multiple data> 3_12390
+Relationship: Arrowed Connector <Arrowed Connector> 3_12416
+  Role: From <From>  Object: <Multiple data> 3_12390
+  Role: To <To>  Object: <Task> 3_12404
+Relationship: Arrowed Connector <Arrowed Connector> 3_12425
+  Role: From <From>  Object: <Task> 3_12404
+  Role: To <To>  Object: <Code file/Model> 3_12411
+Relationship: Arrowed Connector <Arrowed Connector> 3_12439
+  Role: From <From>  Object: <Task> 3_12404
+  Role: To <To>  Object: <Data> 3_12434
+Relationship: Arrowed Connector <Arrowed Connector> 3_12455
+  Role: From <From>  Object: <Data> 3_12434
+  Role: To <To>  Object: <Task> 3_12448
+Relationship: Arrowed Connector <Arrowed Connector> 3_12469
+  Role: From <From>  Object: <Task> 3_12448
+  Role: To <To>  Object: <Data> 3_12464

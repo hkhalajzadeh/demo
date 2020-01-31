@@ -1,0 +1,63 @@
+Graph_Diagrams_user_3721635000
+Property Price Prediction
+3_282
+Diagrams
+Graph: Property Price Prediction <Diagrams> 3_282
+	Problem: Property Price Prediction
+Object: Brainstorming Diagram <Diagram> 3_332
+	Diagram Name: Brainstorming Diagram
+	Problem: Property Price Prediction
+	Decomposed to: Property Price Prediction <Brainstorming>
+Object: Process Diagram <Diagram> 3_339
+	Diagram Name: Process Diagram
+	Problem: Property Price Prediction
+	Decomposed to: Property Price Prediction <Process>
+Object: Technique Diagram <Diagram> 3_346
+	Diagram Name: Technique Diagram
+	Problem: Property Price Prediction
+Object: Data Diagram <Diagram> 3_353
+	Diagram Name: Data Diagram
+	Problem: Property Price Prediction
+Object: Output Diagram <Diagram> 3_360
+	Diagram Name: Output Diagram
+	Problem: Property Price Prediction
+	Decomposed to: Property Price Prediction <Output>
+Object: Deployment Diagram <Diagram> 3_2812
+	Diagram Name: Deployment Diagram
+	Problem: Property Price Prediction
+	Decomposed to: Property Price Prediction <Deployment>
+Relationship: Connection <Connection> 3_2102
+  Role: 1 <High Level>  Object: <Diagram> 3_332
+	Multiplicity: 1
+  Role: 1 <Low Level>  Object: <Diagram> 3_339
+	Multiplicity: 1
+Relationship: Connection <Connection> 3_2115
+  Role: 0..* <High Level>  Object: <Diagram> 3_339
+	Multiplicity: 0..*
+  Role: 1..* <Low Level>  Object: <Diagram> 3_353
+	Multiplicity: 1..*
+Relationship: Connection <Connection> 3_2128
+  Role: 0..* <High Level>  Object: <Diagram> 3_339
+	Multiplicity: 0..*
+  Role: 1..* <Low Level>  Object: <Diagram> 3_346
+	Multiplicity: 1..*
+Relationship: Connection <Connection> 3_2141
+  Role: 0..* <High Level>  Object: <Diagram> 3_339
+	Multiplicity: 0..*
+  Role: 1..* <Low Level>  Object: <Diagram> 3_360
+	Multiplicity: 1..*
+Relationship: Connection <Connection> 3_2154
+  Role: 1..* <High Level>  Object: <Diagram> 3_353
+	Multiplicity: 1..*
+  Role: 1..* <Low Level>  Object: <Diagram> 3_360
+	Multiplicity: 1..*
+Relationship: Connection <Connection> 3_2167
+  Role: 1..* <High Level>  Object: <Diagram> 3_346
+	Multiplicity: 1..*
+  Role: 1..* <Low Level>  Object: <Diagram> 3_360
+	Multiplicity: 1..*
+Relationship: Connection <Connection> 3_2819
+  Role: 1..* <High Level>  Object: <Diagram> 3_360
+	Multiplicity: 1..*
+  Role: 1..* <Low Level>  Object: <Diagram> 3_2812
+	Multiplicity: 1..*

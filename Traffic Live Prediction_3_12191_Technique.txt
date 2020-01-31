@@ -1,0 +1,50 @@
+Graph_Technique_user_3722148262
+Traffic Live Prediction
+3_12191
+Technique
+Graph: Traffic Live Prediction <Technique> 3_12191
+	Problem: Traffic Live Prediction
+Object: Too complex for traffic engineers without computer science background <Alert> 3_13311
+	Alert: Too complex for traffic engineers without computer science background
+Object: Simple <Success> 3_13278
+	Success: Simple
+Object: Low latency <Success> 3_13306
+	Success: Low latency
+Object: Low coupling <Success> 3_13316
+	Success: Low coupling
+Object: Live prediction/response prototype deployment <Task> 3_12200
+	Task Name: Live prediction/response prototype deployment
+	Task definition: 
+Object: (Near) Realtime calibration <Task> 3_12207
+	Task Name: (Near) Realtime calibration
+	Task definition: 
+Object: Scientific Workflow System <Technique> 3_12214
+	Technique name: Scientific Workflow System
+Object: Split data into 5 minute to 15 minute chunks and periodically re-execute workflow <Technique> 3_12219
+	Technique name: Split data into 5 minute to 15 minute chunks and periodically re-execute workflow
+Object: Message handling code in algorithm implementation <Technique> 3_13292
+	Technique name: Message handling code in algorithm implementation
+Relationship: Arrowed Connector <Arrowed Connector> 3_12224
+  Role: From <From>  Object: <Task> 3_12200
+  Role: To <To>  Object: <Task> 3_12207
+Relationship: Arrowed Connector <Arrowed Connector> 3_12233
+  Role: From <From>  Object: <Task> 3_12207
+  Role: To <To>  Object: <Technique> 3_12214
+Relationship: Arrowed Connector <Arrowed Connector> 3_12242
+  Role: From <From>  Object: <Task> 3_12207
+  Role: To <To>  Object: <Technique> 3_12219
+Relationship: Arrowed Connector <Arrowed Connector> 3_13283
+  Role: From <From>  Object: <Technique> 3_12219
+  Role: To <To>  Object: <Success> 3_13278
+Relationship: Arrowed Connector <Arrowed Connector> 3_13297
+  Role: From <From>  Object: <Task> 3_12207
+  Role: To <To>  Object: <Technique> 3_13292
+Relationship: Arrowed Connector <Arrowed Connector> 3_13321
+  Role: From <From>  Object: <Technique> 3_12214
+  Role: To <To>  Object: <Success> 3_13316
+Relationship: Arrowed Connector <Arrowed Connector> 3_13330
+  Role: From <From>  Object: <Technique> 3_13292
+  Role: To <To>  Object: <Success> 3_13306
+Relationship: Arrowed Connector <Arrowed Connector> 3_13339
+  Role: From <From>  Object: <Technique> 3_13292
+  Role: To <To>  Object: <Alert> 3_13311

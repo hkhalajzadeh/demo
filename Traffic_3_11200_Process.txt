@@ -1,0 +1,292 @@
+Graph_Process_user_3721982467
+Traffic
+3_11200
+Process
+Graph: Traffic <Process> 3_11200
+	Problem: Traffic
+Object: Data collection working? <Condition> 3_11860
+	Condition name: Data collection working?
+	Condition definition: 
+Object:  <End> 3_13902
+	End: 
+Object: VicRoads / Dep. of Transport <Organization> 3_11208
+	Organization name: VicRoads / Dep. of Transport
+	Organization definition: 
+Object: Monash Transport Group <Organization> 3_11310
+	Organization name: Monash Transport Group
+	Organization definition: 
+Object: Software Outsourcing Company <Organization> 3_11338
+	Organization name: Software Outsourcing Company
+	Organization definition: 
+Object: Deakin <Organization> 3_11415
+	Organization name: Deakin
+	Organization definition: 
+Object: Monash Transport Group <Organization> 3_11443
+	Organization name: Monash Transport Group
+	Organization definition: 
+Object: TBD <Organization> 3_11485
+	Organization name: TBD
+	Organization definition: 
+Object: Research / Student Project <Organization> 3_11527
+	Organization name: Research / Student Project
+	Organization definition: 
+Object: VicRoads Decision Makers <Organization> 3_11576
+	Organization name: VicRoads Decision Makers
+	Organization definition: 
+Object: eResearch <Organization> 3_11703
+	Organization name: eResearch
+	Organization definition: 
+Object: Data Provider <Participant> 3_11215
+	Participant name: Data Provider
+	Participant definition: 
+Object: Business Leader <Participant> 3_11317
+	Participant name: Business Leader
+	Participant definition: 
+Object: Sales Director <Participant> 3_11345
+	Participant name: Sales Director
+	Participant definition: 
+Object: Project Manager <Participant> 3_11352
+	Participant name: Project Manager
+	Participant definition: 
+Object: Technical Lead <Participant> 3_11359
+	Participant name: Technical Lead
+	Participant definition: 
+Object: Data Engineer / Visualisation Designer <Participant> 3_11422
+	Participant name: Data Engineer / Visualisation Designer
+	Participant definition: 
+Object: Traffic Modelling Expert <Participant> 3_11450
+	Participant name: Traffic Modelling Expert
+	Participant definition: 
+Object: TBD <Participant> 3_11492
+	Participant name: TBD
+	Participant definition: 
+Object: Researcher <Participant> 3_11534
+	Participant name: Researcher
+	Participant definition: 
+Object: Decision Maker / System <Participant> 3_11583
+	Participant name: Decision Maker / System
+	Participant definition: 
+Object: MyTardis Support <Participant> 3_11710
+	Participant name: MyTardis Support
+	Participant definition: 
+Object: CVL / M3 Support <Participant> 3_11717
+	Participant name: CVL / M3 Support
+	Participant definition: 
+Object:  <Start> 3_13879
+	Start: 
+Object: Provide historical data <Task> 3_11289
+	Task Name: Provide historical data
+	Task definition: 
+Object: Provide realtime data <Task> 3_11296
+	Task Name: Provide realtime data
+	Task definition: 
+Object: Provide (Historical) Myki data <Task> 3_11303
+	Task Name: Provide (Historical) Myki data
+	Task definition: Confidential
+Object: Prioritise datasets to be integrated <Task> 3_11324
+	Task Name: Prioritise datasets to be integrated
+	Task definition: 
+Object: Specify Initial Project Scope <Task> 3_11331
+	Task Name: Specify Initial Project Scope
+	Task definition: 
+Object: Provide Project Cost Estimate <Task> 3_11366
+	Task Name: Provide Project Cost Estimate
+	Task definition: 
+Object: Provide Project Time Estimate <Task> 3_11373
+	Task Name: Provide Project Time Estimate
+	Task definition: 
+Object: Provide Mockups <Task> 3_11380
+	Task Name: Provide Mockups
+	Task definition: 
+Object: Suite of Data Collectors / Scrapers <Task> 3_11387
+	Task Name: Suite of Data Collectors / Scrapers
+	Task definition: 
+Object: Scientific Workflow System for Traffic Sim <Task> 3_11394
+	Task Name: Scientific Workflow System for Traffic Sim
+	Task definition: 
+Object: Design SpatioTemporal Data Index + API <Task> 3_11401
+	Task Name: Design SpatioTemporal Data Index + API
+	Task definition: 
+Object: Develop Web-based Interface <Task> 3_11408
+	Task Name: Develop Web-based Interface
+	Task definition: 
+Object: Convert binary data to open format (Script) <Task> 3_11429
+	Task Name: Convert binary data to open format (Script)
+	Task definition: 
+Object: Autogenerate interactive visualization <Task> 3_11436
+	Task Name: Autogenerate interactive visualization
+	Task definition: Autogenerate interactive visualization of spatio-temporal dataset from model (Research)
+Object: Region Selection (for demo) <Task> 3_11457
+	Task Name: Region Selection (for demo)
+	Task definition: 
+Object: Clean / Aggregate Dataset (Script) <Task> 3_11464
+	Task Name: Clean / Aggregate Dataset (Script)
+	Task definition: 
+Object: Optimise Fit, within sim <Task> 3_11471
+	Task Name: Optimise Fit, within sim
+	Task definition: e.g. AimSun, Sumo, etc.
+Object: Result Visualization (in Aimsun) <Task> 3_11478
+	Task Name: Result Visualization (in Aimsun)
+	Task definition: 
+Object: Maintain Prototype <Task> 3_11499
+	Task Name: Maintain Prototype
+	Task definition: 
+Object: Integrate new data sources <Task> 3_11506
+	Task Name: Integrate new data sources
+	Task definition: 
+Object: Monitor Data Quality <Task> 3_11513
+	Task Name: Monitor Data Quality
+	Task definition: 
+Object: Monitor Security <Task> 3_11520
+	Task Name: Monitor Security
+	Task definition: 
+Object: Fetch recent data <Task> 3_11541
+	Task Name: Fetch recent data
+	Task definition: 
+Object: Demand Modelling <Task> 3_11548
+	Task Name: Demand Modelling
+	Task definition: 
+Object: Supply Modelling <Task> 3_11555
+	Task Name: Supply Modelling
+	Task definition: 
+Object: Driver Behaviour Modelling <Task> 3_11562
+	Task Name: Driver Behaviour Modelling
+	Task definition: 
+Object: Run Simulation / Deploy Algorithm <Task> 3_11569
+	Task Name: Run Simulation / Deploy Algorithm
+	Task definition: e.g. congestion clustering
+Object: Inspect Result (in realtime) <Task> 3_11590
+	Task Name: Inspect Result (in realtime)
+	Task definition: 
+Object: Take Action <Task> 3_11597
+	Task Name: Take Action
+	Task definition: 
+Object: Provide MyTardis Storage <Task> 3_11724
+	Task Name: Provide MyTardis Storage
+	Task definition: 
+Object: Perform Data Backups <Task> 3_11731
+	Task Name: Perform Data Backups
+	Task definition: 
+Object: Provide HPC Infrastructure <Task> 3_11738
+	Task Name: Provide HPC Infrastructure
+	Task definition: 
+Object: Maintain Infrastructure <Task> 3_11745
+	Task Name: Maintain Infrastructure
+	Task definition: 
+Relationship: Arrowed Connector <Arrowed Connector> 3_11604
+  Role: From <From>  Object: <Task> 3_11289
+  Role: To <To>  Object: <Task> 3_11324
+Relationship: Arrowed Connector <Arrowed Connector> 3_11613
+  Role: From <From>  Object: <Task> 3_11296
+  Role: To <To>  Object: <Task> 3_11324
+Relationship: Arrowed Connector <Arrowed Connector> 3_11622
+  Role: From <From>  Object: <Task> 3_11303
+  Role: To <To>  Object: <Task> 3_11324
+Relationship: Arrowed Connector <Arrowed Connector> 3_11631
+  Role: From <From>  Object: <Task> 3_11324
+  Role: To <To>  Object: <Task> 3_11331
+Relationship: Arrowed Connector <Arrowed Connector> 3_11640
+  Role: From <From>  Object: <Task> 3_11331
+  Role: To <To>  Object: <Task> 3_11366
+Relationship: Arrowed Connector <Arrowed Connector> 3_11649
+  Role: From <From>  Object: <Task> 3_11366
+  Role: To <To>  Object: <Task> 3_11380
+Relationship: Arrowed Connector <Arrowed Connector> 3_11658
+  Role: From <From>  Object: <Task> 3_11366
+  Role: To <To>  Object: <Task> 3_11373
+Relationship: Arrowed Connector <Arrowed Connector> 3_11667
+  Role: From <From>  Object: <Task> 3_11373
+  Role: To <To>  Object: <Task> 3_11387
+Relationship: Arrowed Connector <Arrowed Connector> 3_11676
+  Role: From <From>  Object: <Task> 3_11373
+  Role: To <To>  Object: <Task> 3_11394
+Relationship: Arrowed Connector <Arrowed Connector> 3_11685
+  Role: From <From>  Object: <Task> 3_11380
+  Role: To <To>  Object: <Task> 3_11408
+Relationship: Arrowed Connector <Arrowed Connector> 3_11694
+  Role: From <From>  Object: <Task> 3_11373
+  Role: To <To>  Object: <Task> 3_11408
+Relationship: Arrowed Connector <Arrowed Connector> 3_11752
+  Role: From <From>  Object: <Task> 3_11387
+  Role: To <To>  Object: <Task> 3_11724
+Relationship: Arrowed Connector <Arrowed Connector> 3_11761
+  Role: From <From>  Object: <Task> 3_11408
+  Role: To <To>  Object: <Task> 3_11738
+Relationship: Arrowed Connector <Arrowed Connector> 3_11770
+  Role: From <From>  Object: <Task> 3_11394
+  Role: To <To>  Object: <Task> 3_11738
+Relationship: Arrowed Connector <Arrowed Connector> 3_11779
+  Role: From <From>  Object: <Task> 3_11724
+  Role: To <To>  Object: <Task> 3_11457
+Relationship: Arrowed Connector <Arrowed Connector> 3_11788
+  Role: From <From>  Object: <Task> 3_11401
+  Role: To <To>  Object: <Task> 3_11429
+Relationship: Arrowed Connector <Arrowed Connector> 3_11797
+  Role: From <From>  Object: <Task> 3_11401
+  Role: To <To>  Object: <Task> 3_11464
+Relationship: Arrowed Connector <Arrowed Connector> 3_11806
+  Role: From <From>  Object: <Task> 3_11429
+  Role: To <To>  Object: <Task> 3_11457
+Relationship: Arrowed Connector <Arrowed Connector> 3_11815
+  Role: From <From>  Object: <Task> 3_11738
+  Role: To <To>  Object: <Task> 3_11471
+Relationship: Arrowed Connector <Arrowed Connector> 3_11824
+  Role: From <From>  Object: <Task> 3_11429
+  Role: To <To>  Object: <Task> 3_11436
+Relationship: Arrowed Connector <Arrowed Connector> 3_11833
+  Role: From <From>  Object: <Task> 3_11464
+  Role: To <To>  Object: <Task> 3_11471
+Relationship: Arrowed Connector <Arrowed Connector> 3_11842
+  Role: From <From>  Object: <Task> 3_11471
+  Role: To <To>  Object: <Task> 3_11478
+Relationship: Arrowed Connector <Arrowed Connector> 3_11851
+  Role: From <From>  Object: <Task> 3_11738
+  Role: To <To>  Object: <Task> 3_11478
+Relationship: Arrowed Connector <Arrowed Connector> 3_11885
+  Role: From <From>  Object: <Task> 3_11499
+  Role: To <To>  Object: <Task> 3_11506
+Relationship: Arrowed Connector <Arrowed Connector> 3_11894
+  Role: From <From>  Object: <Task> 3_11506
+  Role: To <To>  Object: <Task> 3_11513
+Relationship: Arrowed Connector <Arrowed Connector> 3_11903
+  Role: From <From>  Object: <Task> 3_11513
+  Role: To <To>  Object: <Condition> 3_11860
+Relationship: Arrowed Connector <Arrowed Connector> 3_11912
+  Role: From <From>  Object: <Task> 3_11541
+  Role: To <To>  Object: <Task> 3_11548
+Relationship: Arrowed Connector <Arrowed Connector> 3_11921
+  Role: From <From>  Object: <Task> 3_11541
+  Role: To <To>  Object: <Task> 3_11555
+Relationship: Arrowed Connector <Arrowed Connector> 3_11930
+  Role: From <From>  Object: <Task> 3_11541
+  Role: To <To>  Object: <Task> 3_11562
+Relationship: Arrowed Connector <Arrowed Connector> 3_11939
+  Role: From <From>  Object: <Task> 3_11548
+  Role: To <To>  Object: <Task> 3_11569
+Relationship: Arrowed Connector <Arrowed Connector> 3_11948
+  Role: From <From>  Object: <Task> 3_11555
+  Role: To <To>  Object: <Task> 3_11569
+Relationship: Arrowed Connector <Arrowed Connector> 3_11957
+  Role: From <From>  Object: <Task> 3_11562
+  Role: To <To>  Object: <Task> 3_11569
+Relationship: Arrowed Connector <Arrowed Connector> 3_11966
+  Role: From <From>  Object: <Task> 3_11569
+  Role: To <To>  Object: <Task> 3_11590
+Relationship: Arrowed Connector <Arrowed Connector> 3_11975
+  Role: From <From>  Object: <Task> 3_11590
+  Role: To <To>  Object: <Task> 3_11597
+Relationship: Arrowed Connector <Arrowed Connector> 3_13884
+  Role: From <From>  Object: <Start> 3_13879
+  Role: To <To>  Object: <Task> 3_11289
+Relationship: Arrowed Connector <Arrowed Connector> 3_13893
+  Role: From <From>  Object: <Task> 3_11520
+  Role: To <To>  Object: <Task> 3_11541
+Relationship: Arrowed Connector <Arrowed Connector> 3_13907
+  Role: From <From>  Object: <Task> 3_11597
+  Role: To <To>  Object: <End> 3_13902
+Relationship: Condition correct <Condition correct> 3_11867
+  Role: Condition <Condition>  Object: <Condition> 3_11860
+  Role: Operation <Operation>  Object: <Task> 3_11520
+Relationship: Condition incorrect <Condition incorrect> 3_11876
+  Role: Condition <Condition>  Object: <Condition> 3_11860
+  Role: Operation <Operation>  Object: <Task> 3_11499

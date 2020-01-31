@@ -1,0 +1,67 @@
+Graph_Technique_user_3722148262
+Stroke Prediction
+3_303
+Technique
+Graph: Stroke Prediction <Technique> 3_303
+	Problem: Stroke Prediction
+Object: Wrangle data <Task> 3_2197
+	Task Name: Wrangle data
+	Task definition: 
+Object: Data Acquisition <Task> 3_10104
+	Task Name: Data Acquisition
+	Task definition: 
+Object: Data Cleaning <Task> 3_10120
+	Task Name: Data Cleaning
+	Task definition: 
+Object: Data Integration <Task> 3_10163
+	Task Name: Data Integration
+	Task definition: 
+Object: Data Reshaping <Task> 3_10188
+	Task Name: Data Reshaping
+	Task definition: 
+Object: Data Loading and Extraction <Task> 3_10213
+	Task Name: Data Loading and Extraction
+	Task definition: 
+Object: Impute missing values <Technique> 3_2272
+	Technique name: Impute missing values
+Object: detect outliers <Technique> 3_2277
+	Technique name: detect outliers
+Object: Remove duplications <Technique> 3_2282
+	Technique name: Remove duplications
+Object: Normalize data, sampling etc <Technique> 3_2323
+	Technique name: Normalize data, sampling etc
+Object: Parsing CSV, PDF, xml <Technique> 3_2337
+	Technique name: Parsing CSV, PDF, xml
+Relationship: Arrowed Connector <Arrowed Connector> 3_10111
+  Role: From <From>  Object: <Task> 3_2197
+  Role: To <To>  Object: <Task> 3_10104
+Relationship: Arrowed Connector <Arrowed Connector> 3_10127
+  Role: From <From>  Object: <Task> 3_2197
+  Role: To <To>  Object: <Task> 3_10120
+Relationship: Arrowed Connector <Arrowed Connector> 3_10136
+  Role: From <From>  Object: <Task> 3_10120
+  Role: To <To>  Object: <Technique> 3_2272
+Relationship: Arrowed Connector <Arrowed Connector> 3_10145
+  Role: From <From>  Object: <Task> 3_10120
+  Role: To <To>  Object: <Technique> 3_2277
+Relationship: Arrowed Connector <Arrowed Connector> 3_10154
+  Role: From <From>  Object: <Task> 3_10120
+  Role: To <To>  Object: <Technique> 3_2282
+Relationship: Arrowed Connector <Arrowed Connector> 3_10170
+  Role: From <From>  Object: <Task> 3_2197
+  Role: To <To>  Object: <Task> 3_10163
+Relationship: Arrowed Connector <Arrowed Connector> 3_10179
+  Role: From <From>  Object: <Task> 3_10163
+  Role: To <To>  Object: <Technique> 3_2282
+Relationship: Arrowed Connector <Arrowed Connector> 3_10195
+  Role: From <From>  Object: <Task> 3_2197
+  Role: To <To>  Object: <Task> 3_10188
+Relationship: Arrowed Connector <Arrowed Connector> 3_10204
+  Role: From <From>  Object: <Task> 3_10188
+  Role: To <To>  Object: <Technique> 3_2323
+Relationship: Arrowed Connector <Arrowed Connector> 3_10220
+  Role: From <From>  Object: <Task> 3_2197
+  Role: To <To>  Object: <Task> 3_10213
+Relationship: Arrowed Connector <Arrowed Connector> 3_10229
+  Role: From <From>  Object: <Task> 3_10213
+  Role: To <To>  Object: <Technique> 3_2337

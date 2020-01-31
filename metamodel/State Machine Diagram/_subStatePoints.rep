@@ -1,0 +1,22 @@
+_subStatePoints()
+@subs = '0'
+/* show substates only if there are other than start and stop state(s) */
+do decompositions {
+	foreach .(History indicator | Terminate ) { 
+		@subs = '1'
+	}
+	foreach .Point; where id = 'entry' or id = 'exit'  { 
+		@subs = '1'
+	}
+}
+
+if @subs = '1' then
+	do decompositions {
+		foreach .(Start | History indicator | Terminate | Stop) { 
+			type newline
+		}
+		foreach .Point; where id = 'entry' or id = 'exit'  { 
+			type newline
+		}
+	}
+endif

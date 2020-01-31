@@ -9,20 +9,21 @@ Object Types
 ==========================
 Problem Definition
 	Problem: String
+	Problem Definition: String
 Task
 	Task Name: String
-Sub-Task
-	Subtask Name: String
-Information
-	Information Name: String
+	Task definition: String
+Comment
+	Comment: String
 Operation Seperator
 	Operation: String
+Input
+	Input file name: String
 
 ==========================
 Relationship Types
 ==========================
 Layer Connector
-Information Connector
 
 ==========================
 Role Types
@@ -45,15 +46,15 @@ Technique
 ==========================
 Bindings
 ==========================
-Information Connector
-	Initial info: Problem Definition, Sub-Task, Task
-	Information: Information
+Layer Connector
+	Initial info: Problem Definition, Task
+	Information: Comment, Input
 Layer Connector
 	Initial step: Problem Definition
 1..N	Steps: Task
 Layer Connector
-	Initial step: Sub-Task, Task
-1..N	Steps: Sub-Task, Task
+	Initial step: Task
+1..N	Steps: Task
 
 ==========================
 Constraints
@@ -63,8 +64,6 @@ Constraints
 Subgraphs
 ==========================
 Decompositions:
-	Sub-Task
-		Data
 	Task
 		Data
 		Technique
@@ -75,6 +74,7 @@ Generators
 !BigML API
 !Python Code
 !Report
+aggregate
 convert
 fillNAValues
 modeling

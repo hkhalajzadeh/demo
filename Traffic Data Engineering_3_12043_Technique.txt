@@ -1,0 +1,82 @@
+Graph_Technique_user_3722148262
+Traffic Data Engineering
+3_12043
+Technique
+Graph: Traffic Data Engineering <Technique> 3_12043
+	Problem: Traffic Data Engineering
+Object: Sensor failures are common <Alert> 3_13348
+	Alert: Sensor failures are common
+Object: May cause misleading results <Alert> 3_13395
+	Alert: May cause misleading results
+Object: Requires clean data <Alert> 3_13400
+	Alert: Requires clean data
+Object: Data quality reporting <Success> 3_13362
+	Success: Data quality reporting
+Object: Data quality reporting <Success> 3_13376
+	Success: Data quality reporting
+Object: Simple <Success> 3_13390
+	Success: Simple
+Object: Traffic data engineering <Task> 3_12052
+	Task Name: Traffic data engineering
+	Task definition: 
+Object: Clean / aggregate data <Task> 3_12059
+	Task Name: Clean / aggregate data
+	Task definition: Research Project to Impute
+Object: Origin-Destination inference <Task> 3_12066
+	Task Name: Origin-Destination inference
+	Task definition: 
+Object: Optimization / Simulation <Task> 3_12073
+	Task Name: Optimization / Simulation
+	Task definition: 
+Object: Aggregate Cycle-by-Cycle data into 15 minute bins <Technique> 3_12098
+	Technique name: Aggregate Cycle-by-Cycle data into 15 minute bins
+Object: Report volume as NA and log warning if faulty sensor <Technique> 3_12103
+	Technique name: Report volume as NA and log warning if faulty sensor
+Object: Cross-check results with 15 minute historic averages <Technique> 3_12108
+	Technique name: Cross-check results with 15 minute historic averages
+Object: Iteratively run simulation to find best fit <Technique> 3_12154
+	Technique name: Iteratively run simulation to find best fit
+Object: Impute NA values <Technique> 3_12159
+	Technique name: Impute NA values
+Relationship: Arrowed Connector <Arrowed Connector> 3_12080
+  Role: From <From>  Object: <Task> 3_12052
+  Role: To <To>  Object: <Task> 3_12059
+Relationship: Arrowed Connector <Arrowed Connector> 3_12089
+  Role: From <From>  Object: <Task> 3_12066
+  Role: To <To>  Object: <Task> 3_12073
+Relationship: Arrowed Connector <Arrowed Connector> 3_12118
+  Role: From <From>  Object: <Task> 3_12059
+  Role: To <To>  Object: <Technique> 3_12098
+Relationship: Arrowed Connector <Arrowed Connector> 3_12127
+  Role: From <From>  Object: <Task> 3_12059
+  Role: To <To>  Object: <Technique> 3_12103
+Relationship: Arrowed Connector <Arrowed Connector> 3_12136
+  Role: From <From>  Object: <Technique> 3_12098
+  Role: To <To>  Object: <Technique> 3_12108
+Relationship: Arrowed Connector <Arrowed Connector> 3_12164
+  Role: From <From>  Object: <Task> 3_12073
+  Role: To <To>  Object: <Technique> 3_12154
+Relationship: Arrowed Connector <Arrowed Connector> 3_12173
+  Role: From <From>  Object: <Technique> 3_12103
+  Role: To <To>  Object: <Technique> 3_12159
+Relationship: Arrowed Connector <Arrowed Connector> 3_12182
+  Role: From <From>  Object: <Technique> 3_12154
+  Role: To <To>  Object: <Technique> 3_12159
+Relationship: Arrowed Connector <Arrowed Connector> 3_13353
+  Role: From <From>  Object: <Technique> 3_12098
+  Role: To <To>  Object: <Alert> 3_13348
+Relationship: Arrowed Connector <Arrowed Connector> 3_13367
+  Role: From <From>  Object: <Technique> 3_12108
+  Role: To <To>  Object: <Success> 3_13362
+Relationship: Arrowed Connector <Arrowed Connector> 3_13381
+  Role: From <From>  Object: <Technique> 3_12103
+  Role: To <To>  Object: <Success> 3_13376
+Relationship: Arrowed Connector <Arrowed Connector> 3_13405
+  Role: From <From>  Object: <Technique> 3_12154
+  Role: To <To>  Object: <Alert> 3_13400
+Relationship: Arrowed Connector <Arrowed Connector> 3_13414
+  Role: From <From>  Object: <Technique> 3_12159
+  Role: To <To>  Object: <Success> 3_13390
+Relationship: Arrowed Connector <Arrowed Connector> 3_13423
+  Role: From <From>  Object: <Technique> 3_12159
+  Role: To <To>  Object: <Alert> 3_13395

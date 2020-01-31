@@ -1,0 +1,67 @@
+Graph_Data_user_3722148282
+PPP Feature Engineering
+3_6369
+Data
+Graph: PPP Feature Engineering <Data> 3_6369
+	Problem: PPP Feature Engineering
+Object: Ames housing dataset (.csv) <Data> 3_1212
+	Data name: Ames housing dataset (.csv)
+Object: Outliers <Data> 3_1247
+	Data name: Outliers
+Object: Cleaned dataset (.csv) <Data> 3_1252
+	Data name: Cleaned dataset (.csv)
+Object: Missing values <Data> 3_1292
+	Data name: Missing values
+Object: Features <Information> 3_4726
+	Information Name: Features
+Object: Government data (.xlsx) <Multiple data> 3_1217
+	Multiple data name: Government data (.xlsx)
+Object: Domain knowledge (.txt, .html) <Multiple data> 3_1222
+	Multiple data name: Domain knowledge (.txt, .html)
+Object: Dataset (.csv) <Multiple data> 3_1232
+	Multiple data name: Dataset (.csv)
+Object: Price prediction feature engineering <Task> 3_1237
+	Task Name: Price prediction feature engineering
+	Task definition: 
+Object: Acquire data <Task> 3_5719
+	Task Name: Acquire data
+	Task definition: 
+Object: Integrate data <Task> 3_5753
+	Task Name: Integrate data
+	Task definition: 
+Relationship: Arrowed Connector <Arrowed Connector> 3_7400
+  Role: From <From>  Object: <Task> 3_5719
+  Role: To <To>  Object: <Data> 3_1212
+Relationship: Arrowed Connector <Arrowed Connector> 3_7409
+  Role: From <From>  Object: <Task> 3_5719
+  Role: To <To>  Object: <Multiple data> 3_1217
+Relationship: Arrowed Connector <Arrowed Connector> 3_7418
+  Role: From <From>  Object: <Task> 3_5719
+  Role: To <To>  Object: <Multiple data> 3_1222
+Relationship: Arrowed Connector <Arrowed Connector> 3_7427
+  Role: From <From>  Object: <Data> 3_1212
+  Role: To <To>  Object: <Task> 3_5753
+Relationship: Arrowed Connector <Arrowed Connector> 3_7436
+  Role: From <From>  Object: <Multiple data> 3_1217
+  Role: To <To>  Object: <Task> 3_5753
+Relationship: Arrowed Connector <Arrowed Connector> 3_7445
+  Role: From <From>  Object: <Multiple data> 3_1222
+  Role: To <To>  Object: <Task> 3_5753
+Relationship: Arrowed Connector <Arrowed Connector> 3_7454
+  Role: From <From>  Object: <Task> 3_5753
+  Role: To <To>  Object: <Multiple data> 3_1232
+Relationship: Arrowed Connector <Arrowed Connector> 3_7463
+  Role: From <From>  Object: <Multiple data> 3_1232
+  Role: To <To>  Object: <Task> 3_1237
+Relationship: Arrowed Connector <Arrowed Connector> 3_7472
+  Role: From <From>  Object: <Task> 3_1237
+  Role: To <To>  Object: <Data> 3_1247
+Relationship: Arrowed Connector <Arrowed Connector> 3_7481
+  Role: From <From>  Object: <Task> 3_1237
+  Role: To <To>  Object: <Data> 3_1252
+Relationship: Arrowed Connector <Arrowed Connector> 3_7490
+  Role: From <From>  Object: <Task> 3_1237
+  Role: To <To>  Object: <Information> 3_4726
+Relationship: Arrowed Connector <Arrowed Connector> 3_7499
+  Role: From <From>  Object: <Task> 3_1237
+  Role: To <To>  Object: <Data> 3_1292

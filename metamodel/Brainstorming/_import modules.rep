@@ -8,10 +8,10 @@ _import\ modules()
 'from sklearn.linear_model import LinearRegression' newline
 'from sklearn.model_selection import GridSearchCV' newline
 'from sklearn.model_selection import cross_val_score' newline
-'from xgboost import XGBRegressor' newline newline newline
+'from xgboost import XGBRegressor' newline newline
 'train = pd.read_csv("../train.csv")' newline
 'test = pd.read_csv("../test.csv")' newline
 'train.shape' newline
 'test.shape' newline
 'train.describe()' newline
-'test.describe()' newline newline newline
+'test.describe()' newline newline

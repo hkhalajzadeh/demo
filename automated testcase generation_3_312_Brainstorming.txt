@@ -1,0 +1,84 @@
+Graph_Brainstorming_user_3721639935
+automated testcase generation
+3_312
+Brainstorming
+Graph: automated testcase generation <Brainstorming> 3_312
+	Problem: automated testcase generation
+Object: automated testcase generation <Problem Definition> 3_2491
+	Problem: automated testcase generation
+	Problem Definition: 
+Object: deploy optimisation module <Sub-Task> 3_2501
+	Subtask Name: deploy optimisation module
+	Subtask definition: 
+Object: integration testing <Sub-Task> 3_2524
+	Subtask Name: integration testing
+	Subtask definition: 
+Object: deploy UI module for uploading CUTs (classes under test) <Sub-Task> 3_2529
+	Subtask Name: deploy UI module for uploading CUTs (classes under test)
+	Subtask definition: 
+Object: unit testing <Sub-Task> 3_2576
+	Subtask Name: unit testing
+	Subtask definition: 
+Object: unit testing <Sub-Task> 3_2595
+	Subtask Name: unit testing
+	Subtask definition: 
+Object: deploy algorithm selection module (AI model) <Sub-Task> 3_2618
+	Subtask Name: deploy algorithm selection module (AI model)
+	Subtask definition: 
+Object: integration testing <Sub-Task> 3_2632
+	Subtask Name: integration testing
+	Subtask definition: 
+Object: deploy visualisation module <Sub-Task> 3_2646
+	Subtask Name: deploy visualisation module
+	Subtask definition: 
+Object: integration testing <Sub-Task> 3_2660
+	Subtask Name: integration testing
+	Subtask definition: 
+Object: website deployment <Task> 3_2496
+	Task Name: website deployment
+	Task definition: 
+Object: develop optimisation module <Task> 3_2562
+	Task Name: develop optimisation module
+	Task definition: 
+Object: develop UI module <Task> 3_2590
+	Task Name: develop UI module
+	Task definition: 
+Relationship: Layer Connector <Layer Connector> 3_2506
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_2491
+  Role: Steps <Steps>  Object: <Task> 3_2496
+Relationship: Layer Connector <Layer Connector> 3_2515
+  Role: Initial step <Initial step>  Object: <Task> 3_2496
+  Role: Steps <Steps>  Object: <Sub-Task> 3_2501
+Relationship: Layer Connector <Layer Connector> 3_2534
+  Role: Initial step <Initial step>  Object: <Task> 3_2496
+  Role: Steps <Steps>  Object: <Sub-Task> 3_2529
+Relationship: Layer Connector <Layer Connector> 3_2543
+  Role: Initial step <Initial step>  Object: <Sub-Task> 3_2501
+  Role: Steps <Steps>  Object: <Sub-Task> 3_2524
+Relationship: Layer Connector <Layer Connector> 3_2553
+  Role: Initial step <Initial step>  Object: <Sub-Task> 3_2529
+  Role: Steps <Steps>  Object: <Sub-Task> 3_2524
+Relationship: Layer Connector <Layer Connector> 3_2567
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_2491
+  Role: Steps <Steps>  Object: <Task> 3_2562
+Relationship: Layer Connector <Layer Connector> 3_2581
+  Role: Initial step <Initial step>  Object: <Task> 3_2562
+  Role: Steps <Steps>  Object: <Sub-Task> 3_2576
+Relationship: Layer Connector <Layer Connector> 3_2600
+  Role: Initial step <Initial step>  Object: <Problem Definition> 3_2491
+  Role: Steps <Steps>  Object: <Task> 3_2590
+Relationship: Layer Connector <Layer Connector> 3_2609
+  Role: Initial step <Initial step>  Object: <Task> 3_2590
+  Role: Steps <Steps>  Object: <Sub-Task> 3_2595
+Relationship: Layer Connector <Layer Connector> 3_2623
+  Role: Initial step <Initial step>  Object: <Task> 3_2496
+  Role: Steps <Steps>  Object: <Sub-Task> 3_2618
+Relationship: Layer Connector <Layer Connector> 3_2637
+  Role: Initial step <Initial step>  Object: <Sub-Task> 3_2618
+  Role: Steps <Steps>  Object: <Sub-Task> 3_2632
+Relationship: Layer Connector <Layer Connector> 3_2651
+  Role: Initial step <Initial step>  Object: <Task> 3_2496
+  Role: Steps <Steps>  Object: <Sub-Task> 3_2646
+Relationship: Layer Connector <Layer Connector> 3_2665
+  Role: Initial step <Initial step>  Object: <Sub-Task> 3_2646
+  Role: Steps <Steps>  Object: <Sub-Task> 3_2660

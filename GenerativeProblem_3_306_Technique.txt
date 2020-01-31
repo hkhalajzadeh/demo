@@ -1,0 +1,57 @@
+Graph_Technique_user_3722148262
+GenerativeProblem
+3_306
+Technique
+Graph: GenerativeProblem <Technique> 3_306
+	Problem: GenerativeProblem
+Object: GeneratingData <Task> 3_2354
+	Task Name: GeneratingData
+	Task definition: 
+Object: GeneratingImages <Task> 3_10002
+	Task Name: GeneratingImages
+	Task definition: 
+Object: GeneratingAudio <Task> 3_10036
+	Task Name: GeneratingAudio
+	Task definition: 
+Object: GeneratingText <Task> 3_10070
+	Task Name: GeneratingText
+	Task definition: 
+Object: VariationalAutoencoder <Technique> 3_2401
+	Technique name: VariationalAutoencoder
+Object: GenerativeAdversarialNetwork <Technique> 3_2415
+	Technique name: GenerativeAdversarialNetwork
+Object: ReinforcementLearning <Technique> 3_2429
+	Technique name: ReinforcementLearning
+Object: GenerativeAdversarialNetwork <Technique> 3_2443
+	Technique name: GenerativeAdversarialNetwork
+Object: PixelRecurrentNeuralNetwork <Technique> 3_2457
+	Technique name: PixelRecurrentNeuralNetwork
+Object: PixelConvolutionalNeuralNetwork <Technique> 3_2471
+	Technique name: PixelConvolutionalNeuralNetwork
+Relationship: Arrowed Connector <Arrowed Connector> 3_10009
+  Role: From <From>  Object: <Task> 3_2354
+  Role: To <To>  Object: <Task> 3_10002
+Relationship: Arrowed Connector <Arrowed Connector> 3_10018
+  Role: From <From>  Object: <Task> 3_10002
+  Role: To <To>  Object: <Technique> 3_2401
+Relationship: Arrowed Connector <Arrowed Connector> 3_10027
+  Role: From <From>  Object: <Task> 3_10002
+  Role: To <To>  Object: <Technique> 3_2415
+Relationship: Arrowed Connector <Arrowed Connector> 3_10043
+  Role: From <From>  Object: <Task> 3_2354
+  Role: To <To>  Object: <Task> 3_10036
+Relationship: Arrowed Connector <Arrowed Connector> 3_10052
+  Role: From <From>  Object: <Task> 3_10036
+  Role: To <To>  Object: <Technique> 3_2457
+Relationship: Arrowed Connector <Arrowed Connector> 3_10061
+  Role: From <From>  Object: <Task> 3_10036
+  Role: To <To>  Object: <Technique> 3_2471
+Relationship: Arrowed Connector <Arrowed Connector> 3_10077
+  Role: From <From>  Object: <Task> 3_2354
+  Role: To <To>  Object: <Task> 3_10070
+Relationship: Arrowed Connector <Arrowed Connector> 3_10086
+  Role: From <From>  Object: <Task> 3_10070
+  Role: To <To>  Object: <Technique> 3_2443
+Relationship: Arrowed Connector <Arrowed Connector> 3_10095
+  Role: From <From>  Object: <Task> 3_10070
+  Role: To <To>  Object: <Technique> 3_2429

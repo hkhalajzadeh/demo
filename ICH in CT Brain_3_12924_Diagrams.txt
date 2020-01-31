@@ -1,0 +1,65 @@
+Graph_Diagrams_user_3721635000
+ICH in CT Brain
+3_12924
+Diagrams
+Graph: ICH in CT Brain <Diagrams> 3_12924
+	Problem: ICH in CT Brain
+Object: ICH in CT Brainstorming Diagram <Brainstorming Diagram> 3_12932
+	Brainstorming diagram name: ICH in CT Brainstorming Diagram
+	Diagram definition: 
+	Decomposed to: ICH in CT Brain <Brainstorming>
+Object: ICH in CT Data Diagram <Data Diagram> 3_12953
+	Data diagram name: ICH in CT Data Diagram
+	Diagram definition: 
+	Decomposed to: ICH in CT <Data>
+Object: ICH in CT Report Data Diagram <Data Diagram> 3_14157
+	Data diagram name: ICH in CT Report Data Diagram
+	Diagram definition: 
+	Decomposed to: ICH in CT reports <Data>
+Object: ICH in CT Deployment Diagram <Deployment Diagram> 3_12960
+	Deployment diagram name: ICH in CT Deployment Diagram
+	Diagram definition: 
+	Decomposed to: ICH in CT Brain <Deployment>
+Object: ICH in CT Process Diagram <Process Diagram> 3_12939
+	Process diagram name: ICH in CT Process Diagram
+	Diagram definition: 
+	Decomposed to: ICH in CT <Process>
+Object: ICH in CT Technique Diagram <Technique Diagram> 3_12946
+	Technique diagram name: ICH in CT Technique Diagram
+	Diagram definition: 
+	Decomposed to: ICH in CT <Technique>
+Relationship: Connection <Connection> 3_12967
+  Role:  <High Level>  Object: <Brainstorming Diagram> 3_12932
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Process Diagram> 3_12939
+	Multiplicity: 
+Relationship: Connection <Connection> 3_12993
+  Role:  <High Level>  Object: <Process Diagram> 3_12939
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Technique Diagram> 3_12946
+	Multiplicity: 
+Relationship: Connection <Connection> 3_13006
+  Role:  <High Level>  Object: <Process Diagram> 3_12939
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Data Diagram> 3_12953
+	Multiplicity: 
+Relationship: Connection <Connection> 3_13019
+  Role:  <High Level>  Object: <Technique Diagram> 3_12946
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Data Diagram> 3_12953
+	Multiplicity: 
+Relationship: Connection <Connection> 3_13032
+  Role:  <High Level>  Object: <Brainstorming Diagram> 3_12932
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Deployment Diagram> 3_12960
+	Multiplicity: 
+Relationship: Connection <Connection> 3_14164
+  Role:  <High Level>  Object: <Data Diagram> 3_12953
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Data Diagram> 3_14157
+	Multiplicity: 
+Relationship: Connection <Connection> 3_14177
+  Role:  <High Level>  Object: <Process Diagram> 3_12939
+	Multiplicity: 
+  Role:  <Low Level>  Object: <Data Diagram> 3_14157
+	Multiplicity: 

@@ -2,6 +2,26 @@ Report '!Python Code'
 /*https://www.kaggle.com/santibermejo/xgboost-for-house-price-prediction*/
 /*filename
 	$dir 'C:\Users\Hourieh\Documents\MetaEdit+ 5.5\GeneratedCode\PythonCode_' id '.py' write*/
+
+/* Write CSV files */
+variable 'csvContents' write 
+	filename .Input:Input file name; read 
+close
+
+to /* define translator to convert semicolons to newlines */
+'%fields
+; \
+
+' endto
+
+/* iterate over lines, then fields within lines */
+/*do $csvContents
+{	'Line: ' id newline
+	do id%fields
+	{	'	Field: ' id newline
+	}
+}*/
+
 subreport 'Python script' run
 /*close*/
 endreport
